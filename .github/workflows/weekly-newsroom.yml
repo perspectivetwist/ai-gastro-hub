@@ -39,6 +39,23 @@ jobs:
 
           const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
+          // Letzte Artikel laden um Wiederholungen zu vermeiden
+          const newsroomDir = 'public/newsroom';
+          let previousTopics = '';
+          try {
+            const files = fs.readdirSync(newsroomDir)
+              .filter(f => f.endsWith('.json'))
+              .map(f => ({ name: f, data: JSON.parse(fs.readFileSync(`${newsroomDir}/${f}`, 'utf-8')) }))
+              .sort((a, b) => (b.data.year * 100 + b.data.kw) - (a.data.year * 100 + a.data.kw))
+              .slice(0, 6);
+            if (files.length > 0) {
+              previousTopics = '\n\nBEREITS BEHANDELTE THEMEN (NICHT wiederholen!):\n' +
+                files.map(f => `KW ${f.data.kw}: ${f.data.headline}\n` +
+                  f.data.news.map(n => `  - ${n.titel}`).join('\n')
+                ).join('\n');
+            }
+          } catch {}
+
           const SYSTEM_PROMPT = `Du bist Redakteur des KI-Gastro-Newsrooms -- einem wöchentlichen Digest für Restaurantbesitzer in Deutschland, Österreich und der Schweiz.
 
           ZIELGRUPPE: Inhabergeführte Restaurants, Cafes, Bars mit 1-20 Mitarbeitern. Keine IT-Kenntnisse. Fragen sich: "Was bedeutet das für MICH nächste Woche?"
@@ -115,6 +132,8 @@ jobs:
           - Bewertungen/Reputation: https://geo-gastro.vercel.app + "Kostenloser KI-Reputations-Check"
           - Bestellsysteme/Agent-Payments: https://agentready-gastro.vercel.app + "Prüfe ob KI-Agenten bei dir buchen können"
           - Sicherheit/Fake-Reviews: https://aisecurity-gastro.vercel.app + "Kostenloser KI-Sicherheits-Check"
+
+          WICHTIG: Jedes News-Item muss eine NEUE Entwicklung aus dieser Woche sein. Keine Themen wiederholen die bereits in früheren Ausgaben behandelt wurden.${previousTopics}
 
           Genau 3 News-Items. Nur JSON zurückgeben.`;
 
