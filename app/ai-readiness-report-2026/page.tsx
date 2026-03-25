@@ -626,16 +626,33 @@ export default function AIReadinessReport2026() {
           Fazit: <span className="gradient-accent">Die Spielregeln haben sich geändert</span> – und die meisten wissen es noch nicht
         </h2>
 
-        <div className="space-y-6 max-w-3xl">
-          <p className="text-base leading-relaxed" style={{ color: "#cccccc" }}>
-            59,1% der bestbewerteten Restaurants in Deutschland sind trotz 4,5+ Google-Sternen für KI-Suchsysteme nicht auffindbar. Die Korrelation zwischen Google-Reputation und KI-Sichtbarkeit ist statistisch nicht existent. Online-Reputation und KI-Sichtbarkeit sind zwei strukturell verschiedene Disziplinen, die unterschiedliche Maßnahmen erfordern.
-          </p>
-          <p className="text-base leading-relaxed" style={{ color: "#cccccc" }}>
-            Die Studie belegt: Das Defizit ist nicht auf einzelne Städte oder Betriebstypen beschränkt. Es ist branchenweit und strukturell. 85% der analysierten Restaurants – unabhängig von Größe, Standort oder Bewertungsniveau – erfüllen die Grundvoraussetzungen für KI-Sichtbarkeit nicht.
-          </p>
-          <p className="text-base leading-relaxed" style={{ color: "#cccccc" }}>
-            Der Markt befindet sich in einer frühen Positionierungsphase. Kein Betrieb verfügt heute über eine gefestigte KI-Sichtbarkeits-Position – aber das ändert sich. KI-Systeme lernen über Zeit welchen Quellen sie vertrauen können: ähnlich wie Reputation im klassischen Sinne entsteht dieses Vertrauen durch wiederholte, konsistente Präsenz. Betriebe die jetzt strukturell handeln sichern sich eine Marktposition die mit wachsender KI-Adoption an strategischem Wert gewinnt.
-          </p>
+        <div className="space-y-4 max-w-3xl">
+          {[
+            {
+              lead: "Google-Reputation \u2260 KI-Sichtbarkeit.",
+              text: "59,1% der bestbewerteten Restaurants in Deutschland sind trotz 4,5+ Google-Sternen f\u00fcr KI-Suchsysteme nicht auffindbar. Die Korrelation zwischen Google-Reputation und KI-Sichtbarkeit ist statistisch nicht existent. Online-Reputation und KI-Sichtbarkeit sind zwei strukturell verschiedene Disziplinen, die unterschiedliche Ma\u00dfnahmen erfordern.",
+            },
+            {
+              lead: "Das Defizit ist branchenweit.",
+              text: "Die Studie belegt: Das Defizit ist nicht auf einzelne St\u00e4dte oder Betriebstypen beschr\u00e4nkt. Es ist branchenweit und strukturell. 85% der analysierten Restaurants \u2013 unabh\u00e4ngig von Gr\u00f6\u00dfe, Standort oder Bewertungsniveau \u2013 erf\u00fcllen die Grundvoraussetzungen f\u00fcr KI-Sichtbarkeit nicht.",
+            },
+            {
+              lead: "Fr\u00fche Positionierungsphase \u2013 wer jetzt handelt, gewinnt.",
+              text: "Kein Betrieb verf\u00fcgt heute \u00fcber eine gefestigte KI-Sichtbarkeits-Position \u2013 aber das \u00e4ndert sich. KI-Systeme lernen \u00fcber Zeit welchen Quellen sie vertrauen k\u00f6nnen: \u00e4hnlich wie Reputation im klassischen Sinne entsteht dieses Vertrauen durch wiederholte, konsistente Pr\u00e4senz. Betriebe die jetzt strukturell handeln sichern sich eine Marktposition die mit wachsender KI-Adoption an strategischem Wert gewinnt.",
+            },
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="flex gap-0 rounded-lg overflow-hidden"
+              style={{ background: "rgba(255,255,255,0.03)" }}
+            >
+              <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
+              <div className="p-5">
+                <p className="font-semibold text-white text-base mb-2">{item.lead}</p>
+                <p className="text-base leading-relaxed" style={{ color: "#cccccc" }}>{item.text}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
