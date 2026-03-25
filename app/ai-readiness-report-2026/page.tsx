@@ -83,15 +83,15 @@ export default function AIReadinessReport2026() {
             >
               <defs>
                 {/* 4 radial gradients — repositioned so cyan is on top after 45° CW rotation */}
-                {/* TL → becomes LEFT after rotation */}
+                {/* TL → becomes TOP after rotation */}
                 <radialGradient id="g-tl" cx="20" cy="20" r="280" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stopColor="#FFE600" />
-                  <stop offset="50%" stopColor="#FFE600" stopOpacity="0" />
-                </radialGradient>
-                {/* TR → becomes TOP after rotation */}
-                <radialGradient id="g-tr" cx="260" cy="20" r="280" gradientUnits="userSpaceOnUse">
                   <stop offset="0%" stopColor="#00BFFF" />
                   <stop offset="50%" stopColor="#00BFFF" stopOpacity="0" />
+                </radialGradient>
+                {/* TR → becomes RIGHT after rotation */}
+                <radialGradient id="g-tr" cx="260" cy="20" r="280" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stopColor="#FFE600" />
+                  <stop offset="50%" stopColor="#FFE600" stopOpacity="0" />
                 </radialGradient>
                 {/* BR → becomes RIGHT after rotation */}
                 <radialGradient id="g-br" cx="260" cy="260" r="280" gradientUnits="userSpaceOnUse">
