@@ -236,10 +236,10 @@ export default function AIReadinessReport2026() {
             85,2% der deutschen Restaurants sind für KI-Antwortmaschinen unzureichend aufgestellt.
           </p>
         </div>
-        <p className="text-sm leading-relaxed mb-4 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-4 max-w-3xl" style={{ color: "#cccccc" }}>
           <span className="font-semibold text-white">Was das für den Gastronomen bedeutet:</span> ChatGPT, Perplexity und Google AI Overviews können den Inhalt der Website nicht direkt als Antwort verwenden. Das Restaurant taucht in KI-generierten Empfehlungen nicht auf – selbst wenn ein potenzieller Gast explizit nach einem Restaurant in der Nähe sucht.
         </p>
-        <p className="text-sm leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
           <span className="font-semibold text-white">Wie der AEO Score gemessen wird:</span> Der KI-Sichtbarkeits-Scanner prüft 8 On-Page-Kriterien – darunter ob eine direkte Antwort am Seitenanfang steht, ob maschinenlesbares Schema Markup vorhanden ist und ob FAQ-Strukturen für KI-Extraktion aufgebaut sind.
         </p>
 
@@ -287,7 +287,7 @@ export default function AIReadinessReport2026() {
             96,6% der deutschen Restaurants werden von generativen KI-Modellen nicht als zuverlässige Quelle erkannt.
           </p>
         </div>
-        <p className="text-sm leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
           <span className="font-semibold text-white">Was das für den Gastronomen bedeutet:</span> KI-Modelle wie ChatGPT zitieren Quellen die sie als vertrauenswürdig, strukturiert und relevant einschätzen. Wer nicht zitiert wird, baut keinen Ruf im KI-Ökosystem auf – auch nicht über Jahre hinweg.
         </p>
 
@@ -361,7 +361,7 @@ export default function AIReadinessReport2026() {
             52% der deutschen Restaurants können von KI-Agenten nicht vollständig genutzt werden – und kein einziges ist wirklich &apos;agent-ready&apos;.
           </p>
         </div>
-        <p className="text-sm leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
           <span className="font-semibold text-white">Was das für den Gastronomen bedeutet:</span> KI-Agenten – wie ChatGPT mit Browsing, Perplexity oder Google-Assistenten – versuchen zunehmend eigenständig zu handeln: Tische reservieren, Öffnungszeiten prüfen, Speisekarten auslesen. Wer hier nicht erreichbar ist, wird automatisch übergangen.
         </p>
 
@@ -399,7 +399,7 @@ export default function AIReadinessReport2026() {
           </table>
         </div>
 
-        <p className="text-sm leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
           Das Ergebnis ist eindeutig: Bei über der Hälfte (52%) fehlt KI-Agenten die Infrastruktur um zu handeln. Bei den restlichen 48,0% ist zwar eine Grundlage vorhanden – aber kein einziges Restaurant ist wirklich &apos;agent-ready&apos;.
         </p>
 
@@ -437,7 +437,7 @@ export default function AIReadinessReport2026() {
             Kein Restaurant ist vollständig gut aufgestellt. 60,9% sind nur teilgeschützt – mit konkreten Lücken die KI-gestützte Angriffe erleichtern.
           </p>
         </div>
-        <p className="text-sm leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
           <span className="font-semibold text-white">Was der KI-Sicherheits-Scanner misst – und was nicht:</span> Der KI-Sicherheits-Scanner analysiert die öffentlich sichtbare Angriffsfläche einer Website für KI-gestützte Angriffe: Deepfake-Risiko durch Fotos und Videos, offene Personendaten, ungeschützte Formulare und Chatbot-Einfallstore. Was der Scanner bewusst nicht misst: interne Netzwerksicherheit, Serverinfrastruktur oder aktive Schwachstellen – das wäre rechtlich nicht vertretbar ohne explizite Genehmigung.
         </p>
 
@@ -518,7 +518,7 @@ export default function AIReadinessReport2026() {
             591 Restaurants (59,1%) haben 4,5+ Google-Sterne – sind aber für KI-Suchmaschinen nicht oder nur schwer auffindbar (AEO-Score unter 60).
           </p>
         </div>
-        <p className="text-sm leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: "#cccccc" }}>
           Mehr als die Hälfte der bestbewerteten Restaurants in Deutschland ist für KI-Suchmaschinen strukturell nicht sichtbar. Wer jahrelang in Google-Bewertungen investiert hat, hat damit buchstäblich nichts für seine KI-Sichtbarkeit getan. Die Korrelation zwischen Google-Sternebewertung und AEO-Score beträgt praktisch null. Beide Welten funktionieren nach völlig unterschiedlichen Regeln.
         </p>
 
@@ -547,7 +547,7 @@ export default function AIReadinessReport2026() {
           </table>
         </div>
 
-        <p className="text-sm leading-relaxed max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base leading-relaxed max-w-3xl" style={{ color: "#cccccc" }}>
           <span className="font-semibold text-white">Die Logik dahinter:</span> Google bewertet Kundenzufriedenheit, Relevanz und Klickverhalten. KI-Modelle bewerten Inhaltsstruktur, Maschinenlesbarkeit und Antwortfähigkeit. Das sind zwei vollständig getrennte Optimierungsfelder – wer eines gut macht, hat damit nichts für das andere getan.
         </p>
       </section>
@@ -557,7 +557,7 @@ export default function AIReadinessReport2026() {
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
           Kapitel 5: <span className="gradient-accent">Städteranking</span>
         </h2>
-        <p className="text-sm mb-8" style={{ color: "#cccccc" }}>
+        <p className="text-base mb-8" style={{ color: "#cccccc" }}>
           Welche Stadt ist am besten für die KI-Ära aufgestellt? Die Unterschiede sind überraschend.
         </p>
 
@@ -644,7 +644,7 @@ export default function AIReadinessReport2026() {
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
           Wo steht <span className="gradient-accent">Ihr Gastronomiebetrieb?</span>
         </h2>
-        <p className="text-sm mb-12 max-w-3xl" style={{ color: "#cccccc" }}>
+        <p className="text-base mb-12 max-w-3xl" style={{ color: "#cccccc" }}>
           Die Studie zeigt den Branchendurchschnitt. Was zählt ist Ihre individuelle Ausgangsposition. Alle vier Scanner sind kostenlos verfügbar – Ergebnis in unter 60 Sekunden.
         </p>
 
