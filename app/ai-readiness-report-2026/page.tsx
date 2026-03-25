@@ -161,6 +161,8 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
+
       {/* AUF EINEN BLICK */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-12 max-w-3xl">
@@ -210,6 +212,8 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
+
       {/* KONTEXT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
@@ -248,6 +252,8 @@ export default function AIReadinessReport2026() {
           Dieser Wandel ist keine Zukunftsvision. Er läuft bereits – und die Daten dieses Reports zeigen: Die deutsche Gastronomie ist darauf nicht vorbereitet.
         </p>
       </section>
+
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
 
       {/* METHODIK */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
@@ -339,6 +345,8 @@ export default function AIReadinessReport2026() {
           ))}
         </div>
       </section>
+
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
 
       {/* KAPITEL 1: SICHTBARKEITS-DEFIZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
@@ -468,6 +476,8 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
+
       {/* KAPITEL 2: NUTZBARKEITS-DEFIZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
@@ -543,6 +553,8 @@ export default function AIReadinessReport2026() {
           ))}
         </div>
       </section>
+
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
 
       {/* KAPITEL 3: SICHERHEITS-DEFIZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
@@ -625,6 +637,8 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
+
       {/* KAPITEL 4: GOOGLE-PARADOX */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
@@ -671,6 +685,8 @@ export default function AIReadinessReport2026() {
           <span className="font-semibold text-white">Die Logik dahinter:</span> Google bewertet Kundenzufriedenheit, Relevanz und Klickverhalten. KI-Modelle bewerten Inhaltsstruktur, Maschinenlesbarkeit und Antwortfähigkeit. Das sind zwei vollständig getrennte Optimierungsfelder – wer eines gut macht, hat damit nichts für das andere getan.
         </p>
       </section>
+
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
 
       {/* KAPITEL 5: STÄDTERANKING */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
@@ -740,6 +756,8 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
+
       {/* FAZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
@@ -775,6 +793,8 @@ export default function AIReadinessReport2026() {
           ))}
         </div>
       </section>
+
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
 
       {/* CTA */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
