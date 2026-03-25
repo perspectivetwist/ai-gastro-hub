@@ -79,7 +79,7 @@ export default function AIReadinessReport2026() {
               viewBox="0 0 280 280"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              style={{ filter: "drop-shadow(0 0 30px rgba(0,191,255,0.15)) drop-shadow(0 0 30px rgba(255,23,68,0.12)) drop-shadow(0 0 30px rgba(168,85,247,0.12)) drop-shadow(0 0 30px rgba(255,230,0,0.10))" }}
+              style={{ transform: "rotate(45deg)", filter: "drop-shadow(0 0 30px rgba(0,191,255,0.15)) drop-shadow(0 0 30px rgba(255,23,68,0.12)) drop-shadow(0 0 30px rgba(168,85,247,0.12)) drop-shadow(0 0 30px rgba(255,230,0,0.10))" }}
             >
               <defs>
                 {/* 4 radial gradients — one per corner */}
