@@ -71,7 +71,7 @@ export default function AIReadinessReport2026() {
             </p>
           </div>
 
-          {/* Strudel — evenly spaced concentric rounded rects, constant rotation increment */}
+          {/* Strudel — neon rainbow spectrum, outer=cyan → inner=yellow */}
           <div className="flex justify-center py-8">
             <svg
               width="280"
@@ -79,30 +79,23 @@ export default function AIReadinessReport2026() {
               viewBox="0 0 280 280"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              style={{ filter: "drop-shadow(0 0 24px rgba(255,60,172,0.2)) drop-shadow(0 0 48px rgba(99,102,241,0.12))" }}
             >
-              <defs>
-                <linearGradient id="strudel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#FFB432" />
-                  <stop offset="50%" stopColor="#FF3CAC" />
-                  <stop offset="100%" stopColor="#FF2D78" />
-                </linearGradient>
-              </defs>
-              {/* 15 rects: each shrinks by 16px (8px per side), rotates +4.5°, rx ~ 15% of width */}
-              <rect x="12"  y="12"  width="256" height="256" rx="38" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.55" transform="rotate(0, 140, 140)" />
-              <rect x="20"  y="20"  width="240" height="240" rx="36" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.58" transform="rotate(4.5, 140, 140)" />
-              <rect x="28"  y="28"  width="224" height="224" rx="34" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.61" transform="rotate(9, 140, 140)" />
-              <rect x="36"  y="36"  width="208" height="208" rx="31" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.64" transform="rotate(13.5, 140, 140)" />
-              <rect x="44"  y="44"  width="192" height="192" rx="29" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.67" transform="rotate(18, 140, 140)" />
-              <rect x="52"  y="52"  width="176" height="176" rx="26" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.70" transform="rotate(22.5, 140, 140)" />
-              <rect x="60"  y="60"  width="160" height="160" rx="24" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.73" transform="rotate(27, 140, 140)" />
-              <rect x="68"  y="68"  width="144" height="144" rx="22" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.76" transform="rotate(31.5, 140, 140)" />
-              <rect x="76"  y="76"  width="128" height="128" rx="19" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.79" transform="rotate(36, 140, 140)" />
-              <rect x="84"  y="84"  width="112" height="112" rx="17" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.82" transform="rotate(40.5, 140, 140)" />
-              <rect x="92"  y="92"  width="96"  height="96"  rx="14" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.85" transform="rotate(45, 140, 140)" />
-              <rect x="100" y="100" width="80"  height="80"  rx="12" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.88" transform="rotate(49.5, 140, 140)" />
-              <rect x="108" y="108" width="64"  height="64"  rx="10" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.91" transform="rotate(54, 140, 140)" />
-              <rect x="116" y="116" width="48"  height="48"  rx="7"  stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.95" transform="rotate(58.5, 140, 140)" />
-              <rect x="124" y="124" width="32"  height="32"  rx="5"  stroke="url(#strudel-grad)" strokeWidth="2" opacity="1"    transform="rotate(63, 140, 140)" />
+              <rect x="12"  y="12"  width="256" height="256" rx="38" stroke="#00BFFF" strokeWidth="2" opacity="0.7"  transform="rotate(0, 140, 140)" />
+              <rect x="20"  y="20"  width="240" height="240" rx="36" stroke="#0088FF" strokeWidth="2" opacity="0.75" transform="rotate(4.5, 140, 140)" />
+              <rect x="28"  y="28"  width="224" height="224" rx="34" stroke="#6366F1" strokeWidth="2" opacity="0.78" transform="rotate(9, 140, 140)" />
+              <rect x="36"  y="36"  width="208" height="208" rx="31" stroke="#8B5CF6" strokeWidth="2" opacity="0.80" transform="rotate(13.5, 140, 140)" />
+              <rect x="44"  y="44"  width="192" height="192" rx="29" stroke="#A855F7" strokeWidth="2" opacity="0.82" transform="rotate(18, 140, 140)" />
+              <rect x="52"  y="52"  width="176" height="176" rx="26" stroke="#D946EF" strokeWidth="2" opacity="0.84" transform="rotate(22.5, 140, 140)" />
+              <rect x="60"  y="60"  width="160" height="160" rx="24" stroke="#FF3CAC" strokeWidth="2" opacity="0.86" transform="rotate(27, 140, 140)" />
+              <rect x="68"  y="68"  width="144" height="144" rx="22" stroke="#FF006E" strokeWidth="2" opacity="0.88" transform="rotate(31.5, 140, 140)" />
+              <rect x="76"  y="76"  width="128" height="128" rx="19" stroke="#FF1744" strokeWidth="2" opacity="0.90" transform="rotate(36, 140, 140)" />
+              <rect x="84"  y="84"  width="112" height="112" rx="17" stroke="#FF4500" strokeWidth="2" opacity="0.92" transform="rotate(40.5, 140, 140)" />
+              <rect x="92"  y="92"  width="96"  height="96"  rx="14" stroke="#FF6B35" strokeWidth="2" opacity="0.93" transform="rotate(45, 140, 140)" />
+              <rect x="100" y="100" width="80"  height="80"  rx="12" stroke="#FF8C00" strokeWidth="2" opacity="0.95" transform="rotate(49.5, 140, 140)" />
+              <rect x="108" y="108" width="64"  height="64"  rx="10" stroke="#FFB432" strokeWidth="2" opacity="0.96" transform="rotate(54, 140, 140)" />
+              <rect x="116" y="116" width="48"  height="48"  rx="7"  stroke="#FFD700" strokeWidth="2" opacity="0.98" transform="rotate(58.5, 140, 140)" />
+              <rect x="124" y="124" width="32"  height="32"  rx="5"  stroke="#FFE600" strokeWidth="2" opacity="1"    transform="rotate(63, 140, 140)" />
             </svg>
           </div>
 
