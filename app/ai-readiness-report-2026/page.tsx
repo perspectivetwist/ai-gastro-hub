@@ -631,15 +631,15 @@ export default function AIReadinessReport2026() {
           {[
             {
               lead: "Google-Reputation \u2260 KI-Sichtbarkeit.",
-              text: "59,1% der bestbewerteten Restaurants in Deutschland sind trotz 4,5+ Google-Sternen f\u00fcr KI-Suchsysteme nicht auffindbar. Die Korrelation zwischen Google-Reputation und KI-Sichtbarkeit ist statistisch nicht existent. Online-Reputation und KI-Sichtbarkeit sind zwei strukturell verschiedene Disziplinen, die unterschiedliche Ma\u00dfnahmen erfordern.",
+              text: "59,1% der bestbewerteten Restaurants in Deutschland sind trotz 4,5+ Google-Sternen f\u00fcr KI-Suchsysteme nicht auffindbar. Die Korrelation zwischen Google-Reputation und KI-Sichtbarkeit ist statistisch nicht existent. Online-Reputation, KI-Sichtbarkeit und KI-Nutzbarkeit sind drei strukturell verschiedene Disziplinen, die unterschiedliche Ma\u00dfnahmen erfordern.",
             },
             {
               lead: "Das Defizit ist branchenweit.",
-              text: "Die Studie belegt: Das Defizit ist nicht auf einzelne St\u00e4dte oder Betriebstypen beschr\u00e4nkt. Es ist branchenweit und strukturell. 85% der analysierten Restaurants \u2013 unabh\u00e4ngig von Gr\u00f6\u00dfe, Standort oder Bewertungsniveau \u2013 erf\u00fcllen die Grundvoraussetzungen f\u00fcr KI-Sichtbarkeit nicht.",
+              text: "Die Studie belegt: Das Defizit ist nicht auf einzelne St\u00e4dte oder Betriebstypen beschr\u00e4nkt. Es ist branchenweit und strukturell. 85% der analysierten Restaurants \u2013 unabh\u00e4ngig von Gr\u00f6\u00dfe, Standort oder Bewertungsniveau \u2013 erf\u00fcllen die Grundvoraussetzungen f\u00fcr KI-Sichtbarkeit und KI-Nutzbarkeit nicht.",
             },
             {
               lead: "Fr\u00fche Positionierungsphase \u2013 wer jetzt handelt, gewinnt.",
-              text: "Kein Betrieb verf\u00fcgt heute \u00fcber eine gefestigte KI-Sichtbarkeits-Position \u2013 aber das \u00e4ndert sich. KI-Systeme lernen \u00fcber Zeit welchen Quellen sie vertrauen k\u00f6nnen: \u00e4hnlich wie Reputation im klassischen Sinne entsteht dieses Vertrauen durch wiederholte, konsistente Pr\u00e4senz. Betriebe die jetzt strukturell handeln sichern sich eine Marktposition die mit wachsender KI-Adoption an strategischem Wert gewinnt.",
+              text: "Kein Betrieb verf\u00fcgt heute \u00fcber eine gefestigte KI-Sichtbarkeits- und Nutzbarkeits-Position \u2013 aber das \u00e4ndert sich. KI-Systeme lernen \u00fcber Zeit welchen Quellen sie vertrauen und welche Infrastruktur sie nutzen k\u00f6nnen: \u00e4hnlich wie Reputation im klassischen Sinne entsteht dieses Vertrauen durch wiederholte, konsistente Pr\u00e4senz. Betriebe die jetzt strukturell handeln sichern sich eine Marktposition die mit wachsender KI-Adoption an strategischem Wert gewinnt.",
             },
           ].map((item, i) => (
             <div
