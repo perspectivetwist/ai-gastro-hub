@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import TrustSection from "@/components/TrustSection";
 
 export const metadata: Metadata = {
-  title: "AI-Readiness Report 2026 – Deutschlands Gastronomie in der KI-Blindzone | AI Shift Drift",
+  title: "AI-Readiness Report 2026 – Deutschlands Gastronomie in der KI-Blindflug | AI Shift Drift",
   description:
     "85% der deutschen Restaurants sind für ChatGPT, Perplexity und Google AI unsichtbar. 1.000 Restaurants, 10 Städte, 4.000 Scans.",
   openGraph: {
-    title: "AI-Readiness Report 2026 – Deutschlands Gastronomie in der KI-Blindzone",
+    title: "AI-Readiness Report 2026 – Deutschlands Gastronomie in der KI-Blindflug",
     description:
       "85% der deutschen Restaurants sind für ChatGPT, Perplexity und Google AI unsichtbar. 1.000 Restaurants, 10 Städte, 4.000 Scans.",
     locale: "de_DE",
@@ -34,7 +34,7 @@ export default function AIReadinessReport2026() {
             AI-Readiness Report
           </h1>
           <p className="text-xl md:text-2xl mb-4" style={{ color: "#cccccc" }}>
-            Deutschlands Gastronomie in der KI-Blindzone (2026)
+            Deutschlands Gastronomie in der KI-Blindflug (2026)
           </p>
           <p className="text-sm" style={{ color: "#666" }}>
             AI Shift Drift · März 2026

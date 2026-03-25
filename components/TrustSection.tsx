@@ -115,7 +115,7 @@ export default function TrustSection() {
                   AI-Readiness Report
                 </div>
                 <div className="text-xs mt-0.5" style={{ color: "#555" }}>
-                  Deutschlands Gastronomie in der KI-Blindzone (2026)
+                  Deutschlands Gastronomie in der KI-Blindflug (2026)
                 </div>
               </div>
             </a>

@@ -18,7 +18,7 @@ export default function AnnouncementBanner() {
         style={{ color: "#F59E0B" }}
       >
         <span style={{ marginRight: "6px" }}>📊</span>
-        Neue Studie: Deutschlands Gastronomie in der KI-Blindzone 2026
+        Neue Studie: Deutschlands Gastronomie in der KI-Blindflug 2026
         <span style={{ marginLeft: "6px", opacity: 0.7 }}>&rarr; Jetzt lesen</span>
       </a>
     </div>
