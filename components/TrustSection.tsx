@@ -76,7 +76,7 @@ export default function TrustSection() {
           </div>
 
           {/* Newsroom */}
-          <div>
+          <div className="flex flex-col gap-4">
             <a
               href="/newsroom"
               className="flex items-start gap-3 group"
@@ -94,6 +94,31 @@ export default function TrustSection() {
                 </div>
                 <div className="text-xs mt-0.5" style={{ color: "#555" }}>
                   Was KI für die Gastronomie bedeutet, jeden Montag neu
+                </div>
+              </div>
+            </a>
+
+            {/* AI-Readiness Report */}
+            <a
+              href="/ai-readiness-report-2026"
+              className="flex items-start gap-3 group"
+            >
+              <div
+                className="w-[6px] h-[6px] rounded-full flex-shrink-0 mt-1"
+                style={{
+                  background: "#F59E0B",
+                  boxShadow: "0 0 8px 2px #F59E0B66",
+                }}
+              />
+              <div className="flex flex-col">
+                <div
+                  className="text-xs tracking-widest uppercase font-semibold"
+                  style={{ color: "#F59E0B" }}
+                >
+                  AI-Readiness Report
+                </div>
+                <div className="text-xs mt-0.5" style={{ color: "#555" }}>
+                  Deutschlands Gastronomie in der KI-Blindzone (2026)
                 </div>
               </div>
             </a>
