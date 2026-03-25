@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import JsonLdSchema from "@/components/JsonLdSchema";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import AnnouncementBanner from "@/components/AnnouncementBanner";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -56,21 +57,7 @@ export default function RootLayout({
             })
           }}
         />
-        {/* Announcement Banner */}
-        <div
-          className="relative w-full text-center"
-          style={{ zIndex: 2, background: "rgba(0,0,0,0.6)", borderBottom: "1px solid rgba(245,158,11,0.2)" }}
-        >
-          <a
-            href="/ai-readiness-report-2026"
-            className="block px-4 py-2.5 text-xs sm:text-sm transition-colors duration-200 hover:opacity-80"
-            style={{ color: "#F59E0B" }}
-          >
-            <span style={{ marginRight: "6px" }}>📊</span>
-            Neue Studie: Deutschlands Gastronomie in der KI-Blindzone 2026
-            <span style={{ marginLeft: "6px", opacity: 0.7 }}>→ Jetzt lesen</span>
-          </a>
-        </div>
+        <AnnouncementBanner />
         <main style={{ position: "relative", zIndex: 1 }}>
           {children}
         </main>
