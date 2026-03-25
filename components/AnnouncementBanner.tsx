@@ -18,6 +18,8 @@ export default function AnnouncementBanner() {
     >
       <a
         href="/ai-readiness-report-2026"
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex items-center justify-center gap-2.5 px-4 py-3 text-sm sm:text-base font-medium transition-opacity duration-200 hover:opacity-80"
         style={{ color: "#F59E0B" }}
       >
