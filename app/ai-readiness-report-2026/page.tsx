@@ -562,7 +562,7 @@ export default function AIReadinessReport2026() {
           Welche Stadt ist am besten für die KI-Ära aufgestellt? Die Unterschiede sind überraschend.
         </p>
 
-        <div className="overflow-x-auto mb-8">
+        <div className="overflow-x-auto mb-16">
           <table className="w-full text-sm table-fixed">
             <thead>
               <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
