@@ -601,7 +601,7 @@ export default function AIReadinessReport2026() {
         <h4 className="text-base font-bold mb-4" style={{ color: "#ffffff" }}>Befunde</h4>
         <div className="space-y-3 max-w-3xl">
           {[
-            "Mannheim führt bei AEO – die kleinste Stadt im Ranking überholt Hamburg, München und Berlin. Größe ist kein Vorteil.",
+            "Mannheim führt bei AEO – die kleinste Stadt im Ranking überholt Hamburg, München und Berlin.",
             "Leipzig führt bei GEO (48,3) und Security (85,6) – deutlich vor allen anderen.",
             "Berlin ist Schlusslicht bei AEO (41,3) und GEO (40,2) – die Hauptstadt mit dem größten Restaurant-Markt hat die schlechteste KI-Sichtbarkeit.",
             "Düsseldorf führt bei AgentReady (64,1) – die beste Infrastruktur für KI-Agenten.",
