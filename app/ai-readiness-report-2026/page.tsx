@@ -72,7 +72,7 @@ export default function AIReadinessReport2026() {
           </div>
 
           {/* Strudel — 4-corner neon gradient via mask */}
-          <div className="flex justify-center py-8">
+          <div className="flex justify-center pt-14 pb-10">
             <svg
               width="280"
               height="280"
@@ -134,7 +134,7 @@ export default function AIReadinessReport2026() {
           </div>
 
           {/* Kapitel-Liste */}
-          <div className="px-8 md:px-12 pb-10">
+          <div className="px-8 md:px-12 pt-4 pb-10">
             <div className="flex flex-col gap-2.5">
               {[
                 { chapter: 1, title: "Das Sichtbarkeits-Defizit", sub: "Unsichtbar für KI-Suchmaschinen", color: "#6366f1" },
@@ -158,13 +158,6 @@ export default function AIReadinessReport2026() {
             </div>
           </div>
 
-          {/* Bottom Bar */}
-          <div
-            className="text-center py-4 text-[10px] tracking-widest uppercase"
-            style={{ borderTop: "1px solid rgba(255,255,255,0.06)", color: "#444" }}
-          >
-            ai-gastro-hub.vercel.app/ai-readiness-report-2026
-          </div>
         </div>
       </section>
 
