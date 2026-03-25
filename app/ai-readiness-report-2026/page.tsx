@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import TrustSection from "@/components/TrustSection";
 
 export const metadata: Metadata = {
   title: "AI-Readiness Report 2026 – Deutschlands Gastronomie in der KI-Blindzone | AI Shift Drift",
@@ -697,20 +698,7 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="relative max-w-5xl mx-auto px-6 pb-16 pt-12" style={{ zIndex: 1 }}>
-        <div
-          className="border-t pt-8 text-center"
-          style={{ borderColor: "rgba(255,255,255,0.07)" }}
-        >
-          <p className="text-sm mb-2" style={{ color: "#888" }}>
-            AI-Readiness Report: Deutschlands Gastronomie in der KI-Blindzone (2026)
-          </p>
-          <p className="text-xs" style={{ color: "#444" }}>
-            © AI Shift Drift – März 2026
-          </p>
-        </div>
-      </footer>
+      <TrustSection />
     </>
   );
 }
