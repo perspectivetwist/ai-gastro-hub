@@ -82,22 +82,26 @@ export default function AIReadinessReport2026() {
               style={{ transform: "rotate(45deg)", filter: "drop-shadow(0 0 30px rgba(0,191,255,0.15)) drop-shadow(0 0 30px rgba(255,23,68,0.12)) drop-shadow(0 0 30px rgba(168,85,247,0.12)) drop-shadow(0 0 30px rgba(255,230,0,0.10))" }}
             >
               <defs>
-                {/* 4 radial gradients — one per corner */}
+                {/* 4 radial gradients — repositioned so cyan is on top after 45° CW rotation */}
+                {/* TL → becomes LEFT after rotation */}
                 <radialGradient id="g-tl" cx="20" cy="20" r="280" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stopColor="#FFE600" />
+                  <stop offset="50%" stopColor="#FFE600" stopOpacity="0" />
+                </radialGradient>
+                {/* TR → becomes TOP after rotation */}
+                <radialGradient id="g-tr" cx="260" cy="20" r="280" gradientUnits="userSpaceOnUse">
                   <stop offset="0%" stopColor="#00BFFF" />
                   <stop offset="50%" stopColor="#00BFFF" stopOpacity="0" />
                 </radialGradient>
-                <radialGradient id="g-tr" cx="260" cy="20" r="280" gradientUnits="userSpaceOnUse">
+                {/* BR → becomes RIGHT after rotation */}
+                <radialGradient id="g-br" cx="260" cy="260" r="280" gradientUnits="userSpaceOnUse">
                   <stop offset="0%" stopColor="#A855F7" />
                   <stop offset="50%" stopColor="#A855F7" stopOpacity="0" />
                 </radialGradient>
-                <radialGradient id="g-br" cx="260" cy="260" r="280" gradientUnits="userSpaceOnUse">
+                {/* BL → becomes BOTTOM after rotation */}
+                <radialGradient id="g-bl" cx="20" cy="260" r="280" gradientUnits="userSpaceOnUse">
                   <stop offset="0%" stopColor="#FF1744" />
                   <stop offset="50%" stopColor="#FF1744" stopOpacity="0" />
-                </radialGradient>
-                <radialGradient id="g-bl" cx="20" cy="260" r="280" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stopColor="#FFE600" />
-                  <stop offset="50%" stopColor="#FFE600" stopOpacity="0" />
                 </radialGradient>
                 {/* Mask: concentric rects as white strokes */}
                 <mask id="vortex-mask">
