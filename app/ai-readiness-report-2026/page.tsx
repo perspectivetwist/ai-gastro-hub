@@ -71,12 +71,12 @@ export default function AIReadinessReport2026() {
             </p>
           </div>
 
-          {/* Strudel */}
+          {/* Strudel — evenly spaced concentric rounded rects, constant rotation increment */}
           <div className="flex justify-center py-8">
             <svg
-              width="260"
-              height="260"
-              viewBox="0 0 260 260"
+              width="280"
+              height="280"
+              viewBox="0 0 280 280"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -87,16 +87,22 @@ export default function AIReadinessReport2026() {
                   <stop offset="100%" stopColor="#FF2D78" />
                 </linearGradient>
               </defs>
-              <rect x="10" y="10" width="240" height="240" rx="48" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.08" transform="rotate(0, 130, 130)" />
-              <rect x="25" y="25" width="210" height="210" rx="42" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.12" transform="rotate(5, 130, 130)" />
-              <rect x="40" y="40" width="180" height="180" rx="36" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.18" transform="rotate(10, 130, 130)" />
-              <rect x="54" y="54" width="152" height="152" rx="30" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.25" transform="rotate(16, 130, 130)" />
-              <rect x="67" y="67" width="126" height="126" rx="25" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.34" transform="rotate(22, 130, 130)" />
-              <rect x="79" y="79" width="102" height="102" rx="20" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.45" transform="rotate(29, 130, 130)" />
-              <rect x="90" y="90" width="80" height="80" rx="16" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.58" transform="rotate(37, 130, 130)" />
-              <rect x="100" y="100" width="60" height="60" rx="12" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.72" transform="rotate(46, 130, 130)" />
-              <rect x="109" y="109" width="42" height="42" rx="9" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.86" transform="rotate(56, 130, 130)" />
-              <rect x="117" y="117" width="26" height="26" rx="6" stroke="url(#strudel-grad)" strokeWidth="2" opacity="1" transform="rotate(68, 130, 130)" />
+              {/* 15 rects: each shrinks by 16px (8px per side), rotates +4.5°, rx ~ 15% of width */}
+              <rect x="12"  y="12"  width="256" height="256" rx="38" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.55" transform="rotate(0, 140, 140)" />
+              <rect x="20"  y="20"  width="240" height="240" rx="36" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.58" transform="rotate(4.5, 140, 140)" />
+              <rect x="28"  y="28"  width="224" height="224" rx="34" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.61" transform="rotate(9, 140, 140)" />
+              <rect x="36"  y="36"  width="208" height="208" rx="31" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.64" transform="rotate(13.5, 140, 140)" />
+              <rect x="44"  y="44"  width="192" height="192" rx="29" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.67" transform="rotate(18, 140, 140)" />
+              <rect x="52"  y="52"  width="176" height="176" rx="26" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.70" transform="rotate(22.5, 140, 140)" />
+              <rect x="60"  y="60"  width="160" height="160" rx="24" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.73" transform="rotate(27, 140, 140)" />
+              <rect x="68"  y="68"  width="144" height="144" rx="22" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.76" transform="rotate(31.5, 140, 140)" />
+              <rect x="76"  y="76"  width="128" height="128" rx="19" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.79" transform="rotate(36, 140, 140)" />
+              <rect x="84"  y="84"  width="112" height="112" rx="17" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.82" transform="rotate(40.5, 140, 140)" />
+              <rect x="92"  y="92"  width="96"  height="96"  rx="14" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.85" transform="rotate(45, 140, 140)" />
+              <rect x="100" y="100" width="80"  height="80"  rx="12" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.88" transform="rotate(49.5, 140, 140)" />
+              <rect x="108" y="108" width="64"  height="64"  rx="10" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.91" transform="rotate(54, 140, 140)" />
+              <rect x="116" y="116" width="48"  height="48"  rx="7"  stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.95" transform="rotate(58.5, 140, 140)" />
+              <rect x="124" y="124" width="32"  height="32"  rx="5"  stroke="url(#strudel-grad)" strokeWidth="2" opacity="1"    transform="rotate(63, 140, 140)" />
             </svg>
           </div>
 
