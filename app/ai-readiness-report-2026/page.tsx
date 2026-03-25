@@ -562,14 +562,14 @@ export default function AIReadinessReport2026() {
         </p>
 
         <div className="overflow-x-auto mb-8">
-          <table className="w-full text-sm">
+          <table className="w-full text-sm table-fixed">
             <thead>
               <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
-                <th className="text-left py-3 pr-4 font-semibold" style={{ color: "#888" }}>Stadt</th>
-                <th className="text-right py-3 pr-4 font-semibold" style={{ color: "#6366f1" }}>AEO Ø</th>
-                <th className="text-right py-3 pr-4 font-semibold" style={{ color: "#A8E6A3" }}>GEO Ø</th>
-                <th className="text-right py-3 pr-4 font-semibold" style={{ color: "#FFE600" }}>AgentReady Ø</th>
-                <th className="text-right py-3 font-semibold" style={{ color: "#FF1744" }}>Security Ø</th>
+                <th className="w-1/5 text-left py-3 pr-4 font-semibold" style={{ color: "#888" }}>Stadt</th>
+                <th className="w-1/5 text-right py-3 pr-4 font-semibold" style={{ color: "#6366f1" }}>AEO Ø</th>
+                <th className="w-1/5 text-right py-3 pr-4 font-semibold" style={{ color: "#A8E6A3" }}>GEO Ø</th>
+                <th className="w-1/5 text-right py-3 pr-4 font-semibold" style={{ color: "#FFE600" }}>AgentReady Ø</th>
+                <th className="w-1/5 text-right py-3 font-semibold" style={{ color: "#FF1744" }}>Security Ø</th>
               </tr>
             </thead>
             <tbody>
@@ -598,7 +598,7 @@ export default function AIReadinessReport2026() {
         </div>
 
         <h4 className="text-base font-bold mb-4" style={{ color: "#ffffff" }}>Befunde</h4>
-        <div className="space-y-3">
+        <div className="space-y-3 max-w-3xl">
           {[
             "Mannheim führt bei AEO – die kleinste Stadt im Ranking überholt Hamburg, München und Berlin. Größe ist kein Vorteil.",
             "Leipzig führt bei GEO (48,3) und Security (85,6) – deutlich vor allen anderen.",
@@ -650,10 +650,10 @@ export default function AIReadinessReport2026() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            { name: "KI-Sichtbarkeit (AEO)", url: "https://aeo-gastro.vercel.app", color: "#6366f1", emoji: "📸" },
-            { name: "KI-Zitierbarkeit (GEO)", url: "https://geo-gastro.vercel.app", color: "#A8E6A3", emoji: "⭐" },
-            { name: "KI-Agent-Readiness", url: "https://agentready-gastro.vercel.app", color: "#FFE600", emoji: "🤖" },
-            { name: "KI-Sicherheit", url: "https://aisecurity-gastro.vercel.app", color: "#FF1744", emoji: "🔒" },
+            { name: "KI-Sichtbarkeit (AEO)", url: "https://aeo-gastro.vercel.app", color: "#6366f1" },
+            { name: "KI-Zitierbarkeit (GEO)", url: "https://geo-gastro.vercel.app", color: "#A8E6A3" },
+            { name: "KI-Agent-Readiness", url: "https://agentready-gastro.vercel.app", color: "#FFE600" },
+            { name: "KI-Sicherheit", url: "https://aisecurity-gastro.vercel.app", color: "#FF1744" },
           ].map((cta, i) => (
             <a
               key={i}
@@ -666,7 +666,7 @@ export default function AIReadinessReport2026() {
               <div className="w-1 flex-shrink-0" style={{ background: cta.color }} />
               <div className="p-6">
                 <div className="font-bold mb-2" style={{ color: cta.color }}>
-                  {cta.emoji} {cta.name}
+                  {cta.name}
                 </div>
                 <span
                   className="inline-block mt-2 px-5 py-2 rounded-full text-xs font-semibold tracking-wide border transition-colors duration-200 hover:bg-white/10"

@@ -106,15 +106,12 @@ export default function TrustSection() {
               <div
                 className="w-[6px] h-[6px] rounded-full flex-shrink-0 mt-1"
                 style={{
-                  background: "#F59E0B",
-                  boxShadow: "0 0 8px 2px #F59E0B66",
+                  background: "#FF3CAC",
+                  boxShadow: "0 0 8px 2px #FF3CAC66",
                 }}
               />
               <div className="flex flex-col">
-                <div
-                  className="text-xs tracking-widest uppercase font-semibold"
-                  style={{ color: "#F59E0B" }}
-                >
+                <div className="text-xs tracking-widest uppercase font-semibold gradient-accent">
                   AI-Readiness Report
                 </div>
                 <div className="text-xs mt-0.5" style={{ color: "#555" }}>
