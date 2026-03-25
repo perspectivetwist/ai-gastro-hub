@@ -10,16 +10,28 @@ export default function AnnouncementBanner() {
   return (
     <div
       className="relative w-full text-center"
-      style={{ zIndex: 2, background: "rgba(0,0,0,0.6)", borderBottom: "1px solid rgba(245,158,11,0.2)" }}
+      style={{
+        zIndex: 2,
+        background: "linear-gradient(90deg, rgba(245,158,11,0.12) 0%, rgba(245,158,11,0.04) 50%, rgba(245,158,11,0.12) 100%)",
+        borderBottom: "1px solid rgba(245,158,11,0.25)",
+      }}
     >
       <a
         href="/ai-readiness-report-2026"
-        className="block px-4 py-2.5 text-xs sm:text-sm transition-colors duration-200 hover:opacity-80"
+        className="flex items-center justify-center gap-2.5 px-4 py-3 text-sm sm:text-base font-medium transition-opacity duration-200 hover:opacity-80"
         style={{ color: "#F59E0B" }}
       >
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ display: "inline", verticalAlign: "-2px", marginRight: "6px" }}><path d="M21 15V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11"/><polyline points="9 22 12 19 9 16"/><path d="M3 10h18"/><path d="M10 3v18"/></svg>
-        Neuer Report: Deutschlands Gastronomie auf KI-Blindflug 2026
-        <span style={{ marginLeft: "6px", opacity: 0.7 }}>&rarr; Jetzt lesen</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        <span>
+          <span className="font-semibold">Neuer Report:</span>{" "}
+          Deutschlands Gastronomie auf KI-Blindflug 2026
+        </span>
+        <span
+          className="inline-block px-3 py-0.5 rounded-full text-xs font-semibold tracking-wide"
+          style={{ background: "rgba(245,158,11,0.15)", color: "#F59E0B", border: "1px solid rgba(245,158,11,0.3)" }}
+        >
+          Jetzt lesen &rarr;
+        </span>
       </a>
     </div>
   );
