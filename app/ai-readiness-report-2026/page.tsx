@@ -42,58 +42,95 @@ export default function AIReadinessReport2026() {
         </div>
       </section>
 
-      {/* REPORT GRAPHIC — Strudel + Inhaltsverzeichnis */}
+      {/* REPORT GRAPHIC — Screenshot-taugliche Karte für LinkedIn */}
       <section className="relative px-6 pb-20 max-w-2xl mx-auto" style={{ zIndex: 1 }}>
-        <div className="flex flex-col items-center">
-          {/* Strudel — concentric rounded rectangles, each rotated */}
-          <svg
-            width="220"
-            height="220"
-            viewBox="0 0 220 220"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="mb-12"
-          >
-            <defs>
-              <linearGradient id="strudel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#FFB432" />
-                <stop offset="50%" stopColor="#FF3CAC" />
-                <stop offset="100%" stopColor="#FF2D78" />
-              </linearGradient>
-            </defs>
-            <rect x="10" y="10" width="200" height="200" rx="40" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.1" transform="rotate(0, 110, 110)" />
-            <rect x="25" y="25" width="170" height="170" rx="34" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.15" transform="rotate(6, 110, 110)" />
-            <rect x="40" y="40" width="140" height="140" rx="28" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.22" transform="rotate(12, 110, 110)" />
-            <rect x="53" y="53" width="114" height="114" rx="23" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.32" transform="rotate(18, 110, 110)" />
-            <rect x="65" y="65" width="90" height="90" rx="18" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.44" transform="rotate(25, 110, 110)" />
-            <rect x="76" y="76" width="68" height="68" rx="14" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.58" transform="rotate(33, 110, 110)" />
-            <rect x="86" y="86" width="48" height="48" rx="10" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.74" transform="rotate(42, 110, 110)" />
-            <rect x="95" y="95" width="30" height="30" rx="7" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.9" transform="rotate(52, 110, 110)" />
-          </svg>
+        <div
+          className="rounded-2xl overflow-hidden"
+          style={{
+            background: "linear-gradient(180deg, #06060F 0%, #0A0A18 100%)",
+            border: "1px solid rgba(255,255,255,0.08)",
+            boxShadow: "0 0 80px 20px rgba(255,60,172,0.06), 0 0 40px 10px rgba(255,180,50,0.04)",
+          }}
+        >
+          {/* Top Branding */}
+          <div className="pt-10 pb-2 text-center">
+            <div
+              className="inline-block px-3 py-1 rounded-full text-[10px] font-semibold tracking-widest uppercase mb-5"
+              style={{ border: "1px solid rgba(255,255,255,0.1)", color: "#666" }}
+            >
+              AI Shift Drift
+            </div>
+            <h3 className="text-2xl md:text-3xl font-bold px-8 leading-tight">
+              AI-Readiness Report
+            </h3>
+            <p className="text-sm mt-2 mb-1" style={{ color: "#999" }}>
+              Deutschlands Gastronomie auf KI-Blindflug (2026)
+            </p>
+            <p className="text-xs" style={{ color: "#555" }}>
+              10 Städte · 1.000 Restaurants · 4.000 Scans
+            </p>
+          </div>
 
-          {/* Inhaltsverzeichnis */}
-          <div className="w-full flex flex-col gap-3">
-            {[
-              { chapter: 1, title: "Das Sichtbarkeits-Defizit", sub: "AEO + GEO – unsichtbar für KI-Suchmaschinen", color: "#6366f1" },
-              { chapter: 2, title: "Das Nutzbarkeits-Defizit", sub: "Kein Restaurant ist agent-ready", color: "#FFE600" },
-              { chapter: 3, title: "Das Sicherheits-Defizit", sub: "Offene Flanken für KI-gestützte Angriffe", color: "#FF1744" },
-              { chapter: 4, title: "Das Google-Paradox", sub: "Gute Bewertungen, trotzdem unsichtbar", color: "#F59E0B" },
-              { chapter: 5, title: "Städteranking", sub: "10 Städte im KI-Readiness-Vergleich", color: "#FF3CAC" },
-            ].map((ch) => (
-              <div
-                key={ch.chapter}
-                className="flex items-baseline gap-3 py-2.5 pl-4"
-                style={{ borderLeft: `3px solid ${ch.color}` }}
-              >
-                <span className="text-xs font-semibold tracking-wider uppercase flex-shrink-0" style={{ color: ch.color }}>
-                  {String(ch.chapter).padStart(2, "0")}
-                </span>
-                <div>
+          {/* Strudel */}
+          <div className="flex justify-center py-8">
+            <svg
+              width="260"
+              height="260"
+              viewBox="0 0 260 260"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient id="strudel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#FFB432" />
+                  <stop offset="50%" stopColor="#FF3CAC" />
+                  <stop offset="100%" stopColor="#FF2D78" />
+                </linearGradient>
+              </defs>
+              <rect x="10" y="10" width="240" height="240" rx="48" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.08" transform="rotate(0, 130, 130)" />
+              <rect x="25" y="25" width="210" height="210" rx="42" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.12" transform="rotate(5, 130, 130)" />
+              <rect x="40" y="40" width="180" height="180" rx="36" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.18" transform="rotate(10, 130, 130)" />
+              <rect x="54" y="54" width="152" height="152" rx="30" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.25" transform="rotate(16, 130, 130)" />
+              <rect x="67" y="67" width="126" height="126" rx="25" stroke="url(#strudel-grad)" strokeWidth="1.5" opacity="0.34" transform="rotate(22, 130, 130)" />
+              <rect x="79" y="79" width="102" height="102" rx="20" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.45" transform="rotate(29, 130, 130)" />
+              <rect x="90" y="90" width="80" height="80" rx="16" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.58" transform="rotate(37, 130, 130)" />
+              <rect x="100" y="100" width="60" height="60" rx="12" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.72" transform="rotate(46, 130, 130)" />
+              <rect x="109" y="109" width="42" height="42" rx="9" stroke="url(#strudel-grad)" strokeWidth="2" opacity="0.86" transform="rotate(56, 130, 130)" />
+              <rect x="117" y="117" width="26" height="26" rx="6" stroke="url(#strudel-grad)" strokeWidth="2" opacity="1" transform="rotate(68, 130, 130)" />
+            </svg>
+          </div>
+
+          {/* Kapitel-Liste */}
+          <div className="px-8 md:px-12 pb-10">
+            <div className="flex flex-col gap-2.5">
+              {[
+                { chapter: 1, title: "Das Sichtbarkeits-Defizit", sub: "Unsichtbar für KI-Suchmaschinen", color: "#6366f1" },
+                { chapter: 2, title: "Das Nutzbarkeits-Defizit", sub: "Kein Restaurant ist agent-ready", color: "#FFE600" },
+                { chapter: 3, title: "Das Sicherheits-Defizit", sub: "Offene Flanken für KI-Angriffe", color: "#FF1744" },
+                { chapter: 4, title: "Das Google-Paradox", sub: "Top-bewertet, trotzdem unsichtbar", color: "#F59E0B" },
+                { chapter: 5, title: "Städteranking", sub: "10 Städte im Vergleich", color: "#FF3CAC" },
+              ].map((ch) => (
+                <div
+                  key={ch.chapter}
+                  className="flex items-center gap-3 py-2 pl-4"
+                  style={{ borderLeft: `3px solid ${ch.color}` }}
+                >
+                  <span className="text-[10px] font-bold tracking-widest uppercase flex-shrink-0 w-5" style={{ color: ch.color }}>
+                    {String(ch.chapter).padStart(2, "0")}
+                  </span>
                   <span className="text-sm font-semibold text-white">{ch.title}</span>
-                  <span className="text-xs ml-2" style={{ color: "#666" }}>{ch.sub}</span>
+                  <span className="text-xs hidden sm:inline" style={{ color: "#555" }}>{ch.sub}</span>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div
+            className="text-center py-4 text-[10px] tracking-widest uppercase"
+            style={{ borderTop: "1px solid rgba(255,255,255,0.06)", color: "#444" }}
+          >
+            ai-gastro-hub.vercel.app/ai-readiness-report-2026
           </div>
         </div>
       </section>
