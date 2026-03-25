@@ -55,8 +55,8 @@ export default function AIReadinessReport2026() {
           {/* Top Branding */}
           <div className="pt-10 pb-2 text-center">
             <div
-              className="inline-block px-3 py-1 rounded-full text-[10px] font-semibold tracking-widest uppercase mb-5"
-              style={{ border: "1px solid rgba(255,255,255,0.1)", color: "#666" }}
+              className="inline-block px-3 py-1 rounded-full text-[10px] font-semibold tracking-widest uppercase mb-5 gradient-accent"
+              style={{ border: "1px solid rgba(255,180,50,0.25)" }}
             >
               AI Shift Drift
             </div>
