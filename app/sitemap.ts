@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: 'https://ai-gastro-hub.vercel.app', lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
     { url: 'https://ai-gastro-hub.vercel.app/newsroom', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    { url: 'https://ai-gastro-hub.vercel.app/ai-readiness-report-2026', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     ...articleUrls,
     { url: 'https://ai-gastro-hub.vercel.app/impressum', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.3 },
     { url: 'https://ai-gastro-hub.vercel.app/datenschutz', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.3 },

@@ -5,18 +5,75 @@ export const metadata: Metadata = {
   title: "AI-Readiness Report 2026 – Deutschlands Gastronomie auf KI-Blindflug | AI Shift Drift",
   description:
     "85% der deutschen Restaurants sind für ChatGPT, Perplexity und Google AI unsichtbar. 1.000 Restaurants, 10 Städte, 4.000 Scans.",
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large" as const,
+  },
   openGraph: {
-    title: "AI-Readiness Report 2026 – Deutschlands Gastronomie auf KI-Blindflug",
+    title: "85% der Restaurants unsichtbar für KI",
     description:
-      "85% der deutschen Restaurants sind für ChatGPT, Perplexity und Google AI unsichtbar. 1.000 Restaurants, 10 Städte, 4.000 Scans.",
+      "AI-Readiness Report 2026: 1.000 Restaurants, 10 Städte, 4.000 Scans. Deutschlands Gastronomie auf KI-Blindflug.",
     locale: "de_DE",
+    type: "article",
     url: "https://ai-gastro-hub.vercel.app/ai-readiness-report-2026",
+    images: [
+      {
+        url: "https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png",
+        width: 2400,
+        height: 1260,
+        alt: "AI-Readiness Report 2026 – 85% der Restaurants unsichtbar für KI",
+      },
+    ],
+    publishedTime: "2026-03-25T00:00:00Z",
+    modifiedTime: "2026-03-26T00:00:00Z",
+    authors: ["AI Shift Drift"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "85% der Restaurants unsichtbar für KI",
+    description:
+      "AI-Readiness Report 2026: 1.000 Restaurants, 10 Städte, 4.000 Scans.",
+    images: ["https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png"],
   },
 };
 
 export default function AIReadinessReport2026() {
   return (
     <>
+      {/* Article JSON-LD for Google Discover */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "85% der Restaurants unsichtbar f\u00fcr KI",
+            "description": "AI-Readiness Report 2026: 1.000 Restaurants, 10 St\u00e4dte, 4.000 Scans. Deutschlands Gastronomie auf KI-Blindflug.",
+            "image": "https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png",
+            "datePublished": "2026-03-25",
+            "dateModified": "2026-03-26",
+            "author": {
+              "@type": "Organization",
+              "name": "AI Shift Drift",
+              "url": "https://ai-gastro-hub.vercel.app"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AI Shift Drift",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://ai-gastro-hub.vercel.app/logo.png"
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://ai-gastro-hub.vercel.app/ai-readiness-report-2026"
+            }
+          })
+        }}
+      />
+
       {/* HERO */}
       <section
         className="relative flex flex-col items-center justify-center text-center px-6 pt-24 pb-16"
