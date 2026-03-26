@@ -266,7 +266,7 @@ export default function AIReadinessReport2026() {
             <tbody>
               {[
                 ["Was gemessen wurde", "3 Dimensionen: Sichtbarkeit (AEO + GEO), Nutzbarkeit (KI-Agent-Readiness), Sicherheit (KI-Sicherheit)"],
-                ["Wer analysiert wurde", "Restaurants mit Google-Bewertung \u22654,0 und mind. 30 Bewertungen, manuell ausgewählt aus Google Maps"],
+                ["Wer analysiert wurde", "Restaurants mit Google-Bewertung \u22654,0 und mind. 30 Bewertungen, per Zufallsprinzip über Google Maps API"],
                 ["Umfang", "1.000 Restaurants – 10 Städte \u00d7 100 Restaurants \u00d7 10 Stadtteile pro Stadt"],
                 ["Scan-Volumen", "4.000 Einzel-Scans – jedes Restaurant mit allen 4 Scannern parallel analysiert"],
                 ["Zeitraum", "März 2026"],
