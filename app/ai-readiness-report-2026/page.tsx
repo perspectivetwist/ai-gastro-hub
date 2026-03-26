@@ -351,7 +351,7 @@ export default function AIReadinessReport2026() {
       {/* KAPITEL 1: SICHTBARKEITS-DEFIZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-12">
-          Kapitel 1: <span className="gradient-accent">Das Sichtbarkeits-Defizit</span>
+          <span className="gradient-accent">Das Sichtbarkeits-Defizit</span>
         </h2>
 
         {/* 1.1 AEO */}
@@ -481,7 +481,7 @@ export default function AIReadinessReport2026() {
       {/* KAPITEL 2: NUTZBARKEITS-DEFIZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
-          Kapitel 2: <span className="gradient-accent">Das Nutzbarkeits-Defizit</span>
+          <span className="gradient-accent">Das Nutzbarkeits-Defizit</span>
         </h2>
         <div
           className="rounded-lg p-6 mb-6 border"
@@ -559,7 +559,7 @@ export default function AIReadinessReport2026() {
       {/* KAPITEL 3: SICHERHEITS-DEFIZIT */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
-          Kapitel 3: <span className="gradient-accent">Das Sicherheits-Defizit</span>
+          <span className="gradient-accent">Das Sicherheits-Defizit</span>
         </h2>
         <div
           className="rounded-lg p-6 mb-6 border"
@@ -642,7 +642,7 @@ export default function AIReadinessReport2026() {
       {/* KAPITEL 4: GOOGLE-PARADOX */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">
-          Kapitel 4: <span className="gradient-accent">Das Google-Paradox</span>
+          <span className="gradient-accent">Das Google-Paradox</span>
         </h2>
         <div
           className="rounded-lg p-6 mb-6 border"
@@ -691,7 +691,7 @@ export default function AIReadinessReport2026() {
       {/* KAPITEL 5: STÄDTERANKING */}
       <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          Kapitel 5: <span className="gradient-accent">Städteranking</span>
+          <span className="gradient-accent">Städteranking</span>
         </h2>
         <p className="text-base mb-8" style={{ color: "#cccccc" }}>
           Welche Stadt ist am besten für die KI-Ära aufgestellt? Die Unterschiede sind überraschend.
