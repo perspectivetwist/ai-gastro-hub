@@ -673,8 +673,8 @@ export default function AIReadinessReport2026() {
               ].map((row, i) => (
                 <tr key={i} style={{ borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
                   <td className="py-3 pr-4" style={{ color: "#cccccc" }}>{row.label}</td>
-                  <td className="py-3 pr-4 text-right" style={{ color: "#cccccc" }}>{row.count}</td>
-                  <td className="py-3 text-right font-semibold" style={{ color: "#ffffff" }}>{row.pct}</td>
+                  <td className={`py-3 pr-4 ${row.pct === "–" ? "text-center" : "text-right"}`} style={{ color: "#cccccc" }}>{row.count}</td>
+                  <td className={`py-3 font-semibold ${row.pct === "–" ? "text-center" : "text-right"}`} style={{ color: "#ffffff" }}>{row.pct}</td>
                 </tr>
               ))}
             </tbody>
