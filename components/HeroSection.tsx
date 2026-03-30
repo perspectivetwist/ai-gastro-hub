@@ -43,6 +43,9 @@ export default function HeroSection() {
             </span>
           </a>
         </div>
+        <p className="text-xs mt-3" style={{ color: '#9ca3af' }}>
+          Basierend auf 1.000 gescannten Restaurants &mdash; <a href="/ai-readiness-report-2026" style={{ textDecoration: 'underline' }}>Studie ansehen</a>
+        </p>
       </div>
 
       {/* Jellyfish Hero Image */}
