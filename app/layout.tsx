@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import JsonLdSchema from "@/components/JsonLdSchema";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import AnnouncementBanner from "@/components/AnnouncementBanner";
+import NavLinks from "@/components/NavLinks";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -58,6 +59,7 @@ export default function RootLayout({
           }}
         />
         <AnnouncementBanner />
+        <NavLinks />
         <main style={{ position: "relative", zIndex: 1 }}>
           {children}
         </main>
