@@ -54,8 +54,7 @@ export default function UeberUns() {
         </Link>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-8">
-          &Uuml;ber AI Shift Drift &mdash; KI-Readiness f&uuml;r die deutsche
-          Gastronomie
+          &Uuml;ber AI Shift Drift
         </h1>
 
         <div
