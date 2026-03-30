@@ -1,0 +1,47 @@
+{
+  "slug": "kw-14-2026",
+  "kw": 14,
+  "year": 2026,
+  "date": "30. März 2026",
+  "headline": "70% Umsatzsteigerung durch KI-Wachstumsplattform: SOUS sammelt 4 Mio. Euro",
+  "zahl_der_woche": {
+    "zahl": "4 Millionen Euro",
+    "kontext": "Deutsches Gastro-Startup SOUS erhält massive Finanzierung für KI-Plattform, die Restaurants bei Online-Sichtbarkeit, Kundengewinnung und Kundenbindung hilft."
+  },
+  "news": [
+    {
+      "titel": "SOUS: Startup mit 4 Mio. Euro erfüllt Restauratoren den Traum vom Online-Wachstum",
+      "was_passiert": "Das deutsche Startup SOUS sichert sich 4 Millionen Euro Seed-Finanzierung von Investoren wie Carsten Maschmeyer. Die KI-Plattform hilft unabhängigen Restaurants, ihre Online-Sichtbarkeit zu erhöhen, direkt an Kunden zu verkaufen und Kundendaten zu behalten statt sie an Drittanbieter abzugeben. Ein Praxis-Beispiel: Das Restaurant El Puente in den Niederlanden steigerte seinen Online-Umsatz von 30.000 Euro auf 177.000 Euro – ohne zusätzliche Marketingausgaben.",
+      "was_bedeutet_das": "Kleine Restaurants konkurrieren jetzt nicht mehr ungleich mit großen Ketten. Die Plattform verbindet deine bestehenden Tools (wie Zenchef für Reservierungen) und hilft dir, mehr über deine Gäste zu lernen. Keine Abhängigkeit von Lieferando oder Uber Eats mehr – deine Daten bleiben dein Eigentum."
+    },
+    {
+      "titel": "Barkeeper-Roboter werden zur wirtschaftlichen Notwendigkeit: Markt wächst auf 3,9 Mrd. Euro",
+      "was_passiert": "KI-gesteuerte Barkeeper-Systeme wie Anno Robot revolutionieren die Getränkezubereitung. Das estnische Startup Yanu zeigt: Vollautonome Einheiten können bis zu 100 Getränke pro Stunde mixen und kommunizieren über integrierten KI-Chatbot mit Gästen. Auf der CES 2026 zeigte Surreal Nexus eine Cocktailmaschine, die via App Geschmacksvorlieben analysiert und in Echtzeit personalisierte Rezepte erstellt.",
+      "was_bedeutet_das": "Bars und Clubs unter Personalmangel könnten das Geschäft schneller bedienen und den Service attraktiver machen – ohne den Barkeeper zu ersetzen. Der Markt boomt: Investitionen deuten darauf hin, dass solche Systeme bis 2033 zum Standard bei größeren Betrieben werden könnten. Kleine Bars profitieren vermutlich erst später durch sinkende Preise."
+    },
+    {
+      "titel": "TheFork erweitert Bewertungs-KI: Gastschwächen in 10 Sekunden erkennen",
+      "was_passiert": "TheFork Manager integriert KI-Bewertungsmanagement, das automatisch die letzten 50 positiven und negativen Gästebewertungen analysiert und die wichtigsten Themen identifiziert. Gleichzeitig zeigt ein neues Wettbewerbsanalyse-Tool, wie dein Restaurant im Vergleich zu ähnlichen Betrieben in der Nähe steht. Laut Forbes spart generative KI bis zu 40% der Zeit, die sonst für Bewertungsauswertungen nötig wäre.",
+      "was_bedeutet_das": "Du brauchst nicht mehr Stunden für das Lesen von Bewertungen. Die KI zeigt sofort, ob Gäste über langsamen Service, Sauberkeit oder Preise klagen. Du kannst gezielt handeln statt zu raten. Das Wettbewerbs-Tool hilft dir zu verstehen: Haben deine Nachbarn bessere Bewertungen? Zu welchem Preis? Das erspart dir die teure Beratung."
+    }
+  ],
+  "handlungsempfehlung": "Mache diese Woche einen kostenlosen Test: Logge dich in TheFork Manager ein (falls du dort gelistet bist) und schau dir die neue KI-Bewertungsanalyse an. Falls nicht: Lade dein Restaurant-Profil auf Google My Business und OpenTable aktuell. Die KI der nächsten Generation braucht konsistente, korrekte Daten – starte damit diese Woche.",
+  "seo": {
+    "title": "4 Mio. Euro für Gastro-KI | KI-Gastro-Newsroom KW 14 2026",
+    "metaDescription": "KW 14 2026: SOUS-Startup mit Millionen-Finanzierung + Bewertungs-KI + Barkeeper-Roboter. Kostenloser KI-Check für dein Restaurant.",
+    "keywords": "KI Gastronomie, Restaurant KI Deutschland, Bewertungsmanagement KI, SOUS Startup Gastro",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-14-2026",
+    "datePublished": "2026-03-30T10:53:52.882Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      },
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-30T10:54:17.446Z"
+}
