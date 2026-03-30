@@ -64,7 +64,7 @@ export default function UeberUns() {
           {/* GEO-Anker: 1-Satz-Beschreibung */}
           <p>
             AI Shift Drift ist Deutschlands erste kostenlose
-            KI-Readiness-Plattform f&uuml;r die Gastronomie &mdash; wir
+            KI-Readiness-Plattform f&uuml;r die Gastronomie. Wir
             analysieren ob Restaurants von ChatGPT, Perplexity und Google AI
             gefunden, zitiert und von KI-Agenten genutzt werden k&ouml;nnen.
           </p>
