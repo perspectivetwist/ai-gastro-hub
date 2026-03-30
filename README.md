@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Gastro Hub — Kostenlose AI-Readiness-Plattform für die Gastronomie
 
-## Getting Started
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://ai-gastro-hub.vercel.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+## Was macht dieses Tool?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Der AI Gastro Hub ist die zentrale Plattform, die alle **KI-Sichtbarkeits- und AI-Readiness-Scanner** für Restaurants bündelt. Ein Dashboard, alle Ergebnisse — kostenlos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Die Plattform vereint:
+- **[AEO Scanner](https://aeo-gastro.vercel.app?utm_source=github&utm_medium=readme&utm_campaign=parasite)** — Kann ChatGPT deine Website lesen und zitieren?
+- **[GEO Scanner](https://geo-gastro.vercel.app?utm_source=github&utm_medium=readme&utm_campaign=parasite)** — Kennt ChatGPT deine Bewertungen und deinen Ruf?
+- **[Agent-Readiness](https://agentready-gastro.vercel.app?utm_source=github&utm_medium=readme&utm_campaign=parasite)** — Können KI-Agenten bei dir reservieren und bestellen?
+- **[Quantum Scanner](https://aisecurity-gastro.vercel.app?utm_source=github&utm_medium=readme&utm_campaign=parasite)** — Wie sicher ist deine Website gegen KI-basierte Angriffe?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Live-Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**[Jetzt kostenlos testen: ai-gastro-hub.vercel.app](https://ai-gastro-hub.vercel.app?utm_source=github&utm_medium=readme&utm_campaign=parasite)**
 
-## Learn More
+Kein Account nötig. Ergebnis in 30 Sekunden.
 
-To learn more about Next.js, take a look at the following resources:
+## Warum das wichtig ist
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gastronomie-Betriebe müssen sich auf eine Welt vorbereiten, in der KI-Assistenten die neuen Gatekeeper sind. Wer in ChatGPT, Perplexity und KI-Agenten nicht vorkommt, verliert Sichtbarkeit und Umsatz. Der AI Gastro Hub macht den Einstieg in **AEO (Answer Engine Optimization)**, **GEO (Generative Engine Optimization)** und **Agent-Readiness** so einfach wie möglich.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [AI Shift Drift](https://ai-gastro-hub.vercel.app?utm_source=github&utm_medium=readme&utm_campaign=parasite), Berlin
