@@ -2,7 +2,9 @@ name: Weekly KI-Gastro-Newsroom
 
 on:
   schedule:
-    - cron: '0 10 * * 1'  # Montag 12:00 Uhr DE-Zeit
+    - cron: '0 10 * * 1'   # Montag 12:00 DE-Zeit (Hauptlauf)
+    - cron: '0 12 * * 1'   # Montag 14:00 DE-Zeit (Fallback 1)
+    - cron: '0 14 * * 1'   # Montag 16:00 DE-Zeit (Fallback 2)
   workflow_dispatch:
 
 permissions:
@@ -13,12 +15,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Skip if article already exists
+        id: check
+        run: |
+          KW=$(date +%V)
+          YEAR=$(date +%Y)
+          FILE="public/newsroom/kw-${KW}-${YEAR}.json"
+          if [ -f "$FILE" ]; then
+            echo "Article $FILE already exists, skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No article for KW $KW $YEAR yet, generating."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.check.outputs.skip != 'true'
         with:
           node-version: '18'
-      - run: npm install @anthropic-ai/sdk
+      - if: steps.check.outputs.skip != 'true'
+        run: npm install @anthropic-ai/sdk
 
       - name: Generate Article
+        if: steps.check.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -168,6 +188,7 @@ jobs:
           EOF
 
       - name: Commit + Push
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.email "newsroom@ai-gastro-hub.vercel.app"
           git config user.name "KI-Gastro-Newsroom"
@@ -176,4 +197,5 @@ jobs:
           git push
 
       - name: Vercel Deploy
+        if: steps.check.outputs.skip != 'true'
         run: curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_GASTRO_HUB }}"
