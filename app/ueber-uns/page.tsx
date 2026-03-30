@@ -79,27 +79,6 @@ export default function UeberUns() {
             wirklich agent-ready.
           </p>
 
-          {/* Was wir messen */}
-          <div>
-            <h2 className="text-xl font-bold mb-4 text-white">
-              Was wir messen
-            </h2>
-            <ol className="list-decimal list-inside space-y-3">
-              <li>
-                <strong className="text-white">KI-Sichtbarkeit (AEO)</strong>
-              </li>
-              <li>
-                <strong className="text-white">KI-Zitierbarkeit (GEO)</strong>
-              </li>
-              <li>
-                <strong className="text-white">KI-Agent-Readiness</strong>
-              </li>
-              <li>
-                <strong className="text-white">KI-Sicherheit</strong>
-              </li>
-            </ol>
-          </div>
-
           {/* Hergestellt von */}
           <div>
             <h2 className="text-xl font-bold mb-4 text-white">
