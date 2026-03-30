@@ -44,7 +44,14 @@ export default function Presse() {
         <div>
           <h2 className="text-xl font-bold mb-4 text-white">Pressekontakt</h2>
           <p>
-            E-Mail: <span style={{ color: "#888" }}>[wird erg&auml;nzt]</span>
+            E-Mail:{" "}
+            <a
+              href="mailto:asd.gastronomie@gmail.com"
+              className="hover:underline"
+              style={{ color: "#F59E0B" }}
+            >
+              asd.gastronomie@gmail.com
+            </a>
           </p>
           <p>
             Website:{" "}
