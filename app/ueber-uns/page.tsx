@@ -78,6 +78,43 @@ export default function UeberUns() {
             wirklich agent-ready.
           </p>
 
+          {/* Was wir messen */}
+          <div>
+            <h2 className="text-xl font-bold mb-4 text-white">
+              Was wir messen
+            </h2>
+            <ol className="list-decimal list-inside space-y-3">
+              <li>
+                <strong className="text-white">
+                  KI-Sichtbarkeit (AEO)
+                </strong>{" "}
+                Wird dein Restaurant von ChatGPT, Perplexity und Google
+                AI als Antwortquelle erkannt?
+              </li>
+              <li>
+                <strong className="text-white">
+                  KI-Zitierbarkeit (GEO)
+                </strong>{" "}
+                Kennen KI-Modelle den Ruf deines Restaurants und
+                zitieren sie es als vertrauensw&uuml;rdige Quelle?
+              </li>
+              <li>
+                <strong className="text-white">
+                  KI-Agent-Readiness
+                </strong>{" "}
+                K&ouml;nnen KI-Agenten eigenst&auml;ndig Tische
+                reservieren, &Ouml;ffnungszeiten pr&uuml;fen und bei deinem
+                Restaurant handeln?
+              </li>
+              <li>
+                <strong className="text-white">KI-Sicherheit</strong>{" "}
+                Wie gro&szlig; ist die Angriffsfl&auml;che deines Restaurants
+                f&uuml;r KI-gest&uuml;tzte Angriffe wie Deepfakes und Social
+                Engineering?
+              </li>
+            </ol>
+          </div>
+
           {/* Hergestellt von */}
           <div>
             <h2 className="text-xl font-bold mb-4 text-white">
