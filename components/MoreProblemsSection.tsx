@@ -5,14 +5,14 @@ const problems: { icon: LucideIcon; title: string; text: string; color: string; 
   {
     icon: EyeOff,
     title: "ChatGPT kennt dein Restaurant nicht.",
-    text: "Jemand fragt ChatGPT: \u201EWo esse ich heute Abend gut?\u201C Die KI empfiehlt drei Restaurants. Deins ist nicht dabei \u2014 obwohl dein Essen besser ist als das der anderen.",
+    text: "Jemand fragt ChatGPT: \u201EWo esse ich heute Abend gut?\u201C Die KI empfiehlt drei Restaurants. Deins ist nicht dabei. Obwohl dein Essen besser ist als das der anderen.",
     color: "#00FFE0",
     gradient: "linear-gradient(180deg, #00AAFF, #00FF88)",
   },
   {
     icon: Ban,
-    title: "G\u00e4ste wollen \u00fcber KI reservieren \u2014 und k\u00f6nnen es nicht.",
-    text: "Ein Gast sagt zu seinem KI-Assistenten: \u201EBuche mir einen Tisch f\u00fcr Freitag.\u201C Der Agent sucht \u2014 und findet nur Restaurants mit Online-Reservierung. Deins hat keine. Der Gast ist weg.",
+    title: "G\u00e4ste wollen \u00fcber KI reservieren. Und k\u00f6nnen es nicht.",
+    text: "Ein Gast sagt zu seinem KI-Assistenten: \u201EBuche mir einen Tisch f\u00fcr Freitag.\u201C Der Agent sucht. Und findet nur Restaurants mit Online-Reservierung. Deins hat keine. Der Gast ist weg.",
     color: "#FFE600",
   },
   {
