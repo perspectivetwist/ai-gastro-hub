@@ -6,7 +6,7 @@ import { ShieldCheck, DatabaseZap, Flag, ChevronDown } from 'lucide-react'
 const faqItems = [
   {
     question: 'Kennt ChatGPT mein Restaurant? Wie finde ich das heraus?',
-    answer: 'Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL.',
+    answer: 'Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In unter 20 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL.',
     alwaysOpen: true,
     showUsps: true,
   },
@@ -28,7 +28,7 @@ const faqItems = [
   },
   {
     question: 'Brauche ich technisches Wissen dafür?',
-    answer: 'Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar.',
+    answer: 'Nein. Du gibst deine URL ein. In unter 20 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar.',
   },
 ]
 

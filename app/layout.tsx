@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   verification: { other: { 'msvalidate.01': '4238BAC83D0A84184DB5C8AEF5C3CE14' } },
   title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
   description:
-    "Finde in 60 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
+    "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
   robots: { index: true, follow: true },
   openGraph: {
     title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
     description:
-      "Finde in 60 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
+      "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
     locale: "de_DE",
     url: "https://ai-gastro-hub.vercel.app",
   },

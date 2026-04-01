@@ -16,7 +16,7 @@ export default function Home() {
       <HeroSection />
       <section className="max-w-2xl mx-auto px-4 py-6 text-center">
         <p className="text-sm text-gray-400 leading-relaxed">
-          &Uuml;ber 15.000 Restaurants haben ihren KI-Score bereits gesehen. AI Shift Drift zeigt dir in 60 Sekunden, ob ChatGPT dein Restaurant kennt. Kostenlos, auf Deutsch, ohne Abo.
+          &Uuml;ber 15.000 Restaurants haben ihren KI-Score bereits gesehen. AI Shift Drift zeigt dir in unter 20 Sekunden, ob ChatGPT dein Restaurant kennt. Kostenlos, auf Deutsch, ohne Abo.
         </p>
       </section>
       <ProblemSection />
