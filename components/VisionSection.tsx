@@ -13,7 +13,7 @@ export default function VisionSection() {
         style={{ color: "#cccccc" }}
       >
         Die <strong className="text-white">MwSt-Senkung auf 7%</strong> gibt dir zum ersten Mal seit 4 Jahren Luft zum Investieren. Gleichzeitig entscheiden KI-Systeme immer st&auml;rker, welche Restaurants G&auml;ste finden. Dieses Zeitfenster schlie&szlig;t sich.{" "}
-        <strong className="text-white">60 Sekunden</strong> reichen um zu sehen, wo du stehst.
+        <strong className="text-white">20 Sekunden</strong> reichen um zu sehen, wo du stehst.
       </p>
       <div className="mt-10">
         <a

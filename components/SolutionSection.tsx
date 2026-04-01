@@ -13,7 +13,7 @@ export default function SolutionSection() {
       </h2>
 
       <p className="text-xl mb-10 max-w-3xl leading-relaxed" style={{ color: "#cccccc" }}>
-        Vier Scanner, drei Dimensionen, ein Ergebnis: Du wei&szlig;t in <span className="font-semibold text-white">60 Sekunden</span>, wie gut KI-Systeme dein Restaurant kennen. Und was du tun kannst, damit <span className="font-semibold text-white">G&auml;ste</span> dich dar&uuml;ber finden.
+        Vier Scanner, drei Dimensionen, ein Ergebnis: Du wei&szlig;t in <span className="font-semibold text-white">unter 20 Sekunden</span>, wie gut KI-Systeme dein Restaurant kennen. Und was du tun kannst, damit <span className="font-semibold text-white">G&auml;ste</span> dich dar&uuml;ber finden.
       </p>
 
       {/* House Image + Labels */}

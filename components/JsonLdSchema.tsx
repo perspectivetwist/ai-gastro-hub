@@ -24,7 +24,7 @@ export default function JsonLdSchema() {
         "name": "Kennt ChatGPT mein Restaurant? Wie finde ich das heraus?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL."
+          "text": "Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In unter 20 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL."
         }
       },
       {
@@ -64,7 +64,7 @@ export default function JsonLdSchema() {
         "name": "Brauche ich technisches Wissen daf\u00fcr?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar."
+          "text": "Nein. Du gibst deine URL ein. In unter 20 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar."
         }
       }
     ]
