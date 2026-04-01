@@ -7,13 +7,16 @@ import VisionSection from "@/components/VisionSection";
 import GastroFaq from "@/components/GastroFaq";
 import TrustSection from "@/components/TrustSection";
 
+// SEO/AEO Keywords: KI Restaurant, ChatGPT Restaurant, KI-Sichtbarkeit Gastronomie, Restaurant bei ChatGPT
+// AEO-Strategie: Title und H1 beantworten die Frage die Gastronomen bei ChatGPT stellen würden
+
 export default function Home() {
   return (
     <>
       <HeroSection />
       <section className="max-w-2xl mx-auto px-4 py-6 text-center">
         <p className="text-sm text-gray-400 leading-relaxed">
-          AI Shift Drift ist die kostenlose KI-Readiness-Plattform f&uuml;r deutsche Restaurants und Gastronomiebetriebe. 4 Scannern f&uuml;r Sichtbarkeit, Reputation, Agent-Bereitschaft und Sicherheit.
+          &Uuml;ber 15.000 Restaurants haben ihren KI-Score bereits gesehen. AI Shift Drift zeigt dir in 60 Sekunden, ob ChatGPT dein Restaurant kennt — kostenlos, auf Deutsch, ohne Abo.
         </p>
       </section>
       <ProblemSection />

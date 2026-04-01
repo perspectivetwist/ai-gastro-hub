@@ -5,30 +5,30 @@ import { ShieldCheck, DatabaseZap, Flag, ChevronDown } from 'lucide-react'
 
 const faqItems = [
   {
-    question: 'Was ist AI Shift Drift für Restaurants?',
-    answer: 'AI Shift Drift ist eine kostenlose KI-Readiness-Plattform speziell für deutsche Restaurants und Gastronomiebetriebe — mit 4 Scannern für Sichtbarkeit, Reputation, Agent-Bereitschaft und Sicherheit.',
+    question: 'Kennt ChatGPT mein Restaurant? Wie finde ich das heraus?',
+    answer: 'Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo — nur deine URL.',
     alwaysOpen: true,
     showUsps: true,
   },
   {
-    question: 'Für welche Gastronomiebetriebe ist AI Shift Drift geeignet?',
-    answer: 'Für Restaurants, Cafés, Bars, Lieferdienste und Catering-Unternehmen die verstehen wollen ob sie für die KI-Ära bereit sind — ohne IT-Kenntnisse.',
+    question: 'Funktioniert das auch für kleine Restaurants auf dem Land?',
+    answer: 'Gerade für die. Große Ketten haben Marketing-Teams die sich um KI-Sichtbarkeit kümmern. Als Einzelgastronom stehst du allein da. Unsere Scanner sind genau dafür gebaut: schnell, verständlich, kostenlos.',
   },
   {
-    question: 'Was kostet AI Shift Drift?',
-    answer: 'Alle 4 Scanner sind kostenlos nutzbar. Kein Account, keine Kreditkarte.',
+    question: 'Was kostet das? Ist das wieder so ein Abo?',
+    answer: 'Alle 4 Scans sind kostenlos — für immer. Du siehst deinen Score bevor du auch nur einen Cent ausgibst. Wenn du einen detaillierten Aktionsplan mit konkreten Schritten willst, kostet er 29\u20AC einmalig. Kein Abo. Kein Vertrag. Kein Kleingedrucktes.',
   },
   {
-    question: 'Was ist der Unterschied zwischen den 4 Scannern?',
-    answer: 'AEO prüft ob ChatGPT dein Restaurant findet. GEO prüft ob ChatGPT deinen Ruf kennt. Slipstream prüft ob KI-Agenten buchen können. Quantum prüft deine Sicherheit.',
+    question: 'Was genau wird geprüft?',
+    answer: 'Vier Dinge: (1) Kann ChatGPT deine Website lesen? (2) Kennt ChatGPT deinen Ruf und deine Bewertungen? (3) Können Gäste über KI bei dir reservieren? (4) Stimmen deine Daten überall — oder erfindet Google KI falsche Infos?',
   },
   {
-    question: 'Warum brauche ich KI-Readiness als Restaurant?',
-    answer: 'Weil ChatGPT und KI-Agenten übernehmen wie Gäste Restaurants finden und reservieren. Wer jetzt nicht sichtbar ist, verliert diese Gäste automatisch.',
+    question: 'Ich hab ein Google-Profil und Instagram. Reicht das nicht?',
+    answer: 'Vor einem Jahr hätte ich ja gesagt. Aber seit 2025 zeigt Google bei 78% der Restaurant-Suchen KI-Antworten statt Linklisten. ChatGPT hat 800 Millionen Nutzer pro Woche. Über TheFork kann man schon direkt im Chat reservieren. Ein Google-Profil allein reicht nicht mehr — dein Restaurant muss für KI lesbar, auffindbar und buchbar sein.',
   },
   {
-    question: 'Wie fange ich an?',
-    answer: 'Starte mit dem AEO Scanner — gib deine Restaurant-URL ein und sieh in 30 Sekunden deinen KI-Sichtbarkeits-Score.',
+    question: 'Brauche ich technisches Wissen dafür?',
+    answer: 'Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache — nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar.',
   },
 ]
 
