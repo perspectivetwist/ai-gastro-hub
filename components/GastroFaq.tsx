@@ -6,7 +6,7 @@ import { ShieldCheck, DatabaseZap, Flag, ChevronDown } from 'lucide-react'
 const faqItems = [
   {
     question: 'Kennt ChatGPT mein Restaurant? Wie finde ich das heraus?',
-    answer: 'Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo — nur deine URL.',
+    answer: 'Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL.',
     alwaysOpen: true,
     showUsps: true,
   },
@@ -16,19 +16,19 @@ const faqItems = [
   },
   {
     question: 'Was kostet das? Ist das wieder so ein Abo?',
-    answer: 'Alle 4 Scans sind kostenlos — für immer. Du siehst deinen Score bevor du auch nur einen Cent ausgibst. Wenn du einen detaillierten Aktionsplan mit konkreten Schritten willst, kostet er 29\u20AC einmalig. Kein Abo. Kein Vertrag. Kein Kleingedrucktes.',
+    answer: 'Alle 4 Scans sind kostenlos. Für immer. Du siehst deinen Score bevor du auch nur einen Cent ausgibst. Wenn du einen detaillierten Aktionsplan mit konkreten Schritten willst, kostet er 29\u20AC einmalig. Kein Abo. Kein Vertrag. Kein Kleingedrucktes.',
   },
   {
     question: 'Was genau wird geprüft?',
-    answer: 'Vier Dinge: (1) Kann ChatGPT deine Website lesen? (2) Kennt ChatGPT deinen Ruf und deine Bewertungen? (3) Können Gäste über KI bei dir reservieren? (4) Stimmen deine Daten überall — oder erfindet Google KI falsche Infos?',
+    answer: 'Vier Dinge: (1) Kann ChatGPT deine Website lesen? (2) Kennt ChatGPT deinen Ruf und deine Bewertungen? (3) Können Gäste über KI bei dir reservieren? (4) Stimmen deine Daten überall? Oder erfindet Google KI falsche Infos?',
   },
   {
     question: 'Ich hab ein Google-Profil und Instagram. Reicht das nicht?',
-    answer: 'Vor einem Jahr hätte ich ja gesagt. Aber seit 2025 zeigt Google bei 78% der Restaurant-Suchen KI-Antworten statt Linklisten. ChatGPT hat 800 Millionen Nutzer pro Woche. Über TheFork kann man schon direkt im Chat reservieren. Ein Google-Profil allein reicht nicht mehr — dein Restaurant muss für KI lesbar, auffindbar und buchbar sein.',
+    answer: 'Vor einem Jahr hätte ich ja gesagt. Aber seit 2025 zeigt Google bei 78% der Restaurant-Suchen KI-Antworten statt Linklisten. ChatGPT hat 800 Millionen Nutzer pro Woche. Über TheFork kann man schon direkt im Chat reservieren. Ein Google-Profil allein reicht nicht mehr. Dein Restaurant muss für KI lesbar, auffindbar und buchbar sein.',
   },
   {
     question: 'Brauche ich technisches Wissen dafür?',
-    answer: 'Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache — nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar.',
+    answer: 'Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar.',
   },
 ]
 

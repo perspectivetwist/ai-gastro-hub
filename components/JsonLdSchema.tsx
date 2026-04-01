@@ -24,7 +24,7 @@ export default function JsonLdSchema() {
         "name": "Kennt ChatGPT mein Restaurant? Wie finde ich das heraus?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo \u2014 nur deine URL."
+          "text": "Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In 60 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL."
         }
       },
       {
@@ -40,7 +40,7 @@ export default function JsonLdSchema() {
         "name": "Was kostet das? Ist das wieder so ein Abo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Alle 4 Scans sind kostenlos \u2014 f\u00fcr immer. Du siehst deinen Score bevor du auch nur einen Cent ausgibst. Wenn du einen detaillierten Aktionsplan mit konkreten Schritten willst, kostet er 29\u20AC einmalig. Kein Abo. Kein Vertrag. Kein Kleingedrucktes."
+          "text": "Alle 4 Scans sind kostenlos. F\u00fcr immer. Du siehst deinen Score bevor du auch nur einen Cent ausgibst. Wenn du einen detaillierten Aktionsplan mit konkreten Schritten willst, kostet er 29\u20AC einmalig. Kein Abo. Kein Vertrag. Kein Kleingedrucktes."
         }
       },
       {
@@ -48,7 +48,7 @@ export default function JsonLdSchema() {
         "name": "Was genau wird gepr\u00fcft?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Vier Dinge: (1) Kann ChatGPT deine Website lesen? (2) Kennt ChatGPT deinen Ruf und deine Bewertungen? (3) K\u00f6nnen G\u00e4ste \u00fcber KI bei dir reservieren? (4) Stimmen deine Daten \u00fcberall \u2014 oder erfindet Google KI falsche Infos?"
+          "text": "Vier Dinge: (1) Kann ChatGPT deine Website lesen? (2) Kennt ChatGPT deinen Ruf und deine Bewertungen? (3) K\u00f6nnen G\u00e4ste \u00fcber KI bei dir reservieren? (4) Stimmen deine Daten \u00fcberall? Oder erfindet Google KI falsche Infos?"
         }
       },
       {
@@ -56,7 +56,7 @@ export default function JsonLdSchema() {
         "name": "Ich hab ein Google-Profil und Instagram. Reicht das nicht?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Vor einem Jahr h\u00e4tte ich ja gesagt. Aber seit 2025 zeigt Google bei 78% der Restaurant-Suchen KI-Antworten statt Linklisten. ChatGPT hat 800 Millionen Nutzer pro Woche. \u00dcber TheFork kann man schon direkt im Chat reservieren. Ein Google-Profil allein reicht nicht mehr \u2014 dein Restaurant muss f\u00fcr KI lesbar, auffindbar und buchbar sein."
+          "text": "Vor einem Jahr h\u00e4tte ich ja gesagt. Aber seit 2025 zeigt Google bei 78% der Restaurant-Suchen KI-Antworten statt Linklisten. ChatGPT hat 800 Millionen Nutzer pro Woche. \u00dcber TheFork kann man schon direkt im Chat reservieren. Ein Google-Profil allein reicht nicht mehr. Dein Restaurant muss f\u00fcr KI lesbar, auffindbar und buchbar sein."
         }
       },
       {
@@ -64,7 +64,7 @@ export default function JsonLdSchema() {
         "name": "Brauche ich technisches Wissen daf\u00fcr?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache \u2014 nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar."
+          "text": "Nein. Du gibst deine URL ein. In 60 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar."
         }
       }
     ]

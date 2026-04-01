@@ -25,7 +25,7 @@ export default function VisionSection() {
             className="block px-10 py-3.5 rounded-full font-semibold text-sm tracking-wide text-white"
             style={{ background: "#000008" }}
           >
-            Jetzt pr&uuml;fen — kostenlos
+            Jetzt kostenlos pr&uuml;fen
           </span>
         </a>
       </div>

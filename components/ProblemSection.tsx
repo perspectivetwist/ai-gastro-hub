@@ -26,7 +26,7 @@ export default function ProblemSection() {
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            Das Essen kann noch so gut sein — wenn ChatGPT dein Restaurant nicht kennt, empfiehlt es die Konkurrenz.
+            Das Essen kann noch so gut sein. Wenn ChatGPT dein Restaurant nicht kennt, empfiehlt es die Konkurrenz.
           </p>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function ProblemSection() {
           },
           {
             stat: "58%",
-            text: "der Deutschen entdecken Restaurants digital \u2014 Tendenz steigend (Lightspeed/YouGov 2024)",
+            text: "der Deutschen entdecken Restaurants digital. Tendenz steigend (Lightspeed/YouGov 2024)",
           },
         ].map((item, i) => (
           <div

@@ -25,7 +25,7 @@ export default function HeroSection() {
           style={{ color: "#cccccc" }}
         >
           Finde in 60 Sekunden heraus, ob KI-Systeme dein Restaurant empfehlen
-          — und was du tun kannst, damit sie es tun. Kein Technik-Wissen n&ouml;tig. Nur deine URL.
+          und was du tun kannst, damit sie es tun. Kein Technik-Wissen n&ouml;tig. Nur deine URL.
         </p>
 
         {/* CTA */}
@@ -39,7 +39,7 @@ export default function HeroSection() {
               className="block px-12 py-4 rounded-full font-semibold text-base tracking-wide text-white"
               style={{ background: "#000008" }}
             >
-              Jetzt pr&uuml;fen — kostenlos
+              Jetzt kostenlos pr&uuml;fen
             </span>
           </a>
         </div>
