@@ -1,0 +1,47 @@
+{
+  "slug": "kw-15-2026",
+  "kw": 15,
+  "year": 2026,
+  "date": "06. April 2026",
+  "headline": "70% aller KI-Anfragen gehen über Dialog-Suche: Deine Sichtbarkeit zählt jetzt anders",
+  "zahl_der_woche": {
+    "zahl": "70 Prozent",
+    "kontext": "KI-basierte dialoggestützte Anfragen werden zur Standard-Suchform bis 2026. Du musst in KI-Antworten auftauchen, nicht auf Seite 1 von Google."
+  },
+  "news": [
+    {
+      "titel": "KI-Sichtbarkeit verändert die Restaurantsuche komplett",
+      "was_passiert": "Plattformen wie TheFork und Google wechseln zu Dialog-KI statt Linklisten. Gäste fragen KI: 'Ich suche ruhig, mit guter Küche' – nicht nach deinem Namen. Die KI empfiehlt dann ein Restaurant – oder dein Lokal bleibt unsichtbar.",
+      "was_bedeutet_das": "Du brauchst klare, detaillierte Online-Beschreibungen auf Google, Website und Social Media. Je besser dein Restaurant dort dokumentiert ist, desto höher die Chance, von KI empfohlen zu werden. Jetzt ist das oberste Thema: nicht Ranking, sondern verstanden werden."
+    },
+    {
+      "titel": "KI-Stimme beantwortet jetzt deine Anrufe automatisch – professionell und rund um die Uhr",
+      "was_passiert": "Startups wie Slang.ai und Hostie.ai etablieren Telefon-KI für Restaurants. Eine künstliche Stimme nimmt Reservierungen auf, beantwortet Fragen zu Öffnungszeiten, Menü und Allergien. Bisherige Problem: 60% aller Anrufe nach Feierabend gingen verloren.",
+      "was_bedeutet_das": "Du kannst Anrufe 24/7 beantworten – ohne Personal. Das ist besonders nachts oder bei Stoßzeiten sinnvoll. Die Implementierung dauert 15-30 Minuten, kostet unter 50 Euro monatlich. Deine Gäste buchen auch nachts einen Tisch, während du schläfst."
+    },
+    {
+      "titel": "Digital Restaurant Day: KI-Einsatz in Gastronomie ist nicht mehr optional, sondern überlebenswichtig",
+      "was_passiert": "Am 2. April trafen sich über 100 Gastronomen zum Digital Restaurant Day Hamburg. Kernmessage: Betriebe mit KI-gestützter Dienstplanung, automatisierter Lagerverwaltung und Kundenbindung halten sich profitabel. Betriebe ohne Digitalisierung kämpfen mit Ineffizienz und sinkenden Margen.",
+      "was_bedeutet_das": "Du kannst dich nicht mehr entscheiden, ob KI sinnvoll ist – deine Konkurrenz nutzt es längst. Starte klein: Automatisierte Dienstplanung, KI-gestützte Bestellannahme oder Lebensmittel-Tracking sparen konkrete Zeit und Kosten. Wer wartet, verliert."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe diese Woche dein Google-Unternehmensprofil, deine Website und Social-Media-Beschreibung: Ist klar dokumentiert, was dein Restaurant einzigartig macht? Atmosphäre, Küche, Besonderheiten – das sind die Texte, die KI-Systeme verwenden, um dich zu empfehlen. Ist alles konsistent und aktuell, bist du bereit für KI-Sichtbarkeit.",
+  "seo": {
+    "title": "70% Dialog-KI: So findet dein Restaurant neue Gäste | KW 15 2026",
+    "metaDescription": "KW 15: KI-Suche ersetzt Google. Klare Beschreibungen entscheiden. + Telefon-KI und Digital-Trends für kleine Restaurants.",
+    "keywords": "KI Restaurant Sichtbarkeit, KI-Suche Restaurant Deutschland, KI Dienstplanung Gastronomie, Dialog-KI Restaurant",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-15-2026",
+    "datePublished": "2026-04-06T11:01:26.630Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-06T11:01:47.527Z"
+}
