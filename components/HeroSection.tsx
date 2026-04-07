@@ -10,13 +10,13 @@ export default function HeroSection() {
           className="mb-14 text-sm tracking-widest uppercase"
           style={{ color: "#FFFFFF" }}
         >
-          Kostenlos. Kein Abo. Ergebnis in unter 20 Sekunden.
+          AI-Readiness für die Gastronomie
         </div>
 
         {/* Hook Headline */}
         <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 max-w-4xl">
-          Dein Essen ist gro&szlig;artig.{" "}
-          <span className="gradient-accent">Wei&szlig; das auch ChatGPT?</span>
+          4 kostenlose KI-Scanner{" "}
+          <span className="gradient-accent">f&uuml;r dein Restaurant</span>
         </h1>
 
         {/* Sub */}
@@ -24,8 +24,8 @@ export default function HeroSection() {
           className="text-xl md:text-2xl mb-10 max-w-2xl mx-auto"
           style={{ color: "#cccccc" }}
         >
-          Finde in unter 20 Sekunden heraus, ob KI-Systeme dein Restaurant empfehlen
-          und was du tun kannst, damit sie es tun. Kein Technik-Wissen n&ouml;tig. Nur deine URL.
+          Pr&uuml;fe Sichtbarkeit, Reputation, Agent-Readiness und Sicherheit
+          deines Restaurants in der KI-&Auml;ra, kostenlos und in unter 30 Sekunden.
         </p>
 
         {/* CTA */}
@@ -39,7 +39,7 @@ export default function HeroSection() {
               className="block px-12 py-4 rounded-full font-semibold text-base tracking-wide text-white"
               style={{ background: "#000008" }}
             >
-              Jetzt kostenlos pr&uuml;fen
+              Restaurant kostenlos prüfen
             </span>
           </a>
         </div>

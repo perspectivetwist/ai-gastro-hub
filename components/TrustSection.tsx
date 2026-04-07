@@ -1,26 +1,26 @@
 export default function TrustSection() {
   const scanners: { name: string; desc: string; url: string; color: string }[] = [
     {
-      name: "\uD83D\uDCF8 Website-Check",
-      desc: "Kann ChatGPT deine Website lesen?",
+      name: "Wake | AEO",
+      desc: "Wird dein Restaurant von ChatGPT&Co zitiert?",
       url: "https://aeo-gastro.vercel.app",
       color: "#6366f1",
     },
     {
-      name: "\u2B50 Ruf-Check",
-      desc: "Was sagt ChatGPT \u00fcber dein Restaurant?",
+      name: "Wake | GEO",
+      desc: "Kennt ChatGPT&Co den Ruf deines Restaurants?",
       url: "https://geo-gastro.vercel.app",
       color: "#A8E6A3",
     },
     {
-      name: "\uD83E\uDD16 Buchbarkeits-Check",
-      desc: "K\u00f6nnen G\u00e4ste \u00fcber KI bei dir reservieren?",
+      name: "Slipstream",
+      desc: "Können Gäste via KI-Agenten bei deinem Restaurant reservieren?",
       url: "https://agentready-gastro.vercel.app",
       color: "#FFE600",
     },
     {
-      name: "\uD83D\uDD12 Daten-Check",
-      desc: "Stimmen deine Infos auf allen Plattformen?",
+      name: "Quantum",
+      desc: "Wie angreifbar ist dein Restaurant bei KI-Attacken?",
       url: "https://aisecurity-gastro.vercel.app",
       color: "#FF1744",
     },
@@ -39,7 +39,7 @@ export default function TrustSection() {
           className="text-xs tracking-widest uppercase mb-8"
           style={{ color: "#888" }}
         >
-          Andere Checks f&uuml;r dein Restaurant:
+          Teil des AI-Shift-Drift Ökosystems
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">

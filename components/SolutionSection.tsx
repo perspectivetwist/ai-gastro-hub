@@ -8,12 +8,13 @@ export default function SolutionSection() {
       style={{ zIndex: 1 }}
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
-        Deshalb haben wir den{" "}
-        <span className="gradient-accent">KI-G&auml;ste-Check</span> gebaut.
+        Deshalb gibt es <span className="gradient-accent">AI-Shift-Drift</span>{" "}
+        für Restaurants.
       </h2>
 
       <p className="text-xl mb-10 max-w-3xl leading-relaxed" style={{ color: "#cccccc" }}>
-        Vier Scanner, drei Dimensionen, ein Ergebnis: Du wei&szlig;t in <span className="font-semibold text-white">unter 20 Sekunden</span>, wie gut KI-Systeme dein Restaurant kennen. Und was du tun kannst, damit <span className="font-semibold text-white">G&auml;ste</span> dich dar&uuml;ber finden.
+        Nur <span className="font-semibold text-white">sichtbar</span> zu sein reicht nicht.
+        Dein Restaurant muss für KI-Systeme auch <span className="font-semibold text-white">buchbar</span> und <span className="font-semibold text-white">sicher</span> sein.
       </p>
 
       {/* House Image + Labels */}

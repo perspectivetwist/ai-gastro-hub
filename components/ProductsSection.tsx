@@ -38,13 +38,14 @@ export default function ProductsSection() {
                   style={{ color: "#00AAFF" }}
                   className="font-bold mb-2"
                 >
-                  📸 Website-Check
+                  📸 AEO Scanner
                 </div>
                 <div
                   style={{ color: "#cccccc" }}
                   className="text-sm mb-4"
                 >
-                  Kann ChatGPT deine Speisekarte lesen und dein Restaurant empfehlen?
+                  Kann ChatGPT deine Restaurant-Website lesen? 8 Kriterien. Score
+                  in Sekunden.
                 </div>
                 <span
                   className="inline-block mt-2 px-5 py-2 rounded-full text-xs font-semibold tracking-wide border transition-colors duration-200 hover:bg-white/10"
@@ -71,13 +72,14 @@ export default function ProductsSection() {
                   style={{ color: "#00FF88" }}
                   className="font-bold mb-2"
                 >
-                  ⭐ Ruf-Check
+                  ⭐ GEO Scanner
                 </div>
                 <div
                   style={{ color: "#cccccc" }}
                   className="text-sm mb-4"
                 >
-                  Kennt ChatGPT deine Bewertungen, dein Google-Profil und deinen Ruf?
+                  Kennt ChatGPT den Ruf deines Restaurants? Bewertungen,
+                  Erwähnungen, Profil.
                 </div>
                 <span
                   className="inline-block mt-2 px-5 py-2 rounded-full text-xs font-semibold tracking-wide border transition-colors duration-200 hover:bg-white/10"
@@ -118,13 +120,13 @@ export default function ProductsSection() {
                 style={{ color: "#FFE600" }}
                 className="font-bold mb-2"
               >
-                🤖 Buchbarkeits-Check
+                🤖 Agent Ready Scanner
               </div>
               <div
                 style={{ color: "#cccccc" }}
                 className="text-sm mb-4"
               >
-                K&ouml;nnen G&auml;ste &uuml;ber ChatGPT bei dir einen Tisch buchen?
+                Kann ein KI-Agent bei deinem Restaurant einen Tisch reservieren?
               </div>
               <span
                 className="inline-block mt-2 px-5 py-2 rounded-full text-xs font-semibold tracking-wide border transition-colors duration-200 hover:bg-white/10"
@@ -164,13 +166,14 @@ export default function ProductsSection() {
                 style={{ color: "#FF1744" }}
                 className="font-bold mb-2"
               >
-                🔒 Daten-Check
+                🔒 Security Scanner
               </div>
               <div
                 style={{ color: "#cccccc" }}
                 className="text-sm mb-4"
               >
-                Erfindet Google KI falsche Infos &uuml;ber dein Restaurant? Stimmen deine Daten &uuml;berall?
+                Ist dein Restaurant vor KI-Angriffen geschützt?
+                Fake-Bewertungen, Phishing, Datenmissbrauch.
               </div>
               <span
                 className="inline-block mt-2 px-5 py-2 rounded-full text-xs font-semibold tracking-wide border transition-colors duration-200 hover:bg-white/10"

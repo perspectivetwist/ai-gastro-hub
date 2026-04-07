@@ -10,14 +10,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   verification: { other: { 'msvalidate.01': '4238BAC83D0A84184DB5C8AEF5C3CE14' } },
-  title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
+  title: "AI-Readiness für die Gastronomie | AI Shift Drift",
   description:
-    "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
+    "Ist dein Restaurant bereit für die KI-Ära? Kostenlose Scanner für Sichtbarkeit, Nutzbarkeit und Sicherheit. Jetzt prüfen.",
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
+    title: "AI-Readiness für die Gastronomie | AI Shift Drift",
     description:
-      "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
+      "Ist dein Restaurant bereit für die KI-Ära? Kostenlose Scanner für Sichtbarkeit, Nutzbarkeit und Sicherheit. Jetzt prüfen.",
     locale: "de_DE",
     url: "https://ai-gastro-hub.vercel.app",
   },

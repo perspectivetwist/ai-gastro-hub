@@ -12,8 +12,12 @@ export default function VisionSection() {
         className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed"
         style={{ color: "#cccccc" }}
       >
-        Die <strong className="text-white">MwSt-Senkung auf 7%</strong> gibt dir zum ersten Mal seit 4 Jahren Luft zum Investieren. Gleichzeitig entscheiden KI-Systeme immer st&auml;rker, welche Restaurants G&auml;ste finden. Dieses Zeitfenster schlie&szlig;t sich.{" "}
-        <strong className="text-white">20 Sekunden</strong> reichen um zu sehen, wo du stehst.
+        In 12 Monaten empfehlen KI-Systeme nicht nur Restaurants, sondern{" "}
+        <strong className="text-white">buchen Tische</strong> und{" "}
+        <strong className="text-white">bewerten Erlebnisse</strong>.{" "}
+        Wer <strong className="text-white">heute handelt</strong>, bekommt die{" "}
+        <strong className="text-white">Gäste von morgen</strong>.{" "}
+        Wer wartet, <strong className="text-white">verliert sie</strong> an Restaurants, die KI verstanden haben.
       </p>
       <div className="mt-10">
         <a
@@ -25,7 +29,7 @@ export default function VisionSection() {
             className="block px-10 py-3.5 rounded-full font-semibold text-sm tracking-wide text-white"
             style={{ background: "#000008" }}
           >
-            Jetzt kostenlos pr&uuml;fen
+            Restaurant kostenlos prüfen
           </span>
         </a>
       </div>
