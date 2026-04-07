@@ -4,21 +4,21 @@ import type { LucideIcon } from "lucide-react";
 const problems: { icon: LucideIcon; title: string; text: string; color: string; gradient?: string }[] = [
   {
     icon: EyeOff,
-    title: "Nicht sichtbar für KI.",
-    text: "\"Bestes italienisches Restaurant in München\": ChatGPT und Gemini antworten sofort. Wenn dein Restaurant nicht in der Antwort ist, existierst du für diese Gäste nicht.",
+    title: "ChatGPT kennt dein Restaurant nicht.",
+    text: "Jemand fragt ChatGPT: \u201EWo esse ich heute Abend gut?\u201C Die KI empfiehlt drei Restaurants. Deins ist nicht dabei. Obwohl dein Essen besser ist als das der anderen.",
     color: "#00FFE0",
     gradient: "linear-gradient(180deg, #00AAFF, #00FF88)",
   },
   {
     icon: Ban,
-    title: "Nicht nutzbar für KI-Agenten.",
-    text: "Nutzer sagen: \"Reservier mir einen Tisch für Freitag, italienisch, Innenstadt.\" Der KI-Agent bucht. Aber nur bei Restaurants, die digital buchbar und agent-ready sind.",
+    title: "G\u00e4ste wollen \u00fcber KI reservieren. Und k\u00f6nnen es nicht.",
+    text: "Ein Gast sagt zu seinem KI-Assistenten: \u201EBuche mir einen Tisch f\u00fcr Freitag.\u201C Der Agent sucht. Und findet nur Restaurants mit Online-Reservierung. Deins hat keine. Der Gast ist weg.",
     color: "#FFE600",
   },
   {
     icon: ShieldAlert,
-    title: "Nicht sicher vor KI-Angriffen.",
-    text: "KI kann massenhaft gefälschte Bewertungen erzeugen. Dein guter Ruf steht auf dem Spiel. Die meisten Gastronomen merken es zu spät.",
+    title: "Google KI erfindet Angebote, die es nicht gibt.",
+    text: "Eine Pizzeria in Missouri musste \u00f6ffentlich warnen: Google KI hatte Spezialangebote erfunden, die nie existierten. Kunden kamen w\u00fctend ins Restaurant. Das kann auch dir passieren.",
     color: "#FF1744",
   },
 ];

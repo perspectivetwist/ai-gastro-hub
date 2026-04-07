@@ -6,32 +6,27 @@ export default function ProblemSection() {
       style={{ zIndex: 1 }}
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
-        KI verändert die Gastro-Branche.
-        <br />
-        <span className="gradient-accent">Ist dein Restaurant bereit?</span>
+        G&auml;ste suchen nicht mehr bei Google.{" "}
+        <span className="gradient-accent">Sie fragen ChatGPT.</span>
       </h2>
 
       <div className="space-y-6 mb-16 max-w-3xl">
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            Heute suchen Gäste dein Restaurant noch bei Google.
+            Heute fragt jemand ChatGPT: &bdquo;Wo kann ich heute Abend gut italienisch essen?&ldquo;
           </p>
         </div>
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            <span className="font-semibold" style={{ color: "#ffffff" }}>Morgen fragen sie ChatGPT:</span>
-            <br />
-            &quot;Reservier mir einen Tisch, italienisch, Innenstadt, Freitagabend.&quot; Und KI entscheidet, wer gebucht wird.
+            Wenn dein Restaurant nicht in der Antwort ist, geht der Gast woanders hin. Ohne dass du es je erf&auml;hrst.
           </p>
         </div>
         <div className="flex gap-0 rounded-lg overflow-hidden">
           <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
           <p className="text-xl leading-relaxed pl-4" style={{ color: "#cccccc" }}>
-            <span className="font-semibold" style={{ color: "#ffffff" }}>Sichtbar sein reicht nicht.</span>
-            <br />
-            Dein Restaurant muss für KI auch nutzbar und sicher sein. Sonst fällt es durch das Raster.
+            Das Essen kann noch so gut sein. Wenn ChatGPT dein Restaurant nicht kennt, empfiehlt es die Konkurrenz.
           </p>
         </div>
       </div>
@@ -39,16 +34,16 @@ export default function ProblemSection() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {[
           {
-            stat: "70%",
-            text: "der Restaurants sind für KI-Systeme unsichtbar. ChatGPT, Gemini und Perplexity kennen sie nicht.",
+            stat: "78%",
+            text: "der Restaurant-Suchen zeigen bereits KI-Antworten statt Linklisten (BrightEdge 2026)",
           },
           {
-            stat: "3x",
-            text: "mehr Nutzer lassen KI-Agenten Tische buchen als vor 12 Monaten. Ohne Agent-Readiness kein Zugang.",
+            stat: "2.900",
+            text: "Restaurants haben 2025 geschlossen. Wie viele davon waren unsichtbar f\u00fcr ChatGPT?",
           },
           {
-            stat: "+721%",
-            text: "Wachstum der KI-Plattformen in 12 Monaten. Wer jetzt nicht ready ist, verliert den Anschluss.",
+            stat: "58%",
+            text: "der Deutschen entdecken Restaurants digital. Tendenz steigend (Lightspeed/YouGov 2024)",
           },
         ].map((item, i) => (
           <div

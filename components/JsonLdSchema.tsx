@@ -21,50 +21,50 @@ export default function JsonLdSchema() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Was ist AI Shift Drift für Restaurants?",
+        "name": "Kennt ChatGPT mein Restaurant? Wie finde ich das heraus?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI Shift Drift ist eine kostenlose KI-Readiness-Plattform speziell für deutsche Restaurants und Gastronomiebetriebe — mit 4 Scannern für Sichtbarkeit, Reputation, Agent-Bereitschaft und Sicherheit."
+          "text": "Gib deine URL in einen unserer 4 kostenlosen Scanner ein. In unter 20 Sekunden siehst du, ob ChatGPT, Google KI und Perplexity dein Restaurant kennen und empfehlen. Kein Account, kein Abo. Nur deine URL."
         }
       },
       {
         "@type": "Question",
-        "name": "Für welche Gastronomiebetriebe ist AI Shift Drift geeignet?",
+        "name": "Funktioniert das auch f\u00fcr kleine Restaurants auf dem Land?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Für Restaurants, Cafés, Bars, Lieferdienste und Catering-Unternehmen die verstehen wollen ob sie für die KI-Ära bereit sind — ohne IT-Kenntnisse."
+          "text": "Gerade f\u00fcr die. Gro\u00dfe Ketten haben Marketing-Teams die sich um KI-Sichtbarkeit k\u00fcmmern. Als Einzelgastronom stehst du allein da. Unsere Scanner sind genau daf\u00fcr gebaut: schnell, verst\u00e4ndlich, kostenlos."
         }
       },
       {
         "@type": "Question",
-        "name": "Was kostet AI Shift Drift?",
+        "name": "Was kostet das? Ist das wieder so ein Abo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Alle 4 Scanner sind kostenlos nutzbar. Kein Account, keine Kreditkarte."
+          "text": "Alle 4 Scans sind kostenlos. F\u00fcr immer. Du siehst deinen Score bevor du auch nur einen Cent ausgibst. Wenn du einen detaillierten Aktionsplan mit konkreten Schritten willst, kostet er 29\u20AC einmalig. Kein Abo. Kein Vertrag. Kein Kleingedrucktes."
         }
       },
       {
         "@type": "Question",
-        "name": "Was ist der Unterschied zwischen den 4 Scannern?",
+        "name": "Was genau wird gepr\u00fcft?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AEO prüft ob ChatGPT dein Restaurant findet. GEO prüft ob ChatGPT deinen Ruf kennt. Slipstream prüft ob KI-Agenten buchen können. Quantum prüft deine Sicherheit."
+          "text": "Vier Dinge: (1) Kann ChatGPT deine Website lesen? (2) Kennt ChatGPT deinen Ruf und deine Bewertungen? (3) K\u00f6nnen G\u00e4ste \u00fcber KI bei dir reservieren? (4) Stimmen deine Daten \u00fcberall? Oder erfindet Google KI falsche Infos?"
         }
       },
       {
         "@type": "Question",
-        "name": "Warum brauche ich KI-Readiness als Restaurant?",
+        "name": "Ich hab ein Google-Profil und Instagram. Reicht das nicht?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weil ChatGPT und KI-Agenten übernehmen wie Gäste Restaurants finden und reservieren. Wer jetzt nicht sichtbar ist, verliert diese Gäste automatisch."
+          "text": "Vor einem Jahr h\u00e4tte ich ja gesagt. Aber seit 2025 zeigt Google bei 78% der Restaurant-Suchen KI-Antworten statt Linklisten. ChatGPT hat 800 Millionen Nutzer pro Woche. \u00dcber TheFork kann man schon direkt im Chat reservieren. Ein Google-Profil allein reicht nicht mehr. Dein Restaurant muss f\u00fcr KI lesbar, auffindbar und buchbar sein."
         }
       },
       {
         "@type": "Question",
-        "name": "Wie fange ich an?",
+        "name": "Brauche ich technisches Wissen daf\u00fcr?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Starte mit dem AEO Scanner — gib deine Restaurant-URL ein und sieh in 30 Sekunden deinen KI-Sichtbarkeits-Score."
+          "text": "Nein. Du gibst deine URL ein. In unter 20 Sekunden siehst du deinen Score. Die Handlungsempfehlungen sind in Gastronomen-Sprache, nicht in Technik-Deutsch. Wenn etwas einen Webdesigner braucht, sagen wir das klar."
         }
       }
     ]
