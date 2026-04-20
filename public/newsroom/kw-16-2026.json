@@ -1,0 +1,47 @@
+{
+  "slug": "kw-16-2026",
+  "kw": 16,
+  "year": 2026,
+  "date": "13. April 2026",
+  "headline": "73% der Deutschen suchen online nach Restaurants: KI lernt jetzt deine Vorlieben",
+  "zahl_der_woche": {
+    "zahl": "73%",
+    "kontext": "Dreiviertel aller Restaurantbesucher in Deutschland suchen online nach Lokalen. KI-Systeme lernen dabei deine Gewohnheiten und schlagen dir automatisch passende Restaurants vor – dein Google-Profil allein reicht dafür nicht mehr aus."
+  },
+  "news": [
+    {
+      "titel": "KI-Menüsuche ersetzt Googlesuche: Das musst du über Answer Engine Optimization wissen",
+      "was_passiert": "Gäste fragen nicht mehr ChatGPT oder Perplexity nach \"besten Restaurants Köln\", sondern nach konkreten Wünschen wie \"Gutes Sushi unter 30 Euro für zwei Personen heute Abend\". Die KI liefert eine personalisierte Antwort – oft nur ein einziges Restaurant. KI-Systeme kombinieren dazu Infos aus deiner Website, Google-Profil, Social Media, Bewertungsplattformen und lokalen Erwähnungen.",
+      "was_bedeutet_das": "Detaillierte Online-Beschreibungen werden überlebenswichtig. Statt \"Italienisches Restaurant\" brauchst du jetzt: \"Hausgemachte Pasta, auch vegetarisch und glutenfrei, gemütlich für Paare, 25-35 Euro pro Person\". Aktualisiere dein Google-Profil, Website und Social-Media-Infos konsistent – sonst übersieht dich die KI."
+    },
+    {
+      "titel": "EU AI Act: Gastronomen müssen KI-Einsatz ab sofort dokumentieren",
+      "was_passiert": "Der EU AI Act ist nun in Kraft und regelt, wie KI in Europa eingesetzt werden darf. Auch beim Einsatz von Chatbots, Datenanalysen oder automatisierten Reservierungssystemen musst du nachweisen können, wie die KI funktioniert. Kennzeichnungspflicht für KI-generierte Inhalte (z.B. beim Textschreiben für Social Media oder Marketing) greift ab sofort.",
+      "was_bedeutet_das": "Wenn du ChatGPT für Speisekartenideen oder Social-Media-Posts nutzt: dokumentieren. Wenn du ein KI-Tool zur Personalplanung einsetzt: Betriebsrat und Team miteinbeziehen, Ablauf erklären. Fake-Reviews, die von KI generiert sind, sind nun ausdrücklich illegal und führen zu hohen Bußgeldern."
+    },
+    {
+      "titel": "SOUS startet Expansion in DACH: AI-Agent bucht Tische autonom, 70% Umsatzsteigerung möglich",
+      "was_passiert": "Das niederländische KI-Startup SOUS, das 4 Millionen Euro Funding erhielt, rollt jetzt auch in Deutschland aus. Die Plattform nutzt KI-Agenten, die im Hintergrund arbeiten: Tischreservierungen, Upselling, Gästedaten-Management und Neukundenwerbung laufen teilautomatisiert. Ein Restaurant in Eindhoven verdoppelte seinen Online-Umsatz nach der Einführung.",
+      "was_bedeutet_das": "Du brauchst kein großes Team mehr für Reservierungsmanagement. SOUS integriert sich mit bestehenden Buchungssystemen wie Zenchef und arbeitet über Kanäle wie ChatGPT, WhatsApp oder eigene Website. Kosten: ab ca. 100–300 Euro/Monat je nach Betriebsgröße. Die KI erfasst auch Stammkundeninfos, sodass jeder Anruf personalisierter wird."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe diese Woche dein Online-Profil systematisch: Google Maps, Website, Instagram, TripAdvisor. Erstelle eine genaue Liste deiner Top 5 Besonderheiten (Ausstattung, Küche, Zielgruppe, Preisrange, Atmosphäre). Nutze diese Infos überall konsistent. Das kostet 30 Minuten, erhöht aber deine Chancen auf KI-Empfehlungen um bis zu 40 Prozent.",
+  "seo": {
+    "title": "73% Gäste nutzen KI-Suche | KI-Gastro-Newsroom KW 16 2026",
+    "metaDescription": "KW 16: KI-Menüsuche ersetzt Google. EU AI Act gilt jetzt. SOUS expandiert in Deutschland. Was bedeutet das für dein Restaurant?",
+    "keywords": "KI Restaurantsuche, Answer Engine Optimization Gastronomie, EU AI Act Restaurant, SOUS KI-Agent",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-16-2026",
+    "datePublished": "2026-04-13T11:19:40.196Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob KI-Agenten dein Restaurant finden"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check: EU AI Act konform?"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-13T11:20:05.701Z"
+}
