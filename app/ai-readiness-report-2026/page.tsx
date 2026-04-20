@@ -860,7 +860,7 @@ export default function AIReadinessReport2026() {
           <span className="gradient-accent">Handlungsempfehlungen</span>
         </h2>
         <p className="text-xl md:text-2xl mb-2" style={{ color: "#cccccc" }}>
-          Was du jetzt tun kannst — 8 Maßnahmen für dein Restaurant
+          Was du jetzt tun kannst: 8 Maßnahmen für dein Restaurant
         </p>
         <p className="text-base mb-12" style={{ color: "#888" }}>
           Basierend auf den Befunden dieses Reports. Sortiert nach Aufwand.
@@ -868,7 +868,7 @@ export default function AIReadinessReport2026() {
 
         {/* GRUPPE 1 */}
         <h3 className="text-lg font-bold mb-6" style={{ color: "#00BFFF" }}>
-          Heute noch — in 20 Minuten
+          Heute noch, in 20 Minuten
         </h3>
         <div className="space-y-4 mb-16">
           {[
@@ -882,8 +882,8 @@ export default function AIReadinessReport2026() {
             {
               nr: 2,
               title: "Mitarbeiternamen auf der Website überprüfen",
-              text: `Stehen vollständige Mitarbeiternamen auf deiner Website? Reicht oft: Vorname + Funktion — "Küchenchef Marco" statt "Küchenchef Marco Müller".`,
-              why: "72 % der analysierten Restaurants hatten vollständige Namen öffentlich einsehbar — Rohmaterial für KI-gestützte Betrugsmails.",
+              text: `Stehen vollständige Mitarbeiternamen auf deiner Website? Reicht oft: Vorname + Funktion, "Küchenchef Marco" statt "Küchenchef Marco Müller".`,
+              why: "72 % der analysierten Restaurants hatten vollständige Namen öffentlich einsehbar. Rohmaterial für KI-gestützte Betrugsmails.",
               badge: "10 Minuten",
             },
           ].map((m) => (
@@ -923,28 +923,28 @@ export default function AIReadinessReport2026() {
 
         {/* GRUPPE 2 */}
         <h3 className="text-lg font-bold mb-6" style={{ color: "#00BFFF" }}>
-          An einem ruhigen Nachmittag — 1 bis 2 Stunden
+          An einem ruhigen Nachmittag, 1 bis 2 Stunden
         </h3>
         <div className="space-y-4 mb-16">
           {[
             {
               nr: 3,
               title: "Klare Begrüßung an den Seitenanfang",
-              text: "Deine Startseite sollte in den ersten Sätzen sagen: Was bietest du an? Wo bist du? Wie kann man reservieren? Als lesbarer Text — nicht als Überschriften-Design.",
+              text: "Deine Startseite sollte in den ersten Sätzen sagen: Was bietest du an? Wo bist du? Wie kann man reservieren? Als lesbarer Text, nicht als Überschriften-Design.",
               why: "55 % der analysierten Restaurants hatten das nicht. ChatGPT liest die ersten 100–150 Wörter. Findet die KI dort keine klare Antwort, überspringt sie die Seite.",
               badge: "30–60 Minuten, einmalig",
             },
             {
               nr: 4,
               title: "FAQ-Abschnitt einrichten",
-              text: `Schreib 5–8 Fragen auf, die Gäste regelmäßig stellen — z.B. "Gibt es vegetarische Gerichte?" / "Wie buche ich einen Tisch?" / "Habt ihr Parkplätze?" Dazu jeweils eine kurze Antwort.`,
+              text: `Schreib 5–8 Fragen auf, die Gäste regelmäßig stellen, z.B. "Gibt es vegetarische Gerichte?" / "Wie buche ich einen Tisch?" / "Habt ihr Parkplätze?" Dazu jeweils eine kurze Antwort.`,
               why: "ChatGPT & Co. zitieren strukturierte Fragen direkt. Wer eine FAQ-Seite hat, taucht häufiger in KI-Empfehlungen auf.",
               badge: "1–2 Stunden, einmalig",
             },
             {
               nr: 5,
-              title: "Deinen Namen auf die Website — als Inhaber",
-              text: "Füge irgendwo auf deiner Seite deinen Namen ein — als Inhaber, als Koch, als Gastgeber. Ein Foto verstärkt das Signal.",
+              title: "Deinen Namen auf die Website, als Inhaber",
+              text: "Füge irgendwo auf deiner Seite deinen Namen ein. Als Inhaber, als Koch, als Gastgeber. Ein Foto verstärkt das Signal.",
               why: "98 % der analysierten Restaurants hatten kein sichtbares Gesicht hinter der Website. KI-Modelle bevorzugen Inhalte, die einer echten Person zugeordnet werden können.",
               badge: "20–30 Minuten",
             },
@@ -985,21 +985,21 @@ export default function AIReadinessReport2026() {
 
         {/* GRUPPE 3 */}
         <h3 className="text-lg font-bold mb-6" style={{ color: "#00BFFF" }}>
-          Einmalig einrichten — mit etwas Unterstützung
+          Einmalig einrichten, mit etwas Unterstützung
         </h3>
         <div className="space-y-4">
           {[
             {
               nr: 6,
-              title: "HTTPS prüfen — das Schloss muss da sein",
-              text: `Beginnt deine Website-Adresse mit "https://"? Falls nicht: Ruf deinen Webhoster an und frag nach "kostenlosem SSL-Zertifikat" — meist in 10 Minuten erledigt.`,
+              title: "HTTPS prüfen: das Schloss muss da sein",
+              text: `Beginnt deine Website-Adresse mit "https://"? Falls nicht: Ruf deinen Webhoster an und frag nach "kostenlosem SSL-Zertifikat". Meist in 10 Minuten erledigt.`,
               why: "18 % der analysierten Restaurants ohne HTTPS können von KI-Agenten technisch gar nicht mehr erreicht werden.",
               badge: "Einmalig, meist kostenlos",
             },
             {
               nr: 7,
               title: "Speisekarte als lesbaren Text auf die Website",
-              text: "Bitte deinen Web-Betreuer, die Speisekarte als lesbaren Text einzupflegen — nicht nur als Bild oder PDF.",
+              text: "Bitte deinen Web-Betreuer, die Speisekarte als lesbaren Text einzupflegen. Nicht nur als Bild oder PDF.",
               why: "ChatGPT kann weder Bilder noch PDFs lesen. Nur Text. Wer keine lesbare Speisekarte hat, beantwortet für die KI keine einzige Frage über sein Angebot.",
               badge: "1–2 Stunden, einmalig",
             },
