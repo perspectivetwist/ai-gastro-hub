@@ -122,24 +122,47 @@ export default function TrustSection() {
           </div>
         </div>
 
+        {/* Städte-Links */}
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8">
+          {[
+            "Berlin",
+            "Hamburg",
+            "München",
+            "Köln",
+            "Frankfurt",
+            "Stuttgart",
+            "Düsseldorf",
+            "Leipzig",
+            "Dortmund",
+            "Mannheim",
+          ].map((city) => (
+            <a
+              key={city}
+              href={`/${city.toLowerCase().replace(/ü/g, "ue").replace(/ö/g, "oe").replace(/ä/g, "ae").replace(/ß/g, "ss")}`}
+              className="text-sm hover:underline"
+              style={{ color: "#888" }}
+            >
+              {city}
+            </a>
+          ))}
+        </div>
+
         {/* Legal */}
-        <div className="flex flex-col md:flex-row justify-between gap-8">
-          <div className="flex gap-6">
-            <a
-              href="/impressum"
-              className="text-sm hover:underline"
-              style={{ color: "#888" }}
-            >
-              Impressum
-            </a>
-            <a
-              href="/datenschutz"
-              className="text-sm hover:underline"
-              style={{ color: "#888" }}
-            >
-              Datenschutz
-            </a>
-          </div>
+        <div className="flex justify-center gap-6">
+          <a
+            href="/impressum"
+            className="text-sm hover:underline"
+            style={{ color: "#888" }}
+          >
+            Impressum
+          </a>
+          <a
+            href="/datenschutz"
+            className="text-sm hover:underline"
+            style={{ color: "#888" }}
+          >
+            Datenschutz
+          </a>
         </div>
         <div
           className="mt-12 text-center text-xs"
