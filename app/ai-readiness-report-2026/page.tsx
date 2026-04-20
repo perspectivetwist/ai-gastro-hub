@@ -892,7 +892,7 @@ export default function AIReadinessReport2026() {
               className="flex gap-0 rounded-lg overflow-hidden"
               style={{ background: "rgba(255,255,255,0.03)" }}
             >
-              <div className="w-1 flex-shrink-0" style={{ background: "#00BFFF" }} />
+              <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
               <div className="p-5">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-xs font-bold" style={{ color: "#00BFFF" }}>
@@ -954,7 +954,7 @@ export default function AIReadinessReport2026() {
               className="flex gap-0 rounded-lg overflow-hidden"
               style={{ background: "rgba(255,255,255,0.03)" }}
             >
-              <div className="w-1 flex-shrink-0" style={{ background: "#00BFFF" }} />
+              <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
               <div className="p-5">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-xs font-bold" style={{ color: "#00BFFF" }}>
@@ -1016,7 +1016,7 @@ export default function AIReadinessReport2026() {
               className="flex gap-0 rounded-lg overflow-hidden"
               style={{ background: "rgba(255,255,255,0.03)" }}
             >
-              <div className="w-1 flex-shrink-0" style={{ background: "#00BFFF" }} />
+              <div className="w-1 flex-shrink-0" style={{ background: "linear-gradient(180deg, #FFB432, #FF3CAC)" }} />
               <div className="p-5">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-xs font-bold" style={{ color: "#00BFFF" }}>
