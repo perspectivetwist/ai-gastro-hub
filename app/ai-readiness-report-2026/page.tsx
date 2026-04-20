@@ -875,14 +875,14 @@ export default function AIReadinessReport2026() {
             {
               nr: 1,
               title: "Google Business Profil prüfen und aktualisieren",
-              text: "Öffne Google Maps, such dein Restaurant, klick auf „Profil bearbeiten". Prüf: Öffnungszeiten korrekt? Telefonnummer stimmt? Fotos aktuell? Speisekarte verlinkt?",
+              text: `Öffne Google Maps, such dein Restaurant, klick auf "Profil bearbeiten". Prüf: Öffnungszeiten korrekt? Telefonnummer stimmt? Fotos aktuell? Speisekarte verlinkt?`,
               why: "Google Business ist die wichtigste Datenquelle für ChatGPT, Perplexity und Google AI. Fehler dort werden direkt an potenzielle Gäste weitergegeben.",
               badge: "15–20 Minuten",
             },
             {
               nr: 2,
               title: "Mitarbeiternamen auf der Website überprüfen",
-              text: "Stehen vollständige Mitarbeiternamen auf deiner Website? Reicht oft: Vorname + Funktion — „Küchenchef Marco" statt „Küchenchef Marco Müller".",
+              text: `Stehen vollständige Mitarbeiternamen auf deiner Website? Reicht oft: Vorname + Funktion — "Küchenchef Marco" statt "Küchenchef Marco Müller".`,
               why: "72 % der analysierten Restaurants hatten vollständige Namen öffentlich einsehbar — Rohmaterial für KI-gestützte Betrugsmails.",
               badge: "10 Minuten",
             },
@@ -937,7 +937,7 @@ export default function AIReadinessReport2026() {
             {
               nr: 4,
               title: "FAQ-Abschnitt einrichten",
-              text: "Schreib 5–8 Fragen auf, die Gäste regelmäßig stellen — z.B. „Gibt es vegetarische Gerichte?" / „Wie buche ich einen Tisch?" / „Habt ihr Parkplätze?" Dazu jeweils eine kurze Antwort.",
+              text: `Schreib 5–8 Fragen auf, die Gäste regelmäßig stellen — z.B. "Gibt es vegetarische Gerichte?" / "Wie buche ich einen Tisch?" / "Habt ihr Parkplätze?" Dazu jeweils eine kurze Antwort.`,
               why: "ChatGPT & Co. zitieren strukturierte Fragen direkt. Wer eine FAQ-Seite hat, taucht häufiger in KI-Empfehlungen auf.",
               badge: "1–2 Stunden, einmalig",
             },
@@ -992,7 +992,7 @@ export default function AIReadinessReport2026() {
             {
               nr: 6,
               title: "HTTPS prüfen — das Schloss muss da sein",
-              text: "Beginnt deine Website-Adresse mit „https://"? Falls nicht: Ruf deinen Webhoster an und frag nach „kostenlosem SSL-Zertifikat" — meist in 10 Minuten erledigt.",
+              text: `Beginnt deine Website-Adresse mit "https://"? Falls nicht: Ruf deinen Webhoster an und frag nach "kostenlosem SSL-Zertifikat" — meist in 10 Minuten erledigt.`,
               why: "18 % der analysierten Restaurants ohne HTTPS können von KI-Agenten technisch gar nicht mehr erreicht werden.",
               badge: "Einmalig, meist kostenlos",
             },
@@ -1006,7 +1006,7 @@ export default function AIReadinessReport2026() {
             {
               nr: 8,
               title: "Online-Reservierung einbinden",
-              text: "Der einfachste Einstieg: die kostenlose „Tisch reservieren"-Funktion in deinem Google Business Profil. Wer mehr möchte, kann Systeme wie Resmio, TheFork oder OpenTable verlinken.",
+              text: `Der einfachste Einstieg: die kostenlose "Tisch reservieren"-Funktion in deinem Google Business Profil. Wer mehr möchte, kann Systeme wie Resmio, TheFork oder OpenTable verlinken.`,
               why: "Kein einziges der 1.000 analysierten Restaurants war vollständig für KI-Agenten buchbar. Wer jetzt handelt, sichert sich einen frühen Vorteil.",
               badge: "30 Min (Google) bis 3 Std (externes System), einmalig",
             },
