@@ -199,6 +199,7 @@ export default function AIReadinessReport2026() {
                 { chapter: 3, title: "Das Sicherheits-Defizit", sub: "Offene Flanken für KI-Angriffe", color: "#FF1744" },
                 { chapter: 4, title: "Das Google-Paradox", sub: "Top-bewertet, trotzdem unsichtbar", color: "#F59E0B" },
                 { chapter: 5, title: "Städteranking", sub: "10 Städte im Vergleich", color: "#FF3CAC" },
+                { chapter: 6, title: "Handlungsempfehlungen", sub: "Was du jetzt tun kannst", color: "#00BFFF" },
               ].map((ch) => (
                 <div
                   key={ch.chapter}
@@ -845,6 +846,200 @@ export default function AIReadinessReport2026() {
               <div className="p-5">
                 <p className="font-semibold text-white text-base mb-2">{item.lead}</p>
                 <p className="text-base leading-relaxed" style={{ color: "#cccccc" }}>{item.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <hr className="max-w-5xl mx-auto border-0" style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }} />
+
+      {/* KAPITEL 6: HANDLUNGSEMPFEHLUNGEN */}
+      <section className="relative py-24 px-6 max-w-5xl mx-auto" style={{ zIndex: 1 }}>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          <span className="gradient-accent">Handlungsempfehlungen</span>
+        </h2>
+        <p className="text-xl md:text-2xl mb-2" style={{ color: "#cccccc" }}>
+          Was du jetzt tun kannst — 8 Maßnahmen für dein Restaurant
+        </p>
+        <p className="text-base mb-12" style={{ color: "#888" }}>
+          Basierend auf den Befunden dieses Reports. Sortiert nach Aufwand.
+        </p>
+
+        {/* GRUPPE 1 */}
+        <h3 className="text-lg font-bold mb-6" style={{ color: "#00BFFF" }}>
+          Heute noch — in 20 Minuten
+        </h3>
+        <div className="space-y-4 mb-16">
+          {[
+            {
+              nr: 1,
+              title: "Google Business Profil prüfen und aktualisieren",
+              text: "Öffne Google Maps, such dein Restaurant, klick auf „Profil bearbeiten". Prüf: Öffnungszeiten korrekt? Telefonnummer stimmt? Fotos aktuell? Speisekarte verlinkt?",
+              why: "Google Business ist die wichtigste Datenquelle für ChatGPT, Perplexity und Google AI. Fehler dort werden direkt an potenzielle Gäste weitergegeben.",
+              badge: "15–20 Minuten",
+            },
+            {
+              nr: 2,
+              title: "Mitarbeiternamen auf der Website überprüfen",
+              text: "Stehen vollständige Mitarbeiternamen auf deiner Website? Reicht oft: Vorname + Funktion — „Küchenchef Marco" statt „Küchenchef Marco Müller".",
+              why: "72 % der analysierten Restaurants hatten vollständige Namen öffentlich einsehbar — Rohmaterial für KI-gestützte Betrugsmails.",
+              badge: "10 Minuten",
+            },
+          ].map((m) => (
+            <div
+              key={m.nr}
+              className="flex gap-0 rounded-lg overflow-hidden"
+              style={{ background: "rgba(255,255,255,0.03)" }}
+            >
+              <div className="w-1 flex-shrink-0" style={{ background: "#00BFFF" }} />
+              <div className="p-5">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-xs font-bold" style={{ color: "#00BFFF" }}>
+                    {String(m.nr).padStart(2, "0")}
+                  </span>
+                  <span className="font-semibold text-white text-base">{m.title}</span>
+                </div>
+                <p className="text-base leading-relaxed mb-3" style={{ color: "#cccccc" }}>{m.text}</p>
+                <div
+                  className="rounded-md p-3 mb-3"
+                  style={{ background: "rgba(0,191,255,0.06)", borderLeft: "2px solid rgba(0,191,255,0.3)" }}
+                >
+                  <p className="text-sm" style={{ color: "#aaa" }}>
+                    <span className="font-semibold" style={{ color: "#00BFFF" }}>Warum? </span>
+                    {m.why}
+                  </p>
+                </div>
+                <span
+                  className="inline-block px-3 py-1 rounded-full text-xs font-semibold"
+                  style={{ background: "rgba(0,191,255,0.1)", color: "#00BFFF" }}
+                >
+                  {m.badge}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* GRUPPE 2 */}
+        <h3 className="text-lg font-bold mb-6" style={{ color: "#00BFFF" }}>
+          An einem ruhigen Nachmittag — 1 bis 2 Stunden
+        </h3>
+        <div className="space-y-4 mb-16">
+          {[
+            {
+              nr: 3,
+              title: "Klare Begrüßung an den Seitenanfang",
+              text: "Deine Startseite sollte in den ersten Sätzen sagen: Was bietest du an? Wo bist du? Wie kann man reservieren? Als lesbarer Text — nicht als Überschriften-Design.",
+              why: "55 % der analysierten Restaurants hatten das nicht. ChatGPT liest die ersten 100–150 Wörter. Findet die KI dort keine klare Antwort, überspringt sie die Seite.",
+              badge: "30–60 Minuten, einmalig",
+            },
+            {
+              nr: 4,
+              title: "FAQ-Abschnitt einrichten",
+              text: "Schreib 5–8 Fragen auf, die Gäste regelmäßig stellen — z.B. „Gibt es vegetarische Gerichte?" / „Wie buche ich einen Tisch?" / „Habt ihr Parkplätze?" Dazu jeweils eine kurze Antwort.",
+              why: "ChatGPT & Co. zitieren strukturierte Fragen direkt. Wer eine FAQ-Seite hat, taucht häufiger in KI-Empfehlungen auf.",
+              badge: "1–2 Stunden, einmalig",
+            },
+            {
+              nr: 5,
+              title: "Deinen Namen auf die Website — als Inhaber",
+              text: "Füge irgendwo auf deiner Seite deinen Namen ein — als Inhaber, als Koch, als Gastgeber. Ein Foto verstärkt das Signal.",
+              why: "98 % der analysierten Restaurants hatten kein sichtbares Gesicht hinter der Website. KI-Modelle bevorzugen Inhalte, die einer echten Person zugeordnet werden können.",
+              badge: "20–30 Minuten",
+            },
+          ].map((m) => (
+            <div
+              key={m.nr}
+              className="flex gap-0 rounded-lg overflow-hidden"
+              style={{ background: "rgba(255,255,255,0.03)" }}
+            >
+              <div className="w-1 flex-shrink-0" style={{ background: "#00BFFF" }} />
+              <div className="p-5">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-xs font-bold" style={{ color: "#00BFFF" }}>
+                    {String(m.nr).padStart(2, "0")}
+                  </span>
+                  <span className="font-semibold text-white text-base">{m.title}</span>
+                </div>
+                <p className="text-base leading-relaxed mb-3" style={{ color: "#cccccc" }}>{m.text}</p>
+                <div
+                  className="rounded-md p-3 mb-3"
+                  style={{ background: "rgba(0,191,255,0.06)", borderLeft: "2px solid rgba(0,191,255,0.3)" }}
+                >
+                  <p className="text-sm" style={{ color: "#aaa" }}>
+                    <span className="font-semibold" style={{ color: "#00BFFF" }}>Warum? </span>
+                    {m.why}
+                  </p>
+                </div>
+                <span
+                  className="inline-block px-3 py-1 rounded-full text-xs font-semibold"
+                  style={{ background: "rgba(0,191,255,0.1)", color: "#00BFFF" }}
+                >
+                  {m.badge}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* GRUPPE 3 */}
+        <h3 className="text-lg font-bold mb-6" style={{ color: "#00BFFF" }}>
+          Einmalig einrichten — mit etwas Unterstützung
+        </h3>
+        <div className="space-y-4">
+          {[
+            {
+              nr: 6,
+              title: "HTTPS prüfen — das Schloss muss da sein",
+              text: "Beginnt deine Website-Adresse mit „https://"? Falls nicht: Ruf deinen Webhoster an und frag nach „kostenlosem SSL-Zertifikat" — meist in 10 Minuten erledigt.",
+              why: "18 % der analysierten Restaurants ohne HTTPS können von KI-Agenten technisch gar nicht mehr erreicht werden.",
+              badge: "Einmalig, meist kostenlos",
+            },
+            {
+              nr: 7,
+              title: "Speisekarte als lesbaren Text auf die Website",
+              text: "Bitte deinen Web-Betreuer, die Speisekarte als lesbaren Text einzupflegen — nicht nur als Bild oder PDF.",
+              why: "ChatGPT kann weder Bilder noch PDFs lesen. Nur Text. Wer keine lesbare Speisekarte hat, beantwortet für die KI keine einzige Frage über sein Angebot.",
+              badge: "1–2 Stunden, einmalig",
+            },
+            {
+              nr: 8,
+              title: "Online-Reservierung einbinden",
+              text: "Der einfachste Einstieg: die kostenlose „Tisch reservieren"-Funktion in deinem Google Business Profil. Wer mehr möchte, kann Systeme wie Resmio, TheFork oder OpenTable verlinken.",
+              why: "Kein einziges der 1.000 analysierten Restaurants war vollständig für KI-Agenten buchbar. Wer jetzt handelt, sichert sich einen frühen Vorteil.",
+              badge: "30 Min (Google) bis 3 Std (externes System), einmalig",
+            },
+          ].map((m) => (
+            <div
+              key={m.nr}
+              className="flex gap-0 rounded-lg overflow-hidden"
+              style={{ background: "rgba(255,255,255,0.03)" }}
+            >
+              <div className="w-1 flex-shrink-0" style={{ background: "#00BFFF" }} />
+              <div className="p-5">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-xs font-bold" style={{ color: "#00BFFF" }}>
+                    {String(m.nr).padStart(2, "0")}
+                  </span>
+                  <span className="font-semibold text-white text-base">{m.title}</span>
+                </div>
+                <p className="text-base leading-relaxed mb-3" style={{ color: "#cccccc" }}>{m.text}</p>
+                <div
+                  className="rounded-md p-3 mb-3"
+                  style={{ background: "rgba(0,191,255,0.06)", borderLeft: "2px solid rgba(0,191,255,0.3)" }}
+                >
+                  <p className="text-sm" style={{ color: "#aaa" }}>
+                    <span className="font-semibold" style={{ color: "#00BFFF" }}>Warum? </span>
+                    {m.why}
+                  </p>
+                </div>
+                <span
+                  className="inline-block px-3 py-1 rounded-full text-xs font-semibold"
+                  style={{ background: "rgba(0,191,255,0.1)", color: "#00BFFF" }}
+                >
+                  {m.badge}
+                </span>
               </div>
             </div>
           ))}
