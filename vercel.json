@@ -47,43 +47,43 @@
     },
     {
       "source": "/staedte/berlin/:path*",
-      "destination": "https://ai-gastro-hub-berlin.vercel.app/staedte/berlin/:path*"
+      "destination": "https://ai-gastro-hub-berlin.vercel.app/:path*"
     },
     {
       "source": "/staedte/hamburg/:path*",
-      "destination": "https://ai-gastro-hub-hamburg.vercel.app/staedte/hamburg/:path*"
+      "destination": "https://ai-gastro-hub-hamburg.vercel.app/:path*"
     },
     {
       "source": "/staedte/muenchen/:path*",
-      "destination": "https://ai-gastro-hub-muenchen.vercel.app/staedte/muenchen/:path*"
+      "destination": "https://ai-gastro-hub-muenchen.vercel.app/:path*"
     },
     {
       "source": "/staedte/koeln/:path*",
-      "destination": "https://ai-gastro-hub-koeln.vercel.app/staedte/koeln/:path*"
+      "destination": "https://ai-gastro-hub-koeln.vercel.app/:path*"
     },
     {
       "source": "/staedte/frankfurt/:path*",
-      "destination": "https://ai-gastro-hub-frankfurt.vercel.app/staedte/frankfurt/:path*"
+      "destination": "https://ai-gastro-hub-frankfurt.vercel.app/:path*"
     },
     {
       "source": "/staedte/stuttgart/:path*",
-      "destination": "https://ai-gastro-hub-stuttgart.vercel.app/staedte/stuttgart/:path*"
+      "destination": "https://ai-gastro-hub-stuttgart.vercel.app/:path*"
     },
     {
       "source": "/staedte/duesseldorf/:path*",
-      "destination": "https://ai-gastro-hub-duesseldorf.vercel.app/staedte/duesseldorf/:path*"
+      "destination": "https://ai-gastro-hub-duesseldorf.vercel.app/:path*"
     },
     {
       "source": "/staedte/leipzig/:path*",
-      "destination": "https://ai-gastro-hub-leipzig.vercel.app/staedte/leipzig/:path*"
+      "destination": "https://ai-gastro-hub-leipzig.vercel.app/:path*"
     },
     {
       "source": "/staedte/dortmund/:path*",
-      "destination": "https://ai-gastro-hub-dortmund.vercel.app/staedte/dortmund/:path*"
+      "destination": "https://ai-gastro-hub-dortmund.vercel.app/:path*"
     },
     {
       "source": "/staedte/mannheim/:path*",
-      "destination": "https://ai-gastro-hub-mannheim.vercel.app/staedte/mannheim/:path*"
+      "destination": "https://ai-gastro-hub-mannheim.vercel.app/:path*"
     }
   ]
 }
