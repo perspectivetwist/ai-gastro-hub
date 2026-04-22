@@ -1,0 +1,247 @@
+{
+  "city": "Dortmund",
+  "slug": "dortmund",
+  "total_restaurants": 100,
+  "generated_at": "2026-04-20T16:03:47.581Z",
+  "aeo_avg": 43.1,
+  "geo_avg": 46.1,
+  "agent_avg": 63.9,
+  "security_avg": 84.8,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 14,
+      "pct": 14
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 71,
+      "pct": 71
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 15,
+      "pct": 15
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 3,
+      "pct": 3
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 21,
+      "pct": 21
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 66,
+      "pct": 66
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 10,
+      "pct": 10
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "Kein klarer Einstiegssatz gefunden. Beginne mit einer direkten Antwort auf die Hauptfrage der Seite.",
+      "count": 63,
+      "pct": 63
+    },
+    {
+      "text": "Kein JSON-LD gefunden. Schema.org Markup hinzufügen, besonders FAQPage oder Article.",
+      "count": 36,
+      "pct": 36
+    },
+    {
+      "text": "agentZugang: robots.txt vorhanden aber ohne restriktive Regeln",
+      "count": 8,
+      "pct": 8
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Wickede",
+      "avg_aeo": 66,
+      "count": 1
+    },
+    {
+      "name": "Scharnhorst",
+      "avg_aeo": 66,
+      "count": 1
+    },
+    {
+      "name": "Brackel",
+      "avg_aeo": 56.6,
+      "count": 5
+    },
+    {
+      "name": "Barop",
+      "avg_aeo": 53.3,
+      "count": 3
+    },
+    {
+      "name": "Wambel",
+      "avg_aeo": 49.5,
+      "count": 2
+    },
+    {
+      "name": "Eving",
+      "avg_aeo": 47,
+      "count": 2
+    },
+    {
+      "name": "Kirchhörde",
+      "avg_aeo": 46.7,
+      "count": 3
+    },
+    {
+      "name": "Lütgendortmund",
+      "avg_aeo": 45.7,
+      "count": 7
+    },
+    {
+      "name": "Nordstadt",
+      "avg_aeo": 45.6,
+      "count": 7
+    },
+    {
+      "name": "Hörde",
+      "avg_aeo": 44.9,
+      "count": 15
+    },
+    {
+      "name": "Mengede",
+      "avg_aeo": 43.1,
+      "count": 7
+    },
+    {
+      "name": "Brünninghausen",
+      "avg_aeo": 43,
+      "count": 2
+    },
+    {
+      "name": "Huckarde",
+      "avg_aeo": 42.2,
+      "count": 5
+    },
+    {
+      "name": "Körne",
+      "avg_aeo": 41,
+      "count": 1
+    },
+    {
+      "name": "Innenstadt",
+      "avg_aeo": 40.6,
+      "count": 18
+    },
+    {
+      "name": "Aplerbeck",
+      "avg_aeo": 39.7,
+      "count": 6
+    },
+    {
+      "name": "Kreuzviertel",
+      "avg_aeo": 33.8,
+      "count": 8
+    },
+    {
+      "name": "Berghofen",
+      "avg_aeo": 33,
+      "count": 1
+    },
+    {
+      "name": "Hombruch",
+      "avg_aeo": 30.5,
+      "count": 6
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "italian_restaurant",
+      "count": 12,
+      "avg_aeo": 43.6
+    },
+    {
+      "name": "pizza_restaurant",
+      "count": 7,
+      "avg_aeo": 44.6
+    },
+    {
+      "name": "bar",
+      "count": 3,
+      "avg_aeo": 30.7
+    },
+    {
+      "name": "german_restaurant, european_restaurant",
+      "count": 3,
+      "avg_aeo": 39
+    },
+    {
+      "name": "steak_house",
+      "count": 2,
+      "avg_aeo": 30.5
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 85,
+  "above_national": false
+}

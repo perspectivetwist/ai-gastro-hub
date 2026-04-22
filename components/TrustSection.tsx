@@ -3,25 +3,25 @@ export default function TrustSection() {
     {
       name: "\uD83D\uDCF8 Website-Check",
       desc: "Kann ChatGPT deine Website lesen?",
-      url: "https://aeo-gastro.vercel.app",
+      url: "https://www.ki-gastronomie.com/aeo-scanner",
       color: "#6366f1",
     },
     {
       name: "\u2B50 Ruf-Check",
       desc: "Was sagt ChatGPT \u00fcber dein Restaurant?",
-      url: "https://geo-gastro.vercel.app",
+      url: "https://www.ki-gastronomie.com/geo-scanner",
       color: "#A8E6A3",
     },
     {
       name: "\uD83E\uDD16 Buchbarkeits-Check",
       desc: "K\u00f6nnen G\u00e4ste \u00fcber KI bei dir reservieren?",
-      url: "https://agentready-gastro.vercel.app",
+      url: "https://www.ki-gastronomie.com/agent-scanner",
       color: "#FFE600",
     },
     {
       name: "\uD83D\uDD12 Daten-Check",
       desc: "Stimmen deine Infos auf allen Plattformen?",
-      url: "https://aisecurity-gastro.vercel.app",
+      url: "https://www.ki-gastronomie.com/security-scanner",
       color: "#FF1744",
     },
   ]
@@ -122,8 +122,22 @@ export default function TrustSection() {
           </div>
         </div>
 
+        {/* Städte */}
+        <div className="flex flex-wrap gap-x-4 gap-y-2 justify-center mb-6 text-sm">
+          <a href="https://www.ki-gastronomie.com/staedte/berlin" className="hover:underline" style={{ color: "#888" }}>Berlin</a>
+          <a href="https://www.ki-gastronomie.com/staedte/hamburg" className="hover:underline" style={{ color: "#888" }}>Hamburg</a>
+          <a href="https://www.ki-gastronomie.com/staedte/muenchen" className="hover:underline" style={{ color: "#888" }}>München</a>
+          <a href="https://www.ki-gastronomie.com/staedte/koeln" className="hover:underline" style={{ color: "#888" }}>Köln</a>
+          <a href="https://www.ki-gastronomie.com/staedte/frankfurt" className="hover:underline" style={{ color: "#888" }}>Frankfurt</a>
+          <a href="https://www.ki-gastronomie.com/staedte/stuttgart" className="hover:underline" style={{ color: "#888" }}>Stuttgart</a>
+          <a href="https://www.ki-gastronomie.com/staedte/duesseldorf" className="hover:underline" style={{ color: "#888" }}>Düsseldorf</a>
+          <a href="https://www.ki-gastronomie.com/staedte/leipzig" className="hover:underline" style={{ color: "#888" }}>Leipzig</a>
+          <a href="https://www.ki-gastronomie.com/staedte/dortmund" className="hover:underline" style={{ color: "#888" }}>Dortmund</a>
+          <a href="https://www.ki-gastronomie.com/staedte/mannheim" className="hover:underline" style={{ color: "#888" }}>Mannheim</a>
+        </div>
+
         {/* Legal */}
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+        <div className="flex justify-center gap-8">
           <div className="flex gap-6">
             <a
               href="/impressum"

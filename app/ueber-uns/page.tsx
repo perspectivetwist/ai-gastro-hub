@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       "AI Shift Drift ist Deutschlands erste kostenlose KI-Readiness-Plattform für die Gastronomie.",
     locale: "de_DE",
-    url: "https://ai-gastro-hub.vercel.app/ueber-uns",
+    url: "https://www.ki-gastronomie.com/ueber-uns",
   },
 };
 
@@ -26,7 +26,7 @@ export default function UeberUns() {
             name: "AI Shift Drift",
             description:
               "Deutschlands erste kostenlose KI-Readiness-Plattform für die Gastronomie",
-            url: "https://ai-gastro-hub.vercel.app",
+            url: "https://www.ki-gastronomie.com",
             foundingDate: "2026",
             areaServed: "DE",
             knowsAbout: [

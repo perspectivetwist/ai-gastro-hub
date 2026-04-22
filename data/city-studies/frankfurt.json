@@ -1,0 +1,257 @@
+{
+  "city": "Frankfurt",
+  "slug": "frankfurt",
+  "total_restaurants": 100,
+  "generated_at": "2026-04-20T16:03:47.516Z",
+  "aeo_avg": 42,
+  "geo_avg": 42.7,
+  "agent_avg": 57.8,
+  "security_avg": 83.5,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 19,
+      "pct": 19
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 65,
+      "pct": 65
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 16,
+      "pct": 16
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 2,
+      "pct": 2
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 31,
+      "pct": 31
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 63,
+      "pct": 63
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 4,
+      "pct": 4
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "Kein klarer Einstiegssatz gefunden. Beginne mit einer direkten Antwort auf die Hauptfrage der Seite.",
+      "count": 68,
+      "pct": 68
+    },
+    {
+      "text": "Kein JSON-LD gefunden. Schema.org Markup hinzufügen, besonders FAQPage oder Article.",
+      "count": 32,
+      "pct": 32
+    },
+    {
+      "text": "agentZugang: robots.txt vorhanden aber blockt keine KI-Crawler",
+      "count": 10,
+      "pct": 10
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Bornheim",
+      "avg_aeo": 50,
+      "count": 9
+    },
+    {
+      "name": "Heddernheim",
+      "avg_aeo": 49.5,
+      "count": 2
+    },
+    {
+      "name": "Fechenheim",
+      "avg_aeo": 47.5,
+      "count": 4
+    },
+    {
+      "name": "Bockenheim",
+      "avg_aeo": 46,
+      "count": 6
+    },
+    {
+      "name": "Nordend",
+      "avg_aeo": 45.8,
+      "count": 6
+    },
+    {
+      "name": "Ostend",
+      "avg_aeo": 44.5,
+      "count": 6
+    },
+    {
+      "name": "Höchst",
+      "avg_aeo": 44.4,
+      "count": 8
+    },
+    {
+      "name": "Oberrad",
+      "avg_aeo": 43.2,
+      "count": 5
+    },
+    {
+      "name": "Griesheim",
+      "avg_aeo": 43,
+      "count": 2
+    },
+    {
+      "name": "Nied",
+      "avg_aeo": 43,
+      "count": 2
+    },
+    {
+      "name": "Gallus",
+      "avg_aeo": 42.6,
+      "count": 5
+    },
+    {
+      "name": "Sachsenhausen",
+      "avg_aeo": 41.9,
+      "count": 7
+    },
+    {
+      "name": "Frankfurt-Süd",
+      "avg_aeo": 41,
+      "count": 1
+    },
+    {
+      "name": "Seckbach",
+      "avg_aeo": 41,
+      "count": 2
+    },
+    {
+      "name": "Bergen-Enkheim",
+      "avg_aeo": 40.5,
+      "count": 2
+    },
+    {
+      "name": "Westend",
+      "avg_aeo": 38.5,
+      "count": 8
+    },
+    {
+      "name": "Eckenheim",
+      "avg_aeo": 36.8,
+      "count": 5
+    },
+    {
+      "name": "Ginnheim",
+      "avg_aeo": 36.7,
+      "count": 3
+    },
+    {
+      "name": "Niederrad",
+      "avg_aeo": 36.7,
+      "count": 3
+    },
+    {
+      "name": "Innenstadt",
+      "avg_aeo": 34.8,
+      "count": 13
+    },
+    {
+      "name": "Rödelheim",
+      "avg_aeo": 28,
+      "count": 1
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "italian_restaurant",
+      "count": 14,
+      "avg_aeo": 37.6
+    },
+    {
+      "name": "restaurant, food, point_of_interest, establishment",
+      "count": 13,
+      "avg_aeo": 43.8
+    },
+    {
+      "name": "german_restaurant, european_restaurant",
+      "count": 13,
+      "avg_aeo": 40.3
+    },
+    {
+      "name": "italian_restaurant, pizza_restaurant",
+      "count": 7,
+      "avg_aeo": 41
+    },
+    {
+      "name": "restaurant, point_of_interest, food, establishment",
+      "count": 3,
+      "avg_aeo": 43.3
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 84,
+  "above_national": false
+}

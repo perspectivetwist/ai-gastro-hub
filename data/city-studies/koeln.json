@@ -1,0 +1,222 @@
+{
+  "city": "Köln",
+  "slug": "koeln",
+  "total_restaurants": 100,
+  "generated_at": "2026-04-20T16:03:47.537Z",
+  "aeo_avg": 43.5,
+  "geo_avg": 40.3,
+  "agent_avg": 59.4,
+  "security_avg": 82.7,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 9,
+      "pct": 9
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 79,
+      "pct": 79
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 12,
+      "pct": 12
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 34,
+      "pct": 34
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 65,
+      "pct": 65
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 0,
+      "pct": 0
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "Kein klarer Einstiegssatz gefunden. Beginne mit einer direkten Antwort auf die Hauptfrage der Seite.",
+      "count": 62,
+      "pct": 62
+    },
+    {
+      "text": "Kein JSON-LD gefunden. Schema.org Markup hinzufügen, besonders FAQPage oder Article.",
+      "count": 38,
+      "pct": 38
+    },
+    {
+      "text": "agentZugang: robots.txt vorhanden aber blockt keine KI-Crawler",
+      "count": 10,
+      "pct": 10
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Lindenthal",
+      "avg_aeo": 51.3,
+      "count": 4
+    },
+    {
+      "name": "Nippes",
+      "avg_aeo": 50.9,
+      "count": 10
+    },
+    {
+      "name": "Porz",
+      "avg_aeo": 47.1,
+      "count": 7
+    },
+    {
+      "name": "Braunsfeld",
+      "avg_aeo": 45.7,
+      "count": 7
+    },
+    {
+      "name": "Sülz",
+      "avg_aeo": 44.4,
+      "count": 8
+    },
+    {
+      "name": "Innenstadt",
+      "avg_aeo": 44.4,
+      "count": 11
+    },
+    {
+      "name": "Kalk",
+      "avg_aeo": 43.2,
+      "count": 6
+    },
+    {
+      "name": "Mülheim",
+      "avg_aeo": 43.1,
+      "count": 7
+    },
+    {
+      "name": "Deutz",
+      "avg_aeo": 42.8,
+      "count": 8
+    },
+    {
+      "name": "Südstadt",
+      "avg_aeo": 42.5,
+      "count": 8
+    },
+    {
+      "name": "Rodenkirchen",
+      "avg_aeo": 41.7,
+      "count": 6
+    },
+    {
+      "name": "Ehrenfeld",
+      "avg_aeo": 37.6,
+      "count": 10
+    },
+    {
+      "name": "Zollstock",
+      "avg_aeo": 36.7,
+      "count": 3
+    },
+    {
+      "name": "Bayenthal",
+      "avg_aeo": 33.6,
+      "count": 5
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "italian_restaurant",
+      "count": 6,
+      "avg_aeo": 51.5
+    },
+    {
+      "name": "german_restaurant, european_restaurant",
+      "count": 6,
+      "avg_aeo": 44.8
+    },
+    {
+      "name": "mediterranean_restaurant",
+      "count": 4,
+      "avg_aeo": 40.8
+    },
+    {
+      "name": "fine_dining_restaurant",
+      "count": 2,
+      "avg_aeo": 37
+    },
+    {
+      "name": "brewpub, pub, beer_garden, bar",
+      "count": 2,
+      "avg_aeo": 37
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 88,
+  "above_national": false
+}

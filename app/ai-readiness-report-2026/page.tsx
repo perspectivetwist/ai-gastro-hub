@@ -16,10 +16,10 @@ export const metadata: Metadata = {
       "AI-Readiness Report 2026: 1.000 Restaurants, 10 Städte, 4.000 Scans. Deutschlands Gastronomie auf KI-Blindflug.",
     locale: "de_DE",
     type: "article",
-    url: "https://ai-gastro-hub.vercel.app/ai-readiness-report-2026",
+    url: "https://www.ki-gastronomie.com/ai-readiness-report-2026",
     images: [
       {
-        url: "https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png",
+        url: "https://www.ki-gastronomie.com/og-ai-readiness-report-2026.png",
         width: 2400,
         height: 1260,
         alt: "AI-Readiness Report 2026 – 85% der Restaurants unsichtbar für KI",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "85% der Restaurants unsichtbar für KI",
     description:
       "AI-Readiness Report 2026: 1.000 Restaurants, 10 Städte, 4.000 Scans.",
-    images: ["https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png"],
+    images: ["https://www.ki-gastronomie.com/og-ai-readiness-report-2026.png"],
   },
 };
 
@@ -50,25 +50,25 @@ export default function AIReadinessReport2026() {
             "@type": "Article",
             "headline": "85% der Restaurants unsichtbar f\u00fcr KI",
             "description": "AI-Readiness Report 2026: 1.000 Restaurants, 10 St\u00e4dte, 4.000 Scans. Deutschlands Gastronomie auf KI-Blindflug.",
-            "image": "https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png",
+            "image": "https://www.ki-gastronomie.com/og-ai-readiness-report-2026.png",
             "datePublished": "2026-03-25",
             "dateModified": "2026-03-26",
             "author": {
               "@type": "Organization",
               "name": "AI Shift Drift",
-              "url": "https://ai-gastro-hub.vercel.app"
+              "url": "https://www.ki-gastronomie.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "AI Shift Drift",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ai-gastro-hub.vercel.app/logo.png"
+                "url": "https://www.ki-gastronomie.com/logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ai-gastro-hub.vercel.app/ai-readiness-report-2026"
+              "@id": "https://www.ki-gastronomie.com/ai-readiness-report-2026"
             }
           })
         }}
@@ -767,19 +767,19 @@ export default function AIReadinessReport2026() {
             </thead>
             <tbody>
               {[
-                { city: "Mannheim", aeo: "46,6", geo: "42,3", agent: "63,3", sec: "84,0" },
-                { city: "Hamburg", aeo: "46,3", geo: "41,8", agent: "58,2", sec: "82,0" },
-                { city: "Düsseldorf", aeo: "44,6", geo: "40,9", agent: "64,1", sec: "83,1" },
-                { city: "München", aeo: "44,1", geo: "40,8", agent: "59,5", sec: "82,6" },
-                { city: "Leipzig", aeo: "43,8", geo: "48,3", agent: "63,7", sec: "85,6" },
-                { city: "Köln", aeo: "43,5", geo: "40,3", agent: "59,4", sec: "82,7" },
-                { city: "Dortmund", aeo: "43,1", geo: "46,1", agent: "63,9", sec: "84,8" },
-                { city: "Stuttgart", aeo: "42,6", geo: "44,0", agent: "57,7", sec: "84,2" },
-                { city: "Frankfurt", aeo: "42,0", geo: "42,7", agent: "57,8", sec: "83,5" },
-                { city: "Berlin", aeo: "41,3", geo: "40,2", agent: "59,8", sec: "83,5" },
+                { city: "Mannheim", slug: "mannheim", aeo: "46,6", geo: "42,3", agent: "63,3", sec: "84,0" },
+                { city: "Hamburg", slug: "hamburg", aeo: "46,3", geo: "41,8", agent: "58,2", sec: "82,0" },
+                { city: "Düsseldorf", slug: "duesseldorf", aeo: "44,6", geo: "40,9", agent: "64,1", sec: "83,1" },
+                { city: "München", slug: "muenchen", aeo: "44,1", geo: "40,8", agent: "59,5", sec: "82,6" },
+                { city: "Leipzig", slug: "leipzig", aeo: "43,8", geo: "48,3", agent: "63,7", sec: "85,6" },
+                { city: "Köln", slug: "koeln", aeo: "43,5", geo: "40,3", agent: "59,4", sec: "82,7" },
+                { city: "Dortmund", slug: "dortmund", aeo: "43,1", geo: "46,1", agent: "63,9", sec: "84,8" },
+                { city: "Stuttgart", slug: "stuttgart", aeo: "42,6", geo: "44,0", agent: "57,7", sec: "84,2" },
+                { city: "Frankfurt", slug: "frankfurt", aeo: "42,0", geo: "42,7", agent: "57,8", sec: "83,5" },
+                { city: "Berlin", slug: "berlin", aeo: "41,3", geo: "40,2", agent: "59,8", sec: "83,5" },
               ].map((row, i) => (
                 <tr key={i} style={{ borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
-                  <td className="py-3 pr-4 font-semibold" style={{ color: "#ffffff" }}>{row.city}</td>
+                  <td className="py-3 pr-4 font-semibold"><a href={`/${row.slug}-ki-studie-2026`} className="underline decoration-white/20 hover:decoration-white/60 transition-colors" style={{ color: "#ffffff" }}>{row.city}</a></td>
                   <td className="py-3 pr-4 text-right" style={{ color: "#cccccc" }}>{row.aeo}</td>
                   <td className="py-3 pr-4 text-right" style={{ color: "#cccccc" }}>{row.geo}</td>
                   <td className="py-3 pr-4 text-right" style={{ color: "#cccccc" }}>{row.agent}</td>
@@ -810,6 +810,38 @@ export default function AIReadinessReport2026() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* SUBSTUDIEN */}
+        <div className="mt-16">
+          <h4 className="text-base font-bold mb-4" style={{ color: "#ffffff" }}>Substudien pro Stadt</h4>
+          <p className="text-sm mb-6" style={{ color: "#888" }}>
+            Detaillierte Analyse pro Stadt – mit Stadtteil-Rankings, Küchen-Breakdown und lokalen Top-Problemen.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+            {[
+              { city: "Berlin", slug: "berlin", pct: "91%" },
+              { city: "Hamburg", slug: "hamburg", pct: "80%" },
+              { city: "München", slug: "muenchen", pct: "83%" },
+              { city: "Köln", slug: "koeln", pct: "88%" },
+              { city: "Frankfurt", slug: "frankfurt", pct: "84%" },
+              { city: "Stuttgart", slug: "stuttgart", pct: "88%" },
+              { city: "Düsseldorf", slug: "duesseldorf", pct: "83%" },
+              { city: "Leipzig", slug: "leipzig", pct: "84%" },
+              { city: "Dortmund", slug: "dortmund", pct: "85%" },
+              { city: "Mannheim", slug: "mannheim", pct: "86%" },
+            ].map((c) => (
+              <a
+                key={c.slug}
+                href={`/${c.slug}-ki-studie-2026`}
+                className="rounded-lg p-4 border transition-all duration-200 hover:scale-[1.03] hover:bg-white/5"
+                style={{ borderColor: "rgba(255,255,255,0.08)", background: "rgba(255,255,255,0.02)" }}
+              >
+                <div className="font-semibold text-sm text-white mb-1">{c.city}</div>
+                <div className="text-xs" style={{ color: "#F59E0B" }}>{c.pct} unsichtbar</div>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -864,10 +896,10 @@ export default function AIReadinessReport2026() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            { name: "KI-Sichtbarkeit (AEO)", url: "https://aeo-gastro.vercel.app", color: "#6366f1" },
-            { name: "KI-Zitierbarkeit (GEO)", url: "https://geo-gastro.vercel.app", color: "#A8E6A3" },
-            { name: "KI-Agent-Readiness", url: "https://agentready-gastro.vercel.app", color: "#FFE600" },
-            { name: "KI-Sicherheit", url: "https://aisecurity-gastro.vercel.app", color: "#FF1744" },
+            { name: "KI-Sichtbarkeit (AEO)", url: "https://www.ki-gastronomie.com/aeo-scanner", color: "#6366f1" },
+            { name: "KI-Zitierbarkeit (GEO)", url: "https://www.ki-gastronomie.com/geo-scanner", color: "#A8E6A3" },
+            { name: "KI-Agent-Readiness", url: "https://www.ki-gastronomie.com/agent-scanner", color: "#FFE600" },
+            { name: "KI-Sicherheit", url: "https://www.ki-gastronomie.com/security-scanner", color: "#FF1744" },
           ].map((cta, i) => (
             <a
               key={i}
