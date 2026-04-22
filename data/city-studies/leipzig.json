@@ -1,0 +1,247 @@
+{
+  "city": "Leipzig",
+  "slug": "leipzig",
+  "total_restaurants": 100,
+  "generated_at": "2026-04-20T16:03:47.956Z",
+  "aeo_avg": 43.8,
+  "geo_avg": 48.3,
+  "agent_avg": 63.7,
+  "security_avg": 85.6,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 8,
+      "pct": 8
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 76,
+      "pct": 76
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 16,
+      "pct": 16
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 0,
+      "pct": 0
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 17,
+      "pct": 17
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 72,
+      "pct": 72
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 11,
+      "pct": 11
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "Kein klarer Einstiegssatz gefunden. Beginne mit einer direkten Antwort auf die Hauptfrage der Seite.",
+      "count": 67,
+      "pct": 67
+    },
+    {
+      "text": "Kein JSON-LD gefunden. Schema.org Markup hinzufügen, besonders FAQPage oder Article.",
+      "count": 33,
+      "pct": 33
+    },
+    {
+      "text": "agentZugang: robots.txt vorhanden aber blockt keine KI-Crawler",
+      "count": 15,
+      "pct": 15
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Volkmarsdorf",
+      "avg_aeo": 66,
+      "count": 1
+    },
+    {
+      "name": "Lindenau",
+      "avg_aeo": 63,
+      "count": 2
+    },
+    {
+      "name": "Anger-Crottendorf",
+      "avg_aeo": 58,
+      "count": 1
+    },
+    {
+      "name": "Connewitz",
+      "avg_aeo": 53.3,
+      "count": 3
+    },
+    {
+      "name": "Wahren",
+      "avg_aeo": 53.3,
+      "count": 4
+    },
+    {
+      "name": "Plagwitz",
+      "avg_aeo": 51.5,
+      "count": 4
+    },
+    {
+      "name": "Leutzsch",
+      "avg_aeo": 48.3,
+      "count": 3
+    },
+    {
+      "name": "Paunsdorf",
+      "avg_aeo": 45.8,
+      "count": 4
+    },
+    {
+      "name": "Gohlis",
+      "avg_aeo": 45.2,
+      "count": 5
+    },
+    {
+      "name": "Reudnitz",
+      "avg_aeo": 45.2,
+      "count": 9
+    },
+    {
+      "name": "Markkleeberg",
+      "avg_aeo": 44.6,
+      "count": 7
+    },
+    {
+      "name": "Mitte",
+      "avg_aeo": 42.7,
+      "count": 22
+    },
+    {
+      "name": "Schönefeld",
+      "avg_aeo": 42.6,
+      "count": 5
+    },
+    {
+      "name": "Mockau",
+      "avg_aeo": 41.3,
+      "count": 3
+    },
+    {
+      "name": "Südvorstadt",
+      "avg_aeo": 39.3,
+      "count": 7
+    },
+    {
+      "name": "Schleußig",
+      "avg_aeo": 39.2,
+      "count": 10
+    },
+    {
+      "name": "Probstheida",
+      "avg_aeo": 36,
+      "count": 2
+    },
+    {
+      "name": "Eutritzsch",
+      "avg_aeo": 33,
+      "count": 3
+    },
+    {
+      "name": "Stötteritz",
+      "avg_aeo": 32.6,
+      "count": 5
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "restaurant, food, point_of_interest, establishment",
+      "count": 8,
+      "avg_aeo": 36
+    },
+    {
+      "name": "german_restaurant, european_restaurant",
+      "count": 4,
+      "avg_aeo": 45.5
+    },
+    {
+      "name": "pizza_restaurant",
+      "count": 3,
+      "avg_aeo": 51.7
+    },
+    {
+      "name": "beer_garden, bar",
+      "count": 3,
+      "avg_aeo": 53.3
+    },
+    {
+      "name": "restaurant, point_of_interest, food, establishment",
+      "count": 3,
+      "avg_aeo": 57.3
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 84,
+  "above_national": false
+}

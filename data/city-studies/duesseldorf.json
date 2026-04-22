@@ -1,0 +1,252 @@
+{
+  "city": "Düsseldorf",
+  "slug": "duesseldorf",
+  "total_restaurants": 100,
+  "generated_at": "2026-04-20T16:03:47.672Z",
+  "aeo_avg": 44.6,
+  "geo_avg": 40.9,
+  "agent_avg": 64.1,
+  "security_avg": 83.1,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 13,
+      "pct": 13
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 70,
+      "pct": 70
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 17,
+      "pct": 17
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 37,
+      "pct": 37
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 62,
+      "pct": 62
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 0,
+      "pct": 0
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "Kein klarer Einstiegssatz gefunden. Beginne mit einer direkten Antwort auf die Hauptfrage der Seite.",
+      "count": 55,
+      "pct": 55
+    },
+    {
+      "text": "Kein JSON-LD gefunden. Schema.org Markup hinzufügen, besonders FAQPage oder Article.",
+      "count": 45,
+      "pct": 45
+    },
+    {
+      "text": "agentZugang: robots.txt vorhanden aber blockt keine KI-Crawler",
+      "count": 10,
+      "pct": 10
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Unterrath",
+      "avg_aeo": 59,
+      "count": 2
+    },
+    {
+      "name": "Unterbilk",
+      "avg_aeo": 54.2,
+      "count": 5
+    },
+    {
+      "name": "Bilk",
+      "avg_aeo": 48.1,
+      "count": 9
+    },
+    {
+      "name": "Altstadt",
+      "avg_aeo": 47.9,
+      "count": 10
+    },
+    {
+      "name": "Benrath",
+      "avg_aeo": 47.3,
+      "count": 3
+    },
+    {
+      "name": "Pempelfort",
+      "avg_aeo": 46.9,
+      "count": 8
+    },
+    {
+      "name": "Oberkassel",
+      "avg_aeo": 46.4,
+      "count": 10
+    },
+    {
+      "name": "Carlstadt",
+      "avg_aeo": 45,
+      "count": 4
+    },
+    {
+      "name": "Wersten",
+      "avg_aeo": 44.5,
+      "count": 2
+    },
+    {
+      "name": "Flingern",
+      "avg_aeo": 44.2,
+      "count": 13
+    },
+    {
+      "name": "Derendorf",
+      "avg_aeo": 43.9,
+      "count": 8
+    },
+    {
+      "name": "Kaiserswerth",
+      "avg_aeo": 43.5,
+      "count": 6
+    },
+    {
+      "name": "Golzheim",
+      "avg_aeo": 43.3,
+      "count": 4
+    },
+    {
+      "name": "Gerresheim",
+      "avg_aeo": 39.7,
+      "count": 3
+    },
+    {
+      "name": "Rath",
+      "avg_aeo": 38.8,
+      "count": 4
+    },
+    {
+      "name": "Stadtmitte",
+      "avg_aeo": 33,
+      "count": 1
+    },
+    {
+      "name": "Garath",
+      "avg_aeo": 33,
+      "count": 1
+    },
+    {
+      "name": "Holthausen",
+      "avg_aeo": 31,
+      "count": 1
+    },
+    {
+      "name": "Eller",
+      "avg_aeo": 30.5,
+      "count": 2
+    },
+    {
+      "name": "Friedrichstadt",
+      "avg_aeo": 29.3,
+      "count": 4
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "italian_restaurant",
+      "count": 8,
+      "avg_aeo": 44.8
+    },
+    {
+      "name": "fine_dining_restaurant",
+      "count": 4,
+      "avg_aeo": 38.8
+    },
+    {
+      "name": "german_restaurant, european_restaurant",
+      "count": 4,
+      "avg_aeo": 32.5
+    },
+    {
+      "name": "hamburger_restaurant, american_restaurant",
+      "count": 4,
+      "avg_aeo": 47
+    },
+    {
+      "name": "spanish_restaurant",
+      "count": 4,
+      "avg_aeo": 48.3
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 83,
+  "above_national": true
+}

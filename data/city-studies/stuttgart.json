@@ -1,0 +1,247 @@
+{
+  "city": "Stuttgart",
+  "slug": "stuttgart",
+  "total_restaurants": 100,
+  "generated_at": "2026-04-20T16:03:48.286Z",
+  "aeo_avg": 42.6,
+  "geo_avg": 44,
+  "agent_avg": 57.7,
+  "security_avg": 84.2,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 11,
+      "pct": 11
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 77,
+      "pct": 77
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 12,
+      "pct": 12
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 2,
+      "pct": 2
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 25,
+      "pct": 25
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 69,
+      "pct": 69
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 4,
+      "pct": 4
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "Kein klarer Einstiegssatz gefunden. Beginne mit einer direkten Antwort auf die Hauptfrage der Seite.",
+      "count": 67,
+      "pct": 67
+    },
+    {
+      "text": "Kein JSON-LD gefunden. Schema.org Markup hinzufügen, besonders FAQPage oder Article.",
+      "count": 33,
+      "pct": 33
+    },
+    {
+      "text": "agentZugang: Keine robots.txt gefunden. Website komplett offen für Crawler",
+      "count": 6,
+      "pct": 6
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Zuffenhausen",
+      "avg_aeo": 52.8,
+      "count": 5
+    },
+    {
+      "name": "Stuttgart-Nord",
+      "avg_aeo": 47.5,
+      "count": 4
+    },
+    {
+      "name": "Stammheim",
+      "avg_aeo": 47,
+      "count": 2
+    },
+    {
+      "name": "Weilimdorf",
+      "avg_aeo": 46.8,
+      "count": 5
+    },
+    {
+      "name": "Degerloch",
+      "avg_aeo": 44,
+      "count": 7
+    },
+    {
+      "name": "Stuttgart-West",
+      "avg_aeo": 43.4,
+      "count": 8
+    },
+    {
+      "name": "Vaihingen",
+      "avg_aeo": 43.3,
+      "count": 4
+    },
+    {
+      "name": "Feuerbach",
+      "avg_aeo": 43.3,
+      "count": 7
+    },
+    {
+      "name": "Mitte",
+      "avg_aeo": 43,
+      "count": 14
+    },
+    {
+      "name": "Möhringen",
+      "avg_aeo": 42.9,
+      "count": 10
+    },
+    {
+      "name": "Sillenbuch",
+      "avg_aeo": 41.7,
+      "count": 3
+    },
+    {
+      "name": "Stuttgart-Ost",
+      "avg_aeo": 41,
+      "count": 9
+    },
+    {
+      "name": "Stuttgart-Süd",
+      "avg_aeo": 40.7,
+      "count": 3
+    },
+    {
+      "name": "Bad Cannstatt",
+      "avg_aeo": 39.6,
+      "count": 5
+    },
+    {
+      "name": "Plieningen",
+      "avg_aeo": 38,
+      "count": 4
+    },
+    {
+      "name": "Untertürkheim",
+      "avg_aeo": 36.6,
+      "count": 5
+    },
+    {
+      "name": "Hedelfingen",
+      "avg_aeo": 34.5,
+      "count": 2
+    },
+    {
+      "name": "Botnang",
+      "avg_aeo": 33,
+      "count": 2
+    },
+    {
+      "name": "Wangen",
+      "avg_aeo": 28,
+      "count": 1
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "german_restaurant, european_restaurant",
+      "count": 17,
+      "avg_aeo": 40.6
+    },
+    {
+      "name": "italian_restaurant",
+      "count": 13,
+      "avg_aeo": 47.6
+    },
+    {
+      "name": "italian_restaurant, pizza_restaurant",
+      "count": 7,
+      "avg_aeo": 41.4
+    },
+    {
+      "name": "greek_restaurant",
+      "count": 3,
+      "avg_aeo": 39
+    },
+    {
+      "name": "italian_restaurant, brunch_restaurant, mediterranean_restaurant, breakfast_restaurant, bar",
+      "count": 1,
+      "avg_aeo": 53
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 88,
+  "above_national": false
+}
