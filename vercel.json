@@ -14,6 +14,22 @@
   ],
   "rewrites": [
     {
+      "source": "/aeo/:path*",
+      "destination": "https://ki-gastronomie-wire.vercel.app/aeo/:path*"
+    },
+    {
+      "source": "/geo/:path*",
+      "destination": "https://ki-gastronomie-wire.vercel.app/geo/:path*"
+    },
+    {
+      "source": "/agent-ready/:path*",
+      "destination": "https://ki-gastronomie-wire.vercel.app/agent-ready/:path*"
+    },
+    {
+      "source": "/security/:path*",
+      "destination": "https://ki-gastronomie-wire.vercel.app/security/:path*"
+    },
+    {
       "source": "/aeo-scanner",
       "destination": "https://aeo-gastro.vercel.app/aeo-scanner"
     },
