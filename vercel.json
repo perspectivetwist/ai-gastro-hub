@@ -1,5 +1,17 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/berlin/:path*", "destination": "/staedte/berlin/:path*", "permanent": true },
+    { "source": "/hamburg/:path*", "destination": "/staedte/hamburg/:path*", "permanent": true },
+    { "source": "/muenchen/:path*", "destination": "/staedte/muenchen/:path*", "permanent": true },
+    { "source": "/koeln/:path*", "destination": "/staedte/koeln/:path*", "permanent": true },
+    { "source": "/frankfurt/:path*", "destination": "/staedte/frankfurt/:path*", "permanent": true },
+    { "source": "/stuttgart/:path*", "destination": "/staedte/stuttgart/:path*", "permanent": true },
+    { "source": "/duesseldorf/:path*", "destination": "/staedte/duesseldorf/:path*", "permanent": true },
+    { "source": "/leipzig/:path*", "destination": "/staedte/leipzig/:path*", "permanent": true },
+    { "source": "/dortmund/:path*", "destination": "/staedte/dortmund/:path*", "permanent": true },
+    { "source": "/mannheim/:path*", "destination": "/staedte/mannheim/:path*", "permanent": true }
+  ],
   "rewrites": [
     {
       "source": "/aeo-scanner",
