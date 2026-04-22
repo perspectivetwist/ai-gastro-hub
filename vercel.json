@@ -2,20 +2,36 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/aeo-scanner/:path*",
-      "destination": "https://aeo-gastro.vercel.app/aeo-scanner/:path*"
+      "source": "/aeo-scanner",
+      "destination": "https://aeo-gastro.vercel.app/aeo-scanner"
     },
     {
-      "source": "/geo-scanner/:path*",
-      "destination": "https://geo-gastro.vercel.app/geo-scanner/:path*"
+      "source": "/aeo-scanner/:path+",
+      "destination": "https://aeo-gastro.vercel.app/aeo-scanner/:path+"
     },
     {
-      "source": "/agent-scanner/:path*",
-      "destination": "https://agentready-gastro.vercel.app/agent-scanner/:path*"
+      "source": "/geo-scanner",
+      "destination": "https://geo-gastro.vercel.app/geo-scanner"
     },
     {
-      "source": "/security-scanner/:path*",
-      "destination": "https://aisecurity-gastro.vercel.app/security-scanner/:path*"
+      "source": "/geo-scanner/:path+",
+      "destination": "https://geo-gastro.vercel.app/geo-scanner/:path+"
+    },
+    {
+      "source": "/agent-scanner",
+      "destination": "https://agentready-gastro.vercel.app/agent-scanner"
+    },
+    {
+      "source": "/agent-scanner/:path+",
+      "destination": "https://agentready-gastro.vercel.app/agent-scanner/:path+"
+    },
+    {
+      "source": "/security-scanner",
+      "destination": "https://aisecurity-gastro.vercel.app/security-scanner"
+    },
+    {
+      "source": "/security-scanner/:path+",
+      "destination": "https://aisecurity-gastro.vercel.app/security-scanner/:path+"
     },
     {
       "source": "/staedte/berlin/:path*",
