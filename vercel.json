@@ -1,0 +1,61 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/aeo-scanner/:path*",
+      "destination": "https://aeo-gastro.vercel.app/aeo-scanner/:path*"
+    },
+    {
+      "source": "/geo-scanner/:path*",
+      "destination": "https://geo-gastro.vercel.app/geo-scanner/:path*"
+    },
+    {
+      "source": "/agent-scanner/:path*",
+      "destination": "https://agentready-gastro.vercel.app/agent-scanner/:path*"
+    },
+    {
+      "source": "/security-scanner/:path*",
+      "destination": "https://aisecurity-gastro.vercel.app/security-scanner/:path*"
+    },
+    {
+      "source": "/staedte/berlin/:path*",
+      "destination": "https://ai-gastro-hub-berlin.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/hamburg/:path*",
+      "destination": "https://ai-gastro-hub-hamburg.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/muenchen/:path*",
+      "destination": "https://ai-gastro-hub-muenchen.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/koeln/:path*",
+      "destination": "https://ai-gastro-hub-koeln.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/frankfurt/:path*",
+      "destination": "https://ai-gastro-hub-frankfurt.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/stuttgart/:path*",
+      "destination": "https://ai-gastro-hub-stuttgart.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/duesseldorf/:path*",
+      "destination": "https://ai-gastro-hub-duesseldorf.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/leipzig/:path*",
+      "destination": "https://ai-gastro-hub-leipzig.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/dortmund/:path*",
+      "destination": "https://ai-gastro-hub-dortmund.vercel.app/:path*"
+    },
+    {
+      "source": "/staedte/mannheim/:path*",
+      "destination": "https://ai-gastro-hub-mannheim.vercel.app/:path*"
+    }
+  ]
+}
