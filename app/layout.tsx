@@ -9,7 +9,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  verification: { other: { 'msvalidate.01': '4238BAC83D0A84184DB5C8AEF5C3CE14' } },
+  verification: { google: '0fBC30Fu4JlwWw5YWvjz_-9DTeQ_Q4-hkWlVY7o-UdU', other: { 'msvalidate.01': '4238BAC83D0A84184DB5C8AEF5C3CE14' } },
   title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
   description:
     "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
