@@ -43,28 +43,28 @@ export default function NavLinks() {
         className="hover:underline transition-opacity duration-200 hover:opacity-80"
         style={{ color: "#888" }}
       >
-        Sichtbarkeit
+        KI-Sichtbarkeit (AEO)
       </a>
       <a
         href="https://www.ki-gastronomie.com/geo/"
         className="hover:underline transition-opacity duration-200 hover:opacity-80"
         style={{ color: "#888" }}
       >
-        KI-Sichtbarkeit
+        KI-Sichtbarkeit (GEO)
       </a>
       <a
         href="https://www.ki-gastronomie.com/agent-ready/"
         className="hover:underline transition-opacity duration-200 hover:opacity-80"
         style={{ color: "#888" }}
       >
-        Reservierungen
+        KI-Nutzbarkeit
       </a>
       <a
         href="https://www.ki-gastronomie.com/security/"
         className="hover:underline transition-opacity duration-200 hover:opacity-80"
         style={{ color: "#888" }}
       >
-        Sicherheit
+        KI-Sicherheit
       </a>
     </nav>
   );
