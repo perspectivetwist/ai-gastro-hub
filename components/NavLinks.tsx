@@ -38,6 +38,34 @@ export default function NavLinks() {
       >
         Presse
       </Link>
+      <a
+        href="https://www.ki-gastronomie.com/aeo/"
+        className="hover:underline transition-opacity duration-200 hover:opacity-80"
+        style={{ color: "#888" }}
+      >
+        Sichtbarkeit
+      </a>
+      <a
+        href="https://www.ki-gastronomie.com/geo/"
+        className="hover:underline transition-opacity duration-200 hover:opacity-80"
+        style={{ color: "#888" }}
+      >
+        KI-Sichtbarkeit
+      </a>
+      <a
+        href="https://www.ki-gastronomie.com/agent-ready/"
+        className="hover:underline transition-opacity duration-200 hover:opacity-80"
+        style={{ color: "#888" }}
+      >
+        Reservierungen
+      </a>
+      <a
+        href="https://www.ki-gastronomie.com/security/"
+        className="hover:underline transition-opacity duration-200 hover:opacity-80"
+        style={{ color: "#888" }}
+      >
+        Sicherheit
+      </a>
     </nav>
   );
 }
