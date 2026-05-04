@@ -1,0 +1,35 @@
+name: Monthly City Data Update
+
+on:
+  schedule:
+    - cron: '0 8 1 * *'   # 1. des Monats, 10:00 DE-Zeit
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-city-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Aggregate city data from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: node scripts/aggregate-city-data.js
+
+      - name: Commit + Push
+        run: |
+          git config user.email "city-update@ai-gastro-hub.vercel.app"
+          git config user.name "City Data Updater"
+          git add data/city-studies/
+          git commit -m "data: Stadt-Daten Update $(date +%B\ %Y)" || echo "Keine Änderungen"
+          git push
+
+      - name: Vercel Deploy
+        run: curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_GASTRO_HUB }}"

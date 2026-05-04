@@ -122,47 +122,38 @@ export default function TrustSection() {
           </div>
         </div>
 
-        {/* Städte-Links */}
-        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8">
-          {[
-            "Berlin",
-            "Hamburg",
-            "München",
-            "Köln",
-            "Frankfurt",
-            "Stuttgart",
-            "Düsseldorf",
-            "Leipzig",
-            "Dortmund",
-            "Mannheim",
-          ].map((city) => (
-            <a
-              key={city}
-              href={`/${city.toLowerCase().replace(/ü/g, "ue").replace(/ö/g, "oe").replace(/ä/g, "ae").replace(/ß/g, "ss")}`}
-              className="text-sm hover:underline"
-              style={{ color: "#888" }}
-            >
-              {city}
-            </a>
-          ))}
+        {/* Städte */}
+        <div className="flex flex-wrap gap-x-4 gap-y-2 justify-center mb-6 text-sm">
+          <a href="https://www.ki-gastronomie.com/staedte/berlin" className="hover:underline" style={{ color: "#888" }}>Berlin</a>
+          <a href="https://www.ki-gastronomie.com/staedte/hamburg" className="hover:underline" style={{ color: "#888" }}>Hamburg</a>
+          <a href="https://www.ki-gastronomie.com/staedte/muenchen" className="hover:underline" style={{ color: "#888" }}>München</a>
+          <a href="https://www.ki-gastronomie.com/staedte/koeln" className="hover:underline" style={{ color: "#888" }}>Köln</a>
+          <a href="https://www.ki-gastronomie.com/staedte/frankfurt" className="hover:underline" style={{ color: "#888" }}>Frankfurt</a>
+          <a href="https://www.ki-gastronomie.com/staedte/stuttgart" className="hover:underline" style={{ color: "#888" }}>Stuttgart</a>
+          <a href="https://www.ki-gastronomie.com/staedte/duesseldorf" className="hover:underline" style={{ color: "#888" }}>Düsseldorf</a>
+          <a href="https://www.ki-gastronomie.com/staedte/leipzig" className="hover:underline" style={{ color: "#888" }}>Leipzig</a>
+          <a href="https://www.ki-gastronomie.com/staedte/dortmund" className="hover:underline" style={{ color: "#888" }}>Dortmund</a>
+          <a href="https://www.ki-gastronomie.com/staedte/mannheim" className="hover:underline" style={{ color: "#888" }}>Mannheim</a>
         </div>
 
         {/* Legal */}
-        <div className="flex justify-center gap-6">
-          <a
-            href="/impressum"
-            className="text-sm hover:underline"
-            style={{ color: "#888" }}
-          >
-            Impressum
-          </a>
-          <a
-            href="/datenschutz"
-            className="text-sm hover:underline"
-            style={{ color: "#888" }}
-          >
-            Datenschutz
-          </a>
+        <div className="flex justify-center gap-8">
+          <div className="flex gap-6">
+            <a
+              href="/impressum"
+              className="text-sm hover:underline"
+              style={{ color: "#888" }}
+            >
+              Impressum
+            </a>
+            <a
+              href="/datenschutz"
+              className="text-sm hover:underline"
+              style={{ color: "#888" }}
+            >
+              Datenschutz
+            </a>
+          </div>
         </div>
         <div
           className="mt-12 text-center text-xs"

@@ -1,4 +1,106 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  async rewrites() {
+    return {
+      beforeFiles: [
+        // Wire content clusters
+        {
+          source: '/assets/:path*',
+          destination: 'https://ki-gastronomie-wire.vercel.app/assets/:path*',
+        },
+        {
+          source: '/aeo/:path*',
+          destination: 'https://ki-gastronomie-wire.vercel.app/aeo/:path*',
+        },
+        {
+          source: '/geo/:path*',
+          destination: 'https://ki-gastronomie-wire.vercel.app/geo/:path*',
+        },
+        {
+          source: '/agent-ready/:path*',
+          destination: 'https://ki-gastronomie-wire.vercel.app/agent-ready/:path*',
+        },
+        {
+          source: '/security/:path*',
+          destination: 'https://ki-gastronomie-wire.vercel.app/security/:path*',
+        },
+        // Scanner apps
+        {
+          source: '/aeo-scanner',
+          destination: 'https://aeo-gastro.vercel.app/aeo-scanner',
+        },
+        {
+          source: '/aeo-scanner/:path+',
+          destination: 'https://aeo-gastro.vercel.app/aeo-scanner/:path+',
+        },
+        {
+          source: '/geo-scanner',
+          destination: 'https://geo-gastro.vercel.app/geo-scanner',
+        },
+        {
+          source: '/geo-scanner/:path+',
+          destination: 'https://geo-gastro.vercel.app/geo-scanner/:path+',
+        },
+        {
+          source: '/agent-scanner',
+          destination: 'https://agentready-gastro.vercel.app/agent-scanner',
+        },
+        {
+          source: '/agent-scanner/:path+',
+          destination: 'https://agentready-gastro.vercel.app/agent-scanner/:path+',
+        },
+        {
+          source: '/security-scanner',
+          destination: 'https://aisecurity-gastro.vercel.app/security-scanner',
+        },
+        {
+          source: '/security-scanner/:path+',
+          destination: 'https://aisecurity-gastro.vercel.app/security-scanner/:path+',
+        },
+        // Stadt-Pages
+        {
+          source: '/staedte/berlin/:path*',
+          destination: 'https://ai-gastro-hub-berlin.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/hamburg/:path*',
+          destination: 'https://ai-gastro-hub-hamburg.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/muenchen/:path*',
+          destination: 'https://ai-gastro-hub-muenchen.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/koeln/:path*',
+          destination: 'https://ai-gastro-hub-koeln.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/frankfurt/:path*',
+          destination: 'https://ai-gastro-hub-frankfurt.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/stuttgart/:path*',
+          destination: 'https://ai-gastro-hub-stuttgart.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/duesseldorf/:path*',
+          destination: 'https://ai-gastro-hub-duesseldorf.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/leipzig/:path*',
+          destination: 'https://ai-gastro-hub-leipzig.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/dortmund/:path*',
+          destination: 'https://ai-gastro-hub-dortmund.vercel.app/:path*',
+        },
+        {
+          source: '/staedte/mannheim/:path*',
+          destination: 'https://ai-gastro-hub-mannheim.vercel.app/:path*',
+        },
+      ],
+    };
+  },
+};
 
 export default nextConfig;

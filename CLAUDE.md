@@ -25,6 +25,13 @@
 - Alle Sections: transparenter Hintergrund (keine bg-black!)
 - Cards: rgba(255,255,255,0.04) oder rgba(0,0,0,0.4)
 
+## REWRITES-ARCHITEKTUR (KRITISCH)
+- Alle Rewrites leben in `next.config.mjs` unter `beforeFiles` — NICHT in vercel.json!
+- vercel.json enthält NUR redirects (Stadt-Slugs → /staedte/)
+- Grund: vercel.json Rewrites sind "afterFiles" bei Next.js → werden von Cache/Redeployments verschluckt
+- beforeFiles Rewrites sind Teil des Next.js Build-Outputs → stabil über alle Deployments
+- NIEMALS Rewrites zurück in vercel.json verschieben!
+
 ## Ökosystem-Links (Gastro)
 - AEO: https://aeo-gastro.vercel.app
 - GEO: https://geo-gastro.vercel.app

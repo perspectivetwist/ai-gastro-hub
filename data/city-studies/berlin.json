@@ -1,0 +1,202 @@
+{
+  "city": "Berlin",
+  "slug": "berlin",
+  "total_restaurants": 100,
+  "generated_at": "2026-05-01T09:54:49.845Z",
+  "aeo_avg": 41.3,
+  "geo_avg": 40.2,
+  "agent_avg": 59.8,
+  "security_avg": 83.5,
+  "aeo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 30,
+      "count": 13,
+      "pct": 13
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 31,
+      "max": 60,
+      "count": 78,
+      "pct": 78
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 61,
+      "max": 85,
+      "count": 9,
+      "pct": 9
+    },
+    {
+      "label": "Top",
+      "emoji": "⭐",
+      "min": 86,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "geo_distribution": [
+    {
+      "label": "Kritisch",
+      "emoji": "🔴",
+      "min": 0,
+      "max": 19,
+      "count": 2,
+      "pct": 2
+    },
+    {
+      "label": "Schwach",
+      "emoji": "🟠",
+      "min": 20,
+      "max": 39,
+      "count": 37,
+      "pct": 37
+    },
+    {
+      "label": "Ausbaufähig",
+      "emoji": "🟡",
+      "min": 40,
+      "max": 59,
+      "count": 60,
+      "pct": 60
+    },
+    {
+      "label": "Gut",
+      "emoji": "🟢",
+      "min": 60,
+      "max": 79,
+      "count": 1,
+      "pct": 1
+    },
+    {
+      "label": "Sehr gut",
+      "emoji": "⭐",
+      "min": 80,
+      "max": 100,
+      "count": 0,
+      "pct": 0
+    }
+  ],
+  "top_problems": [
+    {
+      "text": "KI-Assistenten können Öffnungszeiten, Adresse und Speisekarte nicht automatisch auslesen.",
+      "count": 76,
+      "pct": 76
+    },
+    {
+      "text": "Website startet ohne klare Aussage — KI-Assistenten können nicht erkennen, was das Restaurant…",
+      "count": 70,
+      "pct": 70
+    },
+    {
+      "text": "Keine maschinenlesbaren Restaurant-Infos (Adresse, Öffnungszeiten, Küche) — KI findet das…",
+      "count": 30,
+      "pct": 30
+    }
+  ],
+  "stadtteil_ranking": [
+    {
+      "name": "Lichtenberg",
+      "avg_aeo": 55,
+      "count": 3
+    },
+    {
+      "name": "Schöneberg",
+      "avg_aeo": 43.8,
+      "count": 5
+    },
+    {
+      "name": "Neukölln",
+      "avg_aeo": 42.2,
+      "count": 5
+    },
+    {
+      "name": "Charlottenburg",
+      "avg_aeo": 42.1,
+      "count": 7
+    },
+    {
+      "name": "Kreuzberg",
+      "avg_aeo": 41.7,
+      "count": 6
+    },
+    {
+      "name": "Prenzlauer Berg",
+      "avg_aeo": 41.5,
+      "count": 18
+    },
+    {
+      "name": "Mitte",
+      "avg_aeo": 40.9,
+      "count": 44
+    },
+    {
+      "name": "Friedrichshain",
+      "avg_aeo": 39.2,
+      "count": 5
+    },
+    {
+      "name": "Tempelhof",
+      "avg_aeo": 36,
+      "count": 6
+    },
+    {
+      "name": "Wedding",
+      "avg_aeo": 36,
+      "count": 1
+    }
+  ],
+  "kuechen_breakdown": [
+    {
+      "name": "Italienisch",
+      "count": 8,
+      "avg_aeo": 36
+    },
+    {
+      "name": "Brunch",
+      "count": 5,
+      "avg_aeo": 38
+    },
+    {
+      "name": "Vegan, Vegetarisch",
+      "count": 4,
+      "avg_aeo": 47
+    },
+    {
+      "name": "Französisch",
+      "count": 4,
+      "avg_aeo": 47.5
+    },
+    {
+      "name": "Indisch, Vegan, Vegetarisch",
+      "count": 3,
+      "avg_aeo": 41
+    }
+  ],
+  "national": {
+    "aeo_avg": 43.8,
+    "geo_avg": 42.7,
+    "agent_avg": 60.7,
+    "security_avg": 83.6
+  },
+  "city_aeo_ranking": {
+    "Berlin": 41.3,
+    "Hamburg": 46.3,
+    "München": 44.1,
+    "Köln": 43.5,
+    "Frankfurt": 42,
+    "Stuttgart": 42.6,
+    "Düsseldorf": 44.6,
+    "Leipzig": 43.8,
+    "Dortmund": 43.1,
+    "Mannheim": 46.6
+  },
+  "sichtbarkeitsdefizit_pct": 91,
+  "above_national": false
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "kw-18-2026",
+  "kw": 18,
+  "year": 2026,
+  "date": "28. April 2026",
+  "headline": "ChatGPT ordert jetzt direkt: Starbucks, Little Caesars und Bites starten KI-Bestellung in KW 18",
+  "zahl_der_woche": {
+    "zahl": "2,5 %",
+    "kontext": "Chatbot-Verkehr auf Restaurant-Websites ist 2025 auf 2,5% gestiegen. Das kleine Café übersieht diese Entwicklung auf eigene Gefahr."
+  },
+  "news": [
+    {
+      "titel": "ChatGPT wird Lieferdienst: Starbucks, Little Caesars und Bites starten KI-Bestellung",
+      "was_passiert": "<cite index=\"11-5,11-7\">Starbucks und Little Caesars nutzen ChatGPT als neuen Bestellkanal. Starbucks startete eine Beta-App, mit der Kunden eine Stimmung beschreiben oder ein Foto hochladen können, um Getränke-Empfehlungen zu erhalten.</cite> <cite index=\"16-1,16-2\">Bites kündigte an, dass Restaurants über ChatGPT Orders direkt entgegennehmen können, ohne Marketplace-Gebühren.</cite>",
+      "was_bedeutet_das": "<cite index=\"24-1\">Gäste fragen KI nach Vorlieben, nicht nach Restaurantnamen, und KI empfiehlt oft nur ein Restaurant statt eine Liste.</cite> Deine Online-Präsenz wird entscheidend. Wenn dein Restaurant auf keiner Plattform klar beschrieben ist, findest du keinen Gast über ChatGPT."
+    },
+    {
+      "titel": "Bites entfernt die 30%-Provisionsgebühr: Direktbestellung schlägt Lieferdienste",
+      "was_passiert": "<cite index=\"16-3,16-4\">Restaurants zahlten bisher bis zu 30% Provision an Lieferdienste. Bites verbindet Restaurants direkt mit Kunden über ChatGPT und entfernt die Zwischenhändler.</cite> <cite index=\"11-25\">Kunden können in einem Chat nach \"pizza near me\" fragen und direkt im ChatGPT-Fenster bestellen und bezahlen.</cite>",
+      "was_bedeutet_das": "Jede Bestellung kostet dich 30% weniger, wenn du über direkte KI-Kanäle läufst. Das ist relevant für dein Geschäftsmodell. Dein POS-System muss mit solchen Plattformen integrierbar sein, sonst zahlst du diese Ersparnis durch manuelle Arbeit wieder ein."
+    },
+    {
+      "titel": "McKinsey: KI-Restaurantempfehlungen verdrängen Google-Suche",
+      "was_passiert": "<cite index=\"44-3,44-5,44-6\">McKinsey analysiert im März 2026, wie KI Restaurants grundlegend verändert. Empfehlungen könnten künftig über KI-gestützte Plattformen erfolgen, während Servicemitarbeiter durch robotische Systeme unterstützt werden.</cite> <cite index=\"27-1\">KI-gestützte dialogbasierte Suchanfragen sollen bis 2026 70% der Nutzeranfragen abdecken.</cite>",
+      "was_bedeutet_das": "SEO ändert sich. Google-Rankings verlieren an Bedeutung. Dafür zählen: Wie detailliert beschreibst du dein Restaurant online? Sind deine Bewertungen aktuell? Stimmen deine Öffnungszeiten überall? KI kombiniert Daten von Google, Social Media und Bewertungsseiten. Inkonsistenzen heißen: Unsichtbarkeit."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe diese Woche, wo dein Restaurant online auftaucht: Google-Unternehmensprofil, Facebook, Instagram, Webseite, TheFork. Achte darauf, dass Öffnungszeiten, Adresse und Beschreibung überall identisch sind. Das ist die Grundlage, damit KI-Systeme dich finden und empfehlen.",
+  "seo": {
+    "title": "ChatGPT ordert jetzt: Starbucks startet | KI-Gastro-Newsroom KW 18 2026",
+    "metaDescription": "KW 18/2026: ChatGPT wird Lieferdienst. Starbucks, Little Caesars starten KI-Bestellung. 2,5% der Restaurant-Besuche über Chatbots.",
+    "keywords": "ChatGPT Restaurant, KI-Bestellsystem, Restaurant Sichtbarkeit KI, KI-Suche Gastronomie",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-18-2026",
+    "datePublished": "2026-04-28T06:44:45.417Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-28T06:45:09.429Z"
+}

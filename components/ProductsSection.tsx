@@ -56,7 +56,6 @@ export default function ProductsSection() {
             </a>
             {/* GEO Scanner */}
             <a
-              href="/geo-scanner"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-0 rounded-lg overflow-hidden transition-all duration-200 hover:scale-[1.02]"

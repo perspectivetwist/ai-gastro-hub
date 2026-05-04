@@ -1,6 +1,6 @@
 {
-  "slug": "kw-16-2026",
-  "kw": 16,
+  "slug": "kw-17-2026",
+  "kw": 17,
   "year": 2026,
   "date": "20. April 2026",
   "headline": "Unilever launcht KI-Tool für Trends: Dein Restaurant in 30 Sekunden optimiert",
@@ -27,18 +27,18 @@
   ],
   "handlungsempfehlung": "Prüfe diese Woche, auf welcher Plattform dein Restaurant gelistet ist (TheFork, OpenTable, Resmio). Wenn ja: Aktualisiere dein Profil mit allen Infos (Küchenstil, Öffnungszeiten, Verfügbarkeiten). Dauert 30 Minuten. Damit spielst du automatisch in den neuen KI-Buchungskanälen mit.",
   "seo": {
-    "title": "KI-Tools sparen 5-20h/Woche | KI-Gastro-Newsroom KW 16",
-    "metaDescription": "KW 16 2026: Unilever KI-Tool live. TheFork jetzt in ChatGPT. 5-20 Stunden Ersparnis pro Woche für kleine Restaurants. Kostenloser KI-Check.",
+    "title": "KI-Tools sparen 5-20h/Woche | KI-Gastro-Newsroom KW 17 2026",
+    "metaDescription": "KW 17 2026: Unilever KI-Tool live. TheFork jetzt in ChatGPT. 5-20 Stunden Ersparnis pro Woche für kleine Restaurants. Kostenloser KI-Check.",
     "keywords": "KI Gastronomie Deutschland, KI Tools Restaurant 2026, TheFork ChatGPT, KI Effizienz Restaurant",
-    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-16-2026",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-17-2026",
     "datePublished": "2026-04-20T11:20:51.035Z",
     "internalLinks": [
       {
-        "url": "https://aeo-gastro.vercel.app",
+        "url": "https://www.ki-gastronomie.com/aeo-scanner",
         "text": "Prüfe kostenlos, ob ChatGPT dein Restaurant findet"
       },
       {
-        "url": "https://agentready-gastro.vercel.app",
+        "url": "https://www.ki-gastronomie.com/agent-scanner",
         "text": "Checke ob KI-Agenten bei dir buchen können"
       }
     ]
