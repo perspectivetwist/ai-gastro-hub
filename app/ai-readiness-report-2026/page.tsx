@@ -10,16 +10,19 @@ export const metadata: Metadata = {
     follow: true,
     "max-image-preview": "large" as const,
   },
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com/ai-readiness-report-2026",
+  },
   openGraph: {
     title: "85% der Restaurants unsichtbar für KI",
     description:
       "AI-Readiness Report 2026: 1.000 Restaurants, 10 Städte, 4.000 Scans. Deutschlands Gastronomie auf KI-Blindflug.",
     locale: "de_DE",
     type: "article",
-    url: "https://ai-gastro-hub.vercel.app/ai-readiness-report-2026",
+    url: "https://www.ki-gastronomie.com/ai-readiness-report-2026",
     images: [
       {
-        url: "https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png",
+        url: "https://www.ki-gastronomie.com/og-ai-readiness-report-2026.png",
         width: 2400,
         height: 1260,
         alt: "AI-Readiness Report 2026 – 85% der Restaurants unsichtbar für KI",
@@ -34,7 +37,7 @@ export const metadata: Metadata = {
     title: "85% der Restaurants unsichtbar für KI",
     description:
       "AI-Readiness Report 2026: 1.000 Restaurants, 10 Städte, 4.000 Scans.",
-    images: ["https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png"],
+    images: ["https://www.ki-gastronomie.com/og-ai-readiness-report-2026.png"],
   },
 };
 
@@ -50,25 +53,25 @@ export default function AIReadinessReport2026() {
             "@type": "Article",
             "headline": "85% der Restaurants unsichtbar f\u00fcr KI",
             "description": "AI-Readiness Report 2026: 1.000 Restaurants, 10 St\u00e4dte, 4.000 Scans. Deutschlands Gastronomie auf KI-Blindflug.",
-            "image": "https://ai-gastro-hub.vercel.app/og-ai-readiness-report-2026.png",
+            "image": "https://www.ki-gastronomie.com/og-ai-readiness-report-2026.png",
             "datePublished": "2026-03-25",
             "dateModified": "2026-03-26",
             "author": {
               "@type": "Organization",
               "name": "AI Shift Drift",
-              "url": "https://ai-gastro-hub.vercel.app"
+              "url": "https://www.ki-gastronomie.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "AI Shift Drift",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ai-gastro-hub.vercel.app/logo.png"
+                "url": "https://www.ki-gastronomie.com/logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ai-gastro-hub.vercel.app/ai-readiness-report-2026"
+              "@id": "https://www.ki-gastronomie.com/ai-readiness-report-2026"
             }
           })
         }}

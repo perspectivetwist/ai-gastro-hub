@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 
 const ORIGINAL = 'https://ai-shift-drift-psi.vercel.app';
-const CLONE = 'https://ai-gastro-hub.vercel.app';
+const CLONE = 'https://www.ki-gastronomie.com';
 
 async function extractPageDetails(page, url) {
   await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });

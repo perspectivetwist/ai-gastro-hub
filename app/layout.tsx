@@ -14,12 +14,15 @@ export const metadata: Metadata = {
   description:
     "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com",
+  },
   openGraph: {
     title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
     description:
       "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
     locale: "de_DE",
-    url: "https://ai-gastro-hub.vercel.app",
+    url: "https://www.ki-gastronomie.com",
   },
 };
 
@@ -41,8 +44,8 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "AI Shift Drift",
               "alternateName": "ASD",
-              "url": "https://ai-gastro-hub.vercel.app",
-              "logo": "https://ai-gastro-hub.vercel.app/logo.png",
+              "url": "https://www.ki-gastronomie.com",
+              "logo": "https://www.ki-gastronomie.com/logo.png",
               "description": "Kostenlose KI-Readiness-Scanner f\u00fcr deutsche Restaurants und KMUs. Pr\u00fcft ob KI-Systeme dein Unternehmen finden, empfehlen und ob es nutzbar f\u00fcr KI-Agenten ist.",
               "foundingDate": "2026",
               "foundingLocation": {

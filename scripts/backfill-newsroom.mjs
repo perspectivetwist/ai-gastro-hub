@@ -99,7 +99,7 @@ Erstelle dann einen Newsroom-Artikel als reines JSON (kein Markdown, nur JSON):
     "title": "[Headline max 60 Zeichen] | KI-Gastro-Newsroom KW ${week.kw} 2026",
     "metaDescription": "KW ${week.kw} 2026: [Kern-Aussage max 100 Zeichen]. Kostenloser KI-Check fuer Restaurants.",
     "keywords": "KI Gastronomie, KI Restaurant Deutschland, [2-3 weitere Keywords]",
-    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-${week.kw}-2026",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-${week.kw}-2026",
     "datePublished": "${week.dateISO}T10:00:00.000Z",
     "internalLinks": [
       {

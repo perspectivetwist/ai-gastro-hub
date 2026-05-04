@@ -2,7 +2,7 @@ import { chromium } from 'playwright';
 import { mkdirSync } from 'fs';
 
 const ORIGINAL = 'https://ai-shift-drift-psi.vercel.app';
-const CLONE = 'https://ai-gastro-hub.vercel.app';
+const CLONE = 'https://www.ki-gastronomie.com';
 const OUTPUT_DIR = '/Users/maxgeissinger/asd-analyse/ai-gastro-hub/screenshots';
 
 mkdirSync(OUTPUT_DIR, { recursive: true });

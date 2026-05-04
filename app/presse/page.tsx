@@ -5,12 +5,15 @@ export const metadata: Metadata = {
   title: "Presse & Medien — AI Shift Drift",
   description:
     "Pressematerial und Kern-Aussagen aus dem AI-Readiness Report 2026. 85% der deutschen Restaurants sind für KI-Suchmaschinen unsichtbar.",
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com/presse",
+  },
   openGraph: {
     title: "Presse & Medien — AI Shift Drift",
     description:
       "Pressematerial und Kern-Aussagen aus dem AI-Readiness Report 2026.",
     locale: "de_DE",
-    url: "https://ai-gastro-hub.vercel.app/presse",
+    url: "https://www.ki-gastronomie.com/presse",
   },
 };
 
@@ -56,11 +59,11 @@ export default function Presse() {
           <p>
             Website:{" "}
             <a
-              href="https://ai-gastro-hub.vercel.app"
+              href="https://www.ki-gastronomie.com"
               className="hover:underline"
               style={{ color: "#F59E0B" }}
             >
-              ai-gastro-hub.vercel.app
+              www.ki-gastronomie.com
             </a>
           </p>
         </div>
@@ -156,7 +159,7 @@ export default function Presse() {
               style={{ color: "#F59E0B" }}
             >
               Vollst&auml;ndiger Report &rarr;
-              ai-gastro-hub.vercel.app/ai-readiness-report-2026
+              www.ki-gastronomie.com/ai-readiness-report-2026
             </Link>
           </p>
         </div>
@@ -179,7 +182,7 @@ export default function Presse() {
           >
             AI Shift Drift (2026). AI-Readiness Report: Deutschlands
             Gastronomie auf KI-Blindflug. Abgerufen von
-            ai-gastro-hub.vercel.app/ai-readiness-report-2026
+            www.ki-gastronomie.com/ai-readiness-report-2026
           </p>
         </div>
       </div>
