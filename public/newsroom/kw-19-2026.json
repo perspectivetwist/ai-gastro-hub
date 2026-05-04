@@ -1,0 +1,47 @@
+{
+  "slug": "kw-19-2026",
+  "kw": 19,
+  "year": 2026,
+  "date": "04. Mai 2026",
+  "headline": "99,97% Bewertungslöschungen in Deutschland: Deine Sichtbarkeit in Gefahr",
+  "zahl_der_woche": {
+    "zahl": "99,97%",
+    "kontext": "Bewertet nach deutschem Diffamierungsrecht: Unternehmen in Deutschland sind massiv von Bewertungslöschungen betroffen - dein Restaurant braucht jetzt eine Strategie dagegen."
+  },
+  "news": [
+    {
+      "titel": "Google Maps offenbart Lösch-Explosion bei deutschen Restaurants",
+      "was_passiert": "Google Maps zeigt erstmals transparent an, wie viele Bewertungen wegen Diffamierungs-Beschwerden gelöscht wurden. Von den Löschungen weltweit entfallen 99,97% auf Deutschland. Das ist kein Zufallswert: Deutsche Gerichte interpretieren Diffamierungsrecht sehr streng. Restaurants mit mehr als 50 Bewertungen sind besonders betroffen.",
+      "was_bedeutet_das": "Du verlierst Sichtbarkeit, wenn negative Bewertungen Fake sind. Gleichzeitig kannst du jetzt gezielt gegen unberechtigte Bewertungen vorgehen. Aber: Die hohe Löschquote zeigt auch, dass dein Google-Profil volatil ist. Investiere in Echtbewertungen von echten Gästen und dokumentiere alle Bewertungs-Antworten."
+    },
+    {
+      "titel": "Stockholm-KI zeigt Grenzen: Wenn der Algorithmus den Einkauf vermasselt",
+      "was_passiert": "Das Startup Andon Labs hat in Stockholm ein Café eröffnet, das vollständig von KI gesteuert wird (Menüplanung, Einkauf, Personalbeschaffung). Nach wenigen Wochen: Fehler beim Lieferanten-Einkauf und Probleme mit Arbeitsbedingungen. Das zeigt: Vollautomatisierung funktioniert in der Realität nicht einfach so.",
+      "was_bedeutet_das": "KI ist kein Magic Button für dein Management. Das Stockholm-Experiment zeigt, dass selbst gut finanzierte Startups mit KI-Automatisierung scheitern, wenn kritische Entscheidungen (Einkauf, Personalführung) 100% an Maschinen delegiert werden. Nutze KI als Werkzeug für Vorschläge, nicht als Ersatz für dein Geschäftsurteil."
+    },
+    {
+      "titel": "65% der Restaurantküchen digital im Rückstand: Großer Modernisierungs-Gap",
+      "was_passiert": "Eine aktuelle Analyse zeigt: 65% der befragten professionellen Restaurantküchen sind nicht vollständig digital integriert. Fast die Hälfte nutzt keine modernen Geräte mit programmierbaren Funktionen. Papierchecklisten sind immer noch Standard für Qualitätskontrolle. Der Markt driftet auseinander: Die einen digitalisieren schnell, die anderen holen nicht auf.",
+      "was_bedeutet_das": "Das ist deine Chance. Wenn deine Konkurrenz noch mit Papier arbeitet, sparst du schon durch eine einfache digitale Personalplanung oder Bestellautomatisierung 5-20 Stunden pro Woche. Dein größter Vorteil: Du fängst klein an. Du brauchst kein Großprojekt, nur ein Tool für die nächsten 30 Tage (Reservierungen, Bewertungen oder Schichtplanung)."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe diese Woche dein Google-Profil auf gelöschte Bewertungen. Gehe in den Administrationsbereich und schau, wie viele Bewertungen entfernt wurden. Falls es mehr als 10 sind: Dokumentiere die Rest-Bewertungen und antworte aktiv auf positive Rezensionen (das zeigt KI-Systemen, dass dein Profil gepflegt wird). Danach: Fordere 2-3 echte Gäste dieser Woche mit einem QR-Code auf der Rechnung zur Bewertung auf.",
+  "seo": {
+    "title": "Google Maps Bewertungen löschen | KI-Gastro-Newsroom KW 19",
+    "metaDescription": "KW 19 2026: 99,97% der Bewertungslöschungen treffen Deutschland. Warum + was du tun kannst.",
+    "keywords": "Google Maps Bewertungen löschen, Restaurant Sichtbarkeit, KI Bewertungsmanagement, digitale Küche",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-19-2026",
+    "datePublished": "2026-05-04T13:50:33.959Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-04T13:50:57.382Z"
+}
