@@ -23,7 +23,7 @@ export default function ProductsSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* AEO Scanner */}
             <a
-              href="https://aeo-gastro.vercel.app"
+              href="/aeo-scanner"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-0 rounded-lg overflow-hidden transition-all duration-200 hover:scale-[1.02]"
@@ -56,7 +56,7 @@ export default function ProductsSection() {
             </a>
             {/* GEO Scanner */}
             <a
-              href="https://geo-gastro.vercel.app"
+              href="/geo-scanner"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-0 rounded-lg overflow-hidden transition-all duration-200 hover:scale-[1.02]"
@@ -103,7 +103,7 @@ export default function ProductsSection() {
             <div style={{ color: "#666" }}>Nutzbarkeit</div>
           </div>
           <a
-            href="https://agentready-gastro.vercel.app"
+            href="/agent-scanner"
             target="_blank"
             rel="noopener noreferrer"
             className="flex gap-0 rounded-lg overflow-hidden transition-all duration-200 hover:scale-[1.02] max-w-[calc(50%-0.5rem)]"
@@ -149,7 +149,7 @@ export default function ProductsSection() {
             <div style={{ color: "#666" }}>Sicherheit</div>
           </div>
           <a
-            href="https://aisecurity-gastro.vercel.app"
+            href="/security-scanner"
             target="_blank"
             rel="noopener noreferrer"
             className="flex gap-0 rounded-lg overflow-hidden transition-all duration-200 hover:scale-[1.02] max-w-[calc(50%-0.5rem)]"

@@ -1062,10 +1062,10 @@ export default function AIReadinessReport2026() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            { name: "KI-Sichtbarkeit (AEO)", url: "https://aeo-gastro.vercel.app", color: "#6366f1" },
-            { name: "KI-Zitierbarkeit (GEO)", url: "https://geo-gastro.vercel.app", color: "#A8E6A3" },
-            { name: "KI-Agent-Readiness", url: "https://agentready-gastro.vercel.app", color: "#FFE600" },
-            { name: "KI-Sicherheit", url: "https://aisecurity-gastro.vercel.app", color: "#FF1744" },
+            { name: "KI-Sichtbarkeit (AEO)", url: "/aeo-scanner", color: "#6366f1" },
+            { name: "KI-Zitierbarkeit (GEO)", url: "/geo-scanner", color: "#A8E6A3" },
+            { name: "KI-Agent-Readiness", url: "/agent-scanner", color: "#FFE600" },
+            { name: "KI-Sicherheit", url: "/security-scanner", color: "#FF1744" },
           ].map((cta, i) => (
             <a
               key={i}
