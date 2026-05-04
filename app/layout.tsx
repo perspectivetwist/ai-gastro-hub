@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   description:
     "Finde in unter 20 Sekunden heraus, ob ChatGPT, Google KI und Perplexity dein Restaurant empfehlen. 4 kostenlose Scanner. Kein Abo. Made in Germany.",
   robots: { index: true, follow: true },
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com",
+  },
   openGraph: {
     title: "Kennt ChatGPT dein Restaurant? | Kostenloser KI-Check für Gastronomen",
     description:

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     follow: true,
     "max-image-preview": "large" as const,
   },
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com/ai-readiness-report-2026",
+  },
   openGraph: {
     title: "85% der Restaurants unsichtbar für KI",
     description:
@@ -1091,10 +1094,10 @@ export default function AIReadinessReport2026() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
-            { name: "KI-Sichtbarkeit (AEO)", url: "https://www.ki-gastronomie.com/aeo-scanner", color: "#6366f1" },
-            { name: "KI-Zitierbarkeit (GEO)", url: "https://www.ki-gastronomie.com/geo-scanner", color: "#A8E6A3" },
-            { name: "KI-Agent-Readiness", url: "https://www.ki-gastronomie.com/agent-scanner", color: "#FFE600" },
-            { name: "KI-Sicherheit", url: "https://www.ki-gastronomie.com/security-scanner", color: "#FF1744" },
+            { name: "KI-Sichtbarkeit (AEO)", url: "/aeo-scanner", color: "#6366f1" },
+            { name: "KI-Zitierbarkeit (GEO)", url: "/geo-scanner", color: "#A8E6A3" },
+            { name: "KI-Agent-Readiness", url: "/agent-scanner", color: "#FFE600" },
+            { name: "KI-Sicherheit", url: "/security-scanner", color: "#FF1744" },
           ].map((cta, i) => (
             <a
               key={i}

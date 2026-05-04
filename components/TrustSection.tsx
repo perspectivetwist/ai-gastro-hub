@@ -3,25 +3,25 @@ export default function TrustSection() {
     {
       name: "\uD83D\uDCF8 Website-Check",
       desc: "Kann ChatGPT deine Website lesen?",
-      url: "https://www.ki-gastronomie.com/aeo-scanner",
+      url: "/aeo-scanner",
       color: "#6366f1",
     },
     {
       name: "\u2B50 Ruf-Check",
       desc: "Was sagt ChatGPT \u00fcber dein Restaurant?",
-      url: "https://www.ki-gastronomie.com/geo-scanner",
+      url: "/geo-scanner",
       color: "#A8E6A3",
     },
     {
       name: "\uD83E\uDD16 Buchbarkeits-Check",
       desc: "K\u00f6nnen G\u00e4ste \u00fcber KI bei dir reservieren?",
-      url: "https://www.ki-gastronomie.com/agent-scanner",
+      url: "/agent-scanner",
       color: "#FFE600",
     },
     {
       name: "\uD83D\uDD12 Daten-Check",
       desc: "Stimmen deine Infos auf allen Plattformen?",
-      url: "https://www.ki-gastronomie.com/security-scanner",
+      url: "/security-scanner",
       color: "#FF1744",
     },
   ]

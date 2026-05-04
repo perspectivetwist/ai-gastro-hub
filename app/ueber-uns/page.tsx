@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Über AI Shift Drift — KI-Readiness für die deutsche Gastronomie",
   description:
     "AI Shift Drift ist Deutschlands erste kostenlose KI-Readiness-Plattform für die Gastronomie. Wir analysieren ob Restaurants von ChatGPT, Perplexity und Google AI gefunden und zitiert werden.",
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com/ueber-uns",
+  },
   openGraph: {
     title: "Über AI Shift Drift — KI-Readiness für die deutsche Gastronomie",
     description:

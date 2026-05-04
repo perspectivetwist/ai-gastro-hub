@@ -1,6 +1,23 @@
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "KI-Insider für Gastro. Jeden Montag. | AI Shift Drift Newsroom",
+  description:
+    "Wöchentliche KI-News für die Gastronomie. Was ChatGPT, Perplexity und Google AI für Restaurants bedeuten.",
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com/newsroom",
+  },
+  openGraph: {
+    title: "KI-Insider für Gastro. Jeden Montag.",
+    description:
+      "Wöchentliche KI-News für die Gastronomie.",
+    locale: "de_DE",
+    url: "https://www.ki-gastronomie.com/newsroom",
+  },
+}
 
 type Article = { slug: string; kw: number; year: number; date: string; headline: string; monthLabel?: string }
 

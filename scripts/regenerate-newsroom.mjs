@@ -183,7 +183,7 @@ Erstelle den Artikel als reines JSON (kein Markdown, nur JSON):
     "title": "SEO-Titel max 60 Zeichen | KI-Gastro KW ${week.kw}",
     "metaDescription": "KW ${week.kw} 2026: Kern-Aussage max 120 Zeichen. Für Restaurants in DACH.",
     "keywords": "KI Gastronomie, [3-4 spezifische Keywords passend zum Inhalt]",
-    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/${slug}",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/${slug}",
     "datePublished": "${week.dateISO}T10:00:00.000Z",
     "internalLinks": [
       {

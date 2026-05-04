@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px;
+    height: 1200px;
+    background: #0A0A0A;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .bg-glow {
+    position: absolute;
+    bottom: -150px;
+    right: -100px;
+    width: 700px;
+    height: 500px;
+    background: radial-gradient(ellipse at center, rgba(255, 180, 50, 0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .bg-glow-2 {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    width: 600px;
+    height: 400px;
+    background: radial-gradient(ellipse at center, rgba(255, 60, 172, 0.04) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .card {
+    width: 1200px;
+    height: 1200px;
+    padding: 72px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 100px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbb;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-bottom: 36px;
+  }
+
+  .badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FFB432, #FF3CAC);
+  }
+
+  /* Section 1 */
+  .section-1 {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+  }
+
+  .section-title .gradient {
+    background: linear-gradient(135deg, #FFB432 0%, #FF3CAC 60%, #FF2D78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .intro-text {
+    font-size: 22px;
+    color: #ccc;
+    line-height: 1.6;
+    max-width: 1060px;
+  }
+
+  /* Section 2 */
+  .section-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-2-title {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 28px;
+    letter-spacing: -0.8px;
+  }
+
+  .section-2-title .gradient {
+    background: linear-gradient(135deg, #FF3CAC 0%, #FFB432 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Facts grid */
+  .facts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .fact-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .fact-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 3px;
+  }
+
+  .fact-card:nth-child(1)::before { background: linear-gradient(180deg, #FFB432, transparent); }
+  .fact-card:nth-child(2)::before { background: linear-gradient(180deg, #FF3CAC, transparent); }
+  .fact-card:nth-child(3)::before { background: linear-gradient(180deg, #6366f1, transparent); }
+  .fact-card:nth-child(4)::before { background: linear-gradient(180deg, #FF2D78, transparent); }
+
+  .fact-number {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+  }
+
+  .fact-card:nth-child(1) .fact-number { color: #FFB432; }
+  .fact-card:nth-child(2) .fact-number { color: #FF3CAC; }
+  .fact-card:nth-child(3) .fact-number { color: #6366f1; }
+  .fact-card:nth-child(4) .fact-number { color: #FF2D78; }
+
+  .fact-text {
+    font-size: 20px;
+    color: #ccc;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  /* Bottom */
+  .bottom-text {
+    font-size: 21px;
+    color: #bbb;
+    line-height: 1.5;
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .bottom-text strong {
+    color: #eee;
+    font-weight: 600;
+  }
+
+  .bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .source {
+    font-size: 18px;
+    color: #999;
+  }
+
+  .brand {
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #FFB432 0%, #FF3CAC 50%, #FF2D78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div class="bg-glow"></div>
+<div class="bg-glow-2"></div>
+<div class="card">
+  <div class="badge">
+    <span class="badge-dot"></span>
+    AI-Readiness Report 2026
+  </div>
+
+  <div class="section-1">
+    <h1 class="section-title">
+      Warum KI-Sichtbarkeit <span class="gradient">Umsatz kostet</span>
+    </h1>
+    <p class="intro-text">
+      Ein Restaurant das in KI-Antworten nicht auftaucht, existiert f&uuml;r einen wachsenden Teil potenzieller G&auml;ste nicht. Jede nicht erfolgte Empfehlung durch ChatGPT&nbsp;&amp;&nbsp;Co ist eine entgangene Reservierung. Die Frage ist nicht <em>ob</em> KI-Sichtbarkeit relevant wird. Sie ist es bereits.
+    </p>
+  </div>
+
+  <div class="section-2">
+    <h2 class="section-2-title">
+      Der strukturelle Wandel <span class="gradient">hat begonnen</span>
+    </h2>
+
+    <div class="facts-grid">
+      <div class="fact-card">
+        <div class="fact-number">+357%</div>
+        <div class="fact-text">mehr KI-Suchanfragen in den letzten 6 Monaten. Der Kanal w&auml;chst exponentiell.</div>
+      </div>
+      <div class="fact-card">
+        <div class="fact-number">14,2% vs. 2,8%</div>
+        <div class="fact-text">Conversion-Rate &uuml;ber KI-Suche vs. Google. Wer in KI-Antworten auftaucht, gewinnt f&uuml;nfmal mehr Kunden pro Kontakt.</div>
+      </div>
+      <div class="fact-card">
+        <div class="fact-number">90%</div>
+        <div class="fact-text">aller Websites sind f&uuml;r KI-Suchmaschinen strukturell nicht sichtbar. Klassisches SEO und Google-Marketing reichen nicht mehr.</div>
+      </div>
+      <div class="fact-card">
+        <div class="fact-number">Agent-Ready?</div>
+        <div class="fact-text">KI-Agenten buchen bald selbst: autonome Agenten die eigenst&auml;ndig Tische reservieren, &Ouml;ffnungszeiten pr&uuml;fen und Restaurants empfehlen.</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="bottom-text">
+    <strong>Dieser Wandel ist keine Zukunftsvision.</strong> Er l&auml;uft bereits.
+  </p>
+
+  <div class="bottom-bar">
+    <span class="source">Quelle: AI-Readiness Report 2026</span>
+    <span class="brand">AI - SHIFT - DRIFT</span>
+  </div>
+</div>
+</body>
+</html>

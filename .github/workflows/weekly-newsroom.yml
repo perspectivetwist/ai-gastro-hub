@@ -136,7 +136,7 @@ jobs:
               "title": "[Headline max 60 Zeichen] | KI-Gastro-Newsroom KW ${kw} ${year}",
               "metaDescription": "KW ${kw} ${year}: [Was passiert -- max 100 Zeichen]. Kostenloser KI-Check für dein Restaurant.",
               "keywords": "KI Gastronomie, KI Restaurant Deutschland, [2-3 weitere relevante Keywords aus dem Artikel]",
-              "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-${kw}-${year}",
+              "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-${kw}-${year}",
               "datePublished": "${new Date().toISOString()}",
               "internalLinks": [
                 {
@@ -190,7 +190,7 @@ jobs:
       - name: Commit + Push
         if: steps.check.outputs.skip != 'true'
         run: |
-          git config user.email "newsroom@ai-gastro-hub.vercel.app"
+          git config user.email "newsroom@www.ki-gastronomie.com"
           git config user.name "KI-Gastro-Newsroom"
           git add public/newsroom/
           git commit -m "KI-Gastro-Newsroom KW $(date +%V) $(date +%Y)" || echo "Keine Änderungen"

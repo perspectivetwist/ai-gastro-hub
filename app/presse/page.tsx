@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Presse & Medien — AI Shift Drift",
   description:
     "Pressematerial und Kern-Aussagen aus dem AI-Readiness Report 2026. 85% der deutschen Restaurants sind für KI-Suchmaschinen unsichtbar.",
+  alternates: {
+    canonical: "https://www.ki-gastronomie.com/presse",
+  },
   openGraph: {
     title: "Presse & Medien — AI Shift Drift",
     description:
