@@ -1,0 +1,47 @@
+{
+  "slug": "kw-20-2026",
+  "kw": 20,
+  "year": 2026,
+  "date": "11. Mai 2026",
+  "headline": "83% der Restaurants unsichtbar für ChatGPT: MenuScan zeigt 77.000 EUR Umsatzpotenzial pro Betrieb",
+  "zahl_der_woche": {
+    "zahl": "83%",
+    "kontext": "83 Prozent der Restaurants bleiben bei KI-gestützten Suchanfragen unsichtbar. Das bedeutet für dein Restaurant: Ohne sofort sichtbar zu machen, verpasst du einen großen Teil potenzieller Gäste."
+  },
+  "news": [
+    {
+      "titel": "Neue Entdeckungslücke: Warum 83% der Restaurants ChatGPT-Gäste verlieren",
+      "was_passiert": "Ein neuer Uberall-Bericht zeigt, dass fast alle Restaurants nicht den Anforderungen von ChatGPT, Perplexity und Gemini genügen. ChatGPT braucht eine Bewertung von mindestens 4,3 Sternen, Perplexity 4,1 und Gemini 3,9. Ein Google-Ranking mit 4,0 Sternen reicht nicht mehr aus.",
+      "was_bedeutet_das": "Deine bisherige Google-Sichtbarkeit ist nicht ausreichend. Du brauchst deutlich bessere Bewertungen, um in KI-Empfehlungen zu landen. Das ist eine echte Transformation: Die KI empfiehlt nur 3-5 Restaurants pro Anfrage. In Kategorien mit 20+ Ketten fallen schwache Performer völlig aus."
+    },
+    {
+      "titel": "MenuScan startet: KI zeigt deinem Restaurant 38.000-77.000 EUR ungenutztes Umsatzpotenzial",
+      "was_passiert": "Gastro Piraten launcht MenuScan, das erste deutsche Speisekarten-Analyse-Tool mit KI. Die Beta-Tests mit über 100 Restaurants zeigen: Jeder Betrieb lässt durchschnittlich zwischen 38.000 und 77.000 EUR Jahrespotenzial liegen. Ganz ohne neue Gäste - nur durch optimierte Karten.",
+      "was_bedeutet_das": "Das ist kein Hype: Eine KI-Analyse deiner Speisekarte könnte dir 3.000-6.400 EUR pro Monat extra bringen. MenuScan bietet eine kostenlose Basis-Version. Das Tool schaut sich Bestseller vs. Verluste an, optimiert die Reihenfolge nach Verkaufspsychologie und findet Preisanpassungen. Lohnt sich sofort zu testen."
+    },
+    {
+      "titel": "TripAdvisor Spam-Filter reduziert Fake-Reviews um 40 Prozent mit Blockchain",
+      "was_passiert": "TripAdvisor hat sein Bewertungssystem in Q1 2026 grundlegend erneuert. Ein neues KI-Modell prüft Sprachmuster, Blockchain verifiziert Nutzer, und Computer Vision analysiert Fotos auf Echtheit. Das Ergebnis: 40 Prozent weniger Spam, 25 Prozent mehr authentische Beiträge.",
+      "was_bedeutet_das": "Deine echten Gäste-Bewertungen werden jetzt höher gewertet. Falsche Fünf-Sterne von Freunden oder gekaufte Reviews werden gefiltert. Das ist gut für dich, wenn dein Restaurant echt gut ist. Kümmere dich um echte Gast-Bewertungen - die zählen jetzt noch mehr in der KI-Sichtbarkeit."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe deine Bewertungen auf allen Plattformen: Google, TripAdvisor, TheFork, Yelp. Ziel: Mindestens 4,2 Sterne (ChatGPT-Schwelle). Teste das MenuScan-Tool kostenlos (gastro-piraten.de). Das dauert 20 Minuten, zeigt dir sofort dein Umsatzpotenzial, und du kannst damit anfangen, die Speisekarte gewinnbringend anzupassen.",
+  "seo": {
+    "title": "83% Restaurants unsichtbar bei ChatGPT | KI-Gastro-Newsroom KW 20",
+    "metaDescription": "KW 20: 83% der Restaurants verlieren ChatGPT-Gäste. MenuScan zeigt bis 77.000 EUR Potenzial. Bewertungs-Schwelle steigt auf 4,3 Sterne.",
+    "keywords": "KI Sichtbarkeit ChatGPT Restaurant, Bewertungsmanagement TripAdvisor, MenuScan Speisekarten-Optimierung, GEO Generative Engine Optimization",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-20-2026",
+    "datePublished": "2026-05-11T12:40:41.914Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für bessere Bewertungen"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-11T12:41:04.612Z"
+}
