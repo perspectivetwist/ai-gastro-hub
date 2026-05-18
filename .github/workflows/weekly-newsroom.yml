@@ -78,6 +78,8 @@ jobs:
 
           const SYSTEM_PROMPT = `Du bist Redakteur des KI-Gastro-Newsrooms -- einem wöchentlichen Digest für Restaurantbesitzer in Deutschland, Österreich und der Schweiz.
 
+          AUSGABEFORMAT: Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt. Kein Text, keine Erklärung, kein Markdown davor oder danach. Deine gesamte Antwort muss mit { beginnen und mit } enden.
+
           ZIELGRUPPE: Inhabergeführte Restaurants, Cafes, Bars mit 1-20 Mitarbeitern. Keine IT-Kenntnisse. Fragen sich: "Was bedeutet das für MICH nächste Woche?"
 
           9 THEMEN-KATEGORIEN -- nur über diese berichten:
@@ -157,22 +159,60 @@ jobs:
 
           Genau 3 News-Items. Nur JSON zurückgeben.`;
 
+          function extractJSON(text) {
+            // Versuch 1: Gesamter Text ist JSON
+            try { return JSON.parse(text.trim()); } catch {}
+            // Versuch 2: JSON in Markdown Code-Block
+            const codeBlock = text.match(/```(?:json)?\s*([\s\S]*?)```/);
+            if (codeBlock) try { return JSON.parse(codeBlock[1].trim()); } catch {}
+            // Versuch 3: Erstes vollständiges JSON-Objekt finden
+            const jsonMatch = text.match(/\{[\s\S]*\}/);
+            if (jsonMatch) return JSON.parse(jsonMatch[0]);
+            return null;
+          }
+
+          async function generateWithRetry(maxRetries = 3) {
+            for (let attempt = 1; attempt <= maxRetries; attempt++) {
+              console.log(`Versuch ${attempt}/${maxRetries}...`);
+              try {
+                const response = await client.messages.create({
+                  model: 'claude-haiku-4-5-20251001',
+                  max_tokens: 4096,
+                  system: SYSTEM_PROMPT,
+                  tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+                  messages: [{ role: 'user', content: USER_PROMPT }]
+                });
+
+                const textBlocks = response.content.filter(b => b.type === 'text');
+                const text = textBlocks.map(b => b.text).join('');
+
+                if (!text.trim()) {
+                  throw new Error('Leere Text-Response (stop_reason: ' + response.stop_reason + ')');
+                }
+
+                const data = extractJSON(text);
+                if (!data) {
+                  throw new Error('Kein JSON in Response: ' + text.substring(0, 300));
+                }
+
+                if (!data.news || !Array.isArray(data.news) || data.news.length === 0) {
+                  throw new Error('JSON hat keine news: ' + JSON.stringify(data).substring(0, 300));
+                }
+
+                return data;
+              } catch (err) {
+                console.error(`Versuch ${attempt} fehlgeschlagen: ${err.message}`);
+                if (attempt === maxRetries) throw err;
+                const wait = attempt * 5000;
+                console.log(`Warte ${wait/1000}s vor nächstem Versuch...`);
+                await new Promise(r => setTimeout(r, wait));
+              }
+            }
+          }
+
           (async () => {
             try {
-              const response = await client.messages.create({
-                model: 'claude-haiku-4-5-20251001',
-                max_tokens: 4096,
-                system: SYSTEM_PROMPT,
-                tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-                messages: [{ role: 'user', content: USER_PROMPT }]
-              });
-
-              const textBlocks = response.content.filter(b => b.type === 'text');
-              const text = textBlocks.map(b => b.text).join('');
-              const jsonMatch = text.match(/\{[\s\S]*\}/);
-              if (!jsonMatch) throw new Error('Kein JSON in Response: ' + text.substring(0, 200));
-
-              const data = JSON.parse(jsonMatch[0]);
+              const data = await generateWithRetry(3);
               data.generatedAt = new Date().toISOString();
 
               fs.mkdirSync('public/newsroom', { recursive: true });
@@ -181,7 +221,7 @@ jobs:
               console.log('Generated:', filename);
               console.log('Headline:', data.headline);
             } catch (err) {
-              console.error('Error:', err.message);
+              console.error('Alle Versuche fehlgeschlagen:', err.message);
               process.exit(1);
             }
           })();
