@@ -1,0 +1,47 @@
+{
+  "slug": "kw-21-2026",
+  "kw": 21,
+  "year": 2026,
+  "date": "18. Mai 2026",
+  "headline": "83 % deiner Konkurrenten sind unsichtbar für ChatGPT: KI-Bewertungen schlagen Google",
+  "zahl_der_woche": {
+    "zahl": "83 %",
+    "kontext": "Von 100 deutschen Restaurants tauchen 83 bei KI-Suchanfragen wie \"gute Pizza in meiner Nähe\" überhaupt nicht auf. Die 17 %, die sichtbar sind, kassieren den ganzen Traffic."
+  },
+  "news": [
+    {
+      "titel": "Uberall-Report schockiert: KI sieht 83 % der Restaurants nicht",
+      "was_passiert": "Der Uberall-Report zur Entdeckungslücke zeigt: ChatGPT empfiehlt nur Restaurants mit 4,3+ Sternen. Perplexity verlangt 4,1+, Gemini 3,9+. Wer darunter liegt, existiert für KI-Nutzer schlicht nicht. Das ist nicht wie Google-Ranking. KI zeigt eine Empfehlung statt einer Liste.",
+      "was_bedeutet_das": "Du brauchst nicht nur Google Maps auf dem aktuellen Stand. Deine Bewertungen sind jetzt die Eintrittskarte zu den KI-Suchmaschinen. Fehlende Reviews kostet dich echte Gäste. Deine Konkurrenz mit 4,3 Sternen kassiert die KI-Anfragen."
+    },
+    {
+      "titel": "Roboter-Köche landen jetzt auch in deutschen Restaurants",
+      "was_passiert": "<cite index=\"44-2,44-14\">SoftBank Robotics brachte am 1. Mai 2026 zwei autonome Kochsysteme (STEAMA und FLAMA) auf den US-Markt</cite>. <cite index=\"44-19,44-20\">STEAMA bereitet tiefgekühlte Nudelgerichte in rund 90 Sekunden mit Hochdruck-Dampf zu</cite>. Das Signal: Roboter-Küchen sind nicht mehr Zukunftsmusik, sondern jetzt kommerziell verfügbar.",
+      "was_bedeutet_das": "Für kleine Restaurants mit 1-20 Mitarbeitern sind diese Systeme noch nicht relevant. Aber für Kebab-Läden, Pasta-Bars oder Wok-Restaurants: Die Grenze zwischen Skalierbarkeit und Handwerk verschiebt sich. Dein Personal wird kostbarer, weil es Kreativität liefern muss, nicht Routinen."
+    },
+    {
+      "titel": "TheFork + ChatGPT jetzt auch in Deutschland nutzbar",
+      "was_passiert": "<cite index=\"11-1,11-2\">Die Reservierungsplattform The Fork integriert ihr Angebot ab 2026 in ChatGPT. Restaurants lassen sich so im Chat entdecken und direkt buchen</cite>. <cite index=\"14-1,14-2,14-3\">Wer bei TheFork ist und sein Profil vollständig ausfüllt, wird ChatGPT-Nutzern vorgeschlagen. Verfügbarkeiten müssen tagesaktuell gepflegt werden, da Nutzer sofort buchen wollen</cite>.",
+      "was_bedeutet_das": "Wenn du bei TheFork bist: Dein Profil muss komplett sein (Küchenstil, Öffnungszeiten, Kategorie, echte verfügbare Tische). Sonst wird die KI dein Restaurant nicht vorschlagen. Neue Reservierungsquelle, aber höherer Verwaltungsaufwand. Spontane oder kurzfristige Buchungen könnten steigen, überprüfe das."
+    }
+  ],
+  "handlungsempfehlung": "Diese Woche: Deine Google Bewertungen prüfen und aktuell halten (mindestens 4,2 Sterne anstreben). Parallel bei TheFork, OpenTable oder lokalen Reservierungsplattformen Profil checken. 30 Minuten Work, aber enormer ROI für KI-Sichtbarkeit.",
+  "seo": {
+    "title": "83% unsichtbar für KI: Deine Restaurants-Chancen in KW 21 2026",
+    "metaDescription": "KW 21: 83% der Restaurants verschwinden für ChatGPT. TheFork + ChatGPT live. Roboter-Köche starten. Was du tun musst.",
+    "keywords": "KI Sichtbarkeit Restaurant, ChatGPT Bewertungen, TheFork ChatGPT Integration, AI Generative Search",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-21-2026",
+    "datePublished": "2026-05-18T15:21:50.068Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check: Wie sichtbar bist du für ChatGPT?"
+      },
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T15:22:10.814Z"
+}
