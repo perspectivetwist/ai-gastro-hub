@@ -1,0 +1,47 @@
+{
+  "slug": "kw-22-2026",
+  "kw": 22,
+  "year": 2026,
+  "date": "25. Mai 2026",
+  "headline": "ChatGPT-Integration bei TheFork startet: Deine Reservierungen laufen jetzt im KI-Chat",
+  "zahl_der_woche": {
+    "zahl": "40 Millionen",
+    "kontext": "TheFork hat über 40 Millionen verifizierte Bewertungen. Die ChatGPT-Integration erreicht damit neue Gastgruppen, die direkt im KI-Chat reservieren."
+  },
+  "news": [
+    {
+      "titel": "TheFork + ChatGPT live: Reservierungen im KI-Chat möglich",
+      "was_passiert": "<cite index=\"11-1,11-2\">Die Reservierungsplattform TheFork integriert ihr Angebot ab 2026 in ChatGPT. Restaurants lassen sich so im Chat entdecken und direkt buchen.</cite> <cite index=\"11-5\">Das Feature steht ab sofort in ausgewählten europäischen Ländern für alle eingeloggten Nutzer der Free-, Plus- und Pro-Pläne verfügbar.</cite>",
+      "was_bedeutet_das": "Dein Restaurant wird jetzt über einen neuen Kanal sichtbar. Gäste, die ChatGPT nutzen, finden dich direkt und buchen ohne Umweg. Wichtig: <cite index=\"14-1,14-2\">Dein TheFork-Profil muss vollständig ausgefüllt sein und deine Verfügbarkeiten müssen tagesaktuell gepflegt werden, da ChatGPT-Nutzer unmittelbare Buchungen erwarten.</cite>"
+    },
+    {
+      "titel": "Digitale Rechnungsstellung wird ab 2027 Pflicht für Restaurants",
+      "was_passiert": "<cite index=\"41-17,41-18\">Die digitale Rechnungsstellung wird zur gesetzlichen Pflicht. Während der Empfang elektronischer Rechnungen bereits seit Jahresbeginn verpflichtend ist, müssen Hotels und Restaurants ab 2027 schrittweise auch beim Versand umstellen.</cite>",
+      "was_bedeutet_das": "Das ist noch nicht diese Woche relevant, aber jetzt ist der richtige Moment, um dein Kassensystem zu prüfen. Dein System muss ab 2027 E-Rechnungen versenden können. Sprich mit deinem Kassenhersteller noch dieses Jahr, um vorbereitet zu sein."
+    },
+    {
+      "titel": "KI-Speisekarten-Optimierung bringt 55.000 bis 65.000 EUR Mehrgewinn pro Jahr",
+      "was_passiert": "<cite index=\"38-23\">Bei mehr als 2.500 Anwendern in Deutschland konnte der Deckungsbeitrag signifikant erhöht werden. Im Schnitt: +2 EUR Deckungsbeitrag pro Hauptgericht, das kann zu einem Mehrgewinn von 55.000 bis 65.000 EUR jährlich führen.</cite> <cite index=\"38-2\">KI-Systeme wie Menu Engineering analysieren Menüinhalte, Preise, Kassendaten und Kostenstrukturen und leiten konkrete Optimierungsempfehlungen ab.</cite>",
+      "was_bedeutet_das": "Menu Engineering Tools können deine Speisekarte automatisch analysieren und aufzeigen, welche Gerichte zu teuer kalkuliert sind oder schlecht laufen. Die Investition rechnet sich oft in wenigen Monaten. Dieses Tool sollte diesen Monat getestet werden, wenn du einen Umsatz von über 50.000 EUR pro Monat hast."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe sofort, ob dein Restaurant bei TheFork gelistet ist und ob dein Profil komplett ausgefüllt ist. Wenn ja, stelle sicher, dass deine Öffnungszeiten und Verfügbarkeiten täglich aktualisiert sind. Wenn nein, registriere dich diese Woche – neue ChatGPT-Nutzer könnten sonst an dir vorbeigehen.",
+  "seo": {
+    "title": "TheFork + ChatGPT: Reservierungen im KI-Chat | KI-Gastro-Newsroom KW 22",
+    "metaDescription": "KW 22 2026: TheFork-Integration in ChatGPT startet. Restaurants werden direkt im Chat buchbar. Kostenloser KI-Check für dein Restaurant.",
+    "keywords": "TheFork ChatGPT, KI Reservierungen Restaurant, Restaurantbuchung KI, Sichtbarkeit Gastronomie KI",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-22-2026",
+    "datePublished": "2026-05-25T13:31:31.817Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-25T13:31:53.455Z"
+}
