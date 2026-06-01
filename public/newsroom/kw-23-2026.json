@@ -1,0 +1,47 @@
+{
+  "slug": "kw-23-2026",
+  "kw": 23,
+  "year": 2026,
+  "date": "01. Juni 2026",
+  "headline": "ChatGPT findet 83% deiner Konkurrenten nicht: Warum Google jetzt auf KI umschaltet",
+  "zahl_der_woche": {
+    "zahl": "83%",
+    "kontext": "Fast alle Restaurants werden von KI-Suchmaschinen übersehen. Ohne strukturierte Daten bleibst du für ChatGPT, Gemini und Perplexity unsichtbar."
+  },
+  "news": [
+    {
+      "titel": "Neue Sichtbarkeitslücke: 83% der Restaurants sind KI-blind",
+      "was_passiert": "<cite index=\"23-12,23-13\">83% der Restaurantstandorte bleiben bei KI-generierten Empfehlungen vollkommen unsichtbar. Wenn ein Nutzer ChatGPT befragt, \"wo kann ich heute Abend in meiner Nähe eine gute Pizza bekommen\", tauchen lediglich 17% der Restaurants jemals in der Antwort auf.</cite> Uberall hat in einer neuen Benchmark-Studie untersucht, wie ChatGPT, Gemini, Perplexity und Google AI Restaurants empfehlen. Das Ergebnis ist schockierend.",
+      "was_bedeutet_das": "<cite index=\"23-6,23-7\">ChatGPT empfiehlt den Unternehmen, vor allem einen Bewertungsschnitt von 4,3 Sternen oder höher zu erzielen, Perplexity mehr als 4,1 und Gemini mehr als 3,9. Ein Restaurant mit einer Durchschnittsbewertung von 4,0 Sternen kann im Google-Index gut ranken, jedoch nicht den Schwellenwert erreichen, den KI-Plattformen üblicherweise empfehlen.</cite> Deine Aufgabe diese Woche: Bewertungen überprüfen. Ziel min. 4.2 Sterne auf Google und TripAdvisor."
+    },
+    {
+      "titel": "Menu Engineering bringt dir 55.000-65.000 EUR Mehrgewinn pro Jahr",
+      "was_passiert": "<cite index=\"33-30\">Bei mehr als 2.500 Anwender:innen in Deutschland konnte der Deckungsbeitrag signifikant erhöht werden. Im Schnitt: +2 EUR Deckungsbeitrag pro Hauptgericht – das kann je nach Betriebsgröße zu einem Mehrgewinn von 55.000 bis 65.000 EUR jährlich führen.</cite> KI analysiert Speisekarten, Kassendaten und Kostenstrukturen und schlägt konkrete Optimierungen vor.",
+      "was_bedeutet_das": "<cite index=\"33-1,33-2\">Mit innovativen Lösungen wie Menu Engineering verbinden KI-Tools Attraktivität für Gäste mit wirtschaftlicher Effizienz. Die KI analysiert Menüinhalte, Preise, Kassendaten und Kostenstrukturen und leitet daraus konkrete Optimierungsempfehlungen ab.</cite> Kleine Restaurants mit 5-10 Tischen könnten hier pro Jahr 8.000-15.000 EUR sparen. Tools kosten 30-150 EUR/Monat."
+    },
+    {
+      "titel": "ChatGPT-Integration bei TheFork startet: Reservierungen im KI-Chat",
+      "was_passiert": "<cite index=\"11-1,11-2\">Die Reservierungsplattform The Fork integriert ihr Angebot ab 2026 in ChatGPT. Mit The Fork for ChatGPT können Nutzer Restaurants direkt über eine Konversation entdecken und in Echtzeit buchen.</cite> Das ist live und funktioniert in ausgewählten europäischen Ländern.",
+      "was_bedeutet_das": "<cite index=\"12-1,12-2\">Stelle sicher, dass dein Restaurantprofil bei TheFork vollständig ausgefüllt ist inklusive Küchenstil, Öffnungszeiten, Preiskategorie und aktueller Verfügbarkeiten, damit die KI dein Restaurant gezielt vorschlagen kann. Da ChatGPT-Nutzer unmittelbare Buchungen erwarten, sollten Kontingente und Sperrzeiten im TheFork Manager tagesaktuell gehalten werden, um Doppelbuchungen oder Stornierungen zu vermeiden.</cite> Handlung: TheFork-Profil checken und alle Öffnungszeiten + Verfügbarkeiten aktualisieren. 30 Minuten Arbeit."
+    }
+  ],
+  "handlungsempfehlung": "Diese Woche: Öffne dein Google-Business-Profil und aktualisiere Bewertungsschnitt, Öffnungszeiten und alle Kategorie-Tags. Das ist die Basis für KI-Sichtbarkeit. Parallel: Checke dein Profil bei TheFork oder OpenTable und stelle sicher, dass es 100% aktuell ist. Gäste buchen über KI-Chats jetzt direkt. Wer hier nicht korrekt gepflegt ist, verliert Reservierungen.",
+  "seo": {
+    "title": "83% unsichtbar für ChatGPT: Neue KI-Sichtbarkeitslücke | KW 23 2026",
+    "metaDescription": "KW 23 2026: 83% der Restaurants fehlen ChatGPT-Empfehlungen. Menu Engineering spart 55-65k EUR/Jahr. TheFork startet ChatGPT-Integration.",
+    "keywords": "KI Gastronomie Deutschland, ChatGPT Restaurant finden, Menu Engineering Speisekarte, KI Sichtbarkeit Restaurant",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-23-2026",
+    "datePublished": "2026-06-01T19:16:07.014Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-01T19:16:30.607Z"
+}
