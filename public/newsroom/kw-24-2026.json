@@ -1,0 +1,47 @@
+{
+  "slug": "kw-24-2026",
+  "kw": 24,
+  "year": 2026,
+  "date": "08. Juni 2026",
+  "headline": "KI-Agenten trainieren Restaurantbesitzer: Digital-Tag zeigt, wie kleine Restaurants mithalten",
+  "zahl_der_woche": {
+    "zahl": "3 Bühnen",
+    "kontext": "Beim Digital Restaurant Day 17./18. Juni in Berlin werden 20+ Experten praxisnah zeigen, wie Gastronomen KI-Agenten zur Effizienzsteigerung nutzen."
+  },
+  "news": [
+    {
+      "titel": "Digital Restaurant Day 2026 kommt nach Berlin: KI-Agenten live erleben",
+      "was_passiert": "Am 17. und 18. Juni 2026 versammeln sich in Berlin Gastronomen, Technologieanbieter und Experten zum Digital Restaurant Day. Schwerpunkte sind KI-Agenten zur Betriebsoptimierung, Automatisierung, Bewertungsmanagement und Self-Ordering-Terminals. Mehr als 20 Speaker zeigen Praxis-Cases aus Pizza-, Burger- und weiteren Konzepten.",
+      "was_bedeutet_das": "Du kannst in Berlin Live-Beispiele sehen, wie andere kleine Restaurants KI einsetzen. Die Trendtour zeigt innovative Berliner Gastro-Konzepte. Wenn du in DACH ansässig bist: Der Event ist noch nächste Woche. Deine Fragen zur praktischen KI-Nutzung werden dort beantwortet."
+    },
+    {
+      "titel": "KI-Tools sparen 5 bis 20 Stunden pro Woche: Reservierungen, Bewertungen, Personalplanung",
+      "was_passiert": "Aktuelle Praxis-Daten zeigen: KI-Chatbots für Reservierungen kosten 30-100 EUR/Monat und sparen eine Pizzeria 1,5 Stunden täglich. Bewertungsantworten laufen statt 5 Minuten pro Review jetzt in 30 Sekunden. Personalplanung mit KI kostet 50-250 EUR/Monat. Besetzungsengpässe sinken um 8 Prozent.",
+      "was_bedeutet_das": "Die Kosten sind niedrig genug für jedes 10-Personen-Team. Du brauchst kein Technik-Know-how. Tools wie Resmio, ResponseGPT oder ShiftJuno funktionieren out-of-the-box. ROI liegt meist bei 4-8 Monaten. Starten kannst du mit einer Anwendung (z.B. Reservierungsautomatisierung) und später expandieren."
+    },
+    {
+      "titel": "EU AI Act Compliance: Was Gastronomen ab sofort beachten müssen",
+      "was_passiert": "Die EU-Verordnung für Künstliche Intelligenz ist seit 2025 live und verpflichtet auch kleine Restaurants zur Einhaltung. Auf dem Digital Restaurant Day sprechen Rechtsanwälte über praktische Anforderungen: Transparenz bei KI-Einsatz, Datenschutz (DSGVO), Kennzeichnung automatisierter Entscheidungen.",
+      "was_bedeutet_das": "Wenn du einen Chatbot einsetzt oder KI-Bewertungsantworten nutzt: Der Gast muss wissen, dass KI antwortet. Gästendaten dürfen nicht unbegrenzt gespeichert werden. Für DACH-Restaurants ist die Einhaltung nicht optional. Es gibt aber keine neuen Bußgelder für kleine Betriebe mit bis 20 Mitarbeitern, wenn sie transparent arbeiten. Wichtig: Verträge mit KI-Tool-Anbietern prüfen (Data Processing Agreements)."
+    }
+  ],
+  "handlungsempfehlung": "Notiere diese Woche deine Top-3-Zeitfresser im Betrieb: Reservierungschaos, Bewertungs-Backlog, Schichtplanung. Recherchiere ein kostenloses Trial für das erste Problem (z.B. Resmio kostenlos testen). Starten kostet nichts. Der Digital Restaurant Day (17./18. Juni) gibt dir Live-Kontext.",
+  "seo": {
+    "title": "KI-Agenten: Digital Day zeigt Praxis für kleine Restaurants | KW 24",
+    "metaDescription": "KW 24 2026: Digital Restaurant Day Berlin 17./18. Juni. KI-Tools sparen 5-20 Stunden/Woche. EU AI Act für Gastronomen erklärt.",
+    "keywords": "KI Restaurant Deutschland, Digital Restaurant Day 2026, KI Agenten Gastronomie, ChatGPT Restaurant Bewertungen, EU AI Act Gastronomie",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-24-2026",
+    "datePublished": "2026-06-08T14:12:13.127Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenlos testen: Deine Bewertungen in ChatGPT sichtbar?"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "KI-Agent Readiness Check: Akzeptiert ChatGPT Reservierungen in deinem Restaurant?"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-08T14:12:34.862Z"
+}
