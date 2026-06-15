@@ -1,0 +1,47 @@
+{
+  "slug": "kw-24-2026",
+  "kw": 24,
+  "year": 2026,
+  "date": "15. Juni 2026",
+  "headline": "KI-Bewertungen überfluten dein Restaurant: Echte 4-Sterne-Rezensionen von Fake-Texten unterscheiden",
+  "zahl_der_woche": {
+    "zahl": "45 %",
+    "kontext": "Das ist der Anteil der Konsumenten, die ChatGPT für Restaurantempfehlungen nutzen. Das hat sich innerhalb eines Jahres von 6% versiebenfacht."
+  },
+  "news": [
+    {
+      "titel": "KI-Bewertungen machen Reputation-Management kompliziert",
+      "was_passiert": "<cite index=\"18-7,18-18,18-19\">Mit dem Einzug von KI verändern sich Restaurantbewertungen grundlegend: Oftmals klingen sie künstlich. Neue Gastronomen können blitzschnell KI-Bewertungen generieren und einen Hype in Social Media inszenieren.</cite> Das Problem: Gäste und Plattformen können immer schwerer unterscheiden, was echt ist.",
+      "was_bedeutet_das": "<cite index=\"20-6\">Wenn 45 Prozent der Konsumenten KI-Tools wie ChatGPT für lokale Restaurantempfehlungen nutzen</cite>, zählt jede Bewertung. <cite index=\"20-10\">Online-Bewertungen und Social Media sind die Hauptquellen, auf die KI-Systeme bei Gastronomie-Empfehlungen vertrauen.</cite> Dein echtes Bewertungsvolumen wirkt sich direkt auf deine KI-Sichtbarkeit aus."
+    },
+    {
+      "titel": "Der Branchenschnitt bei Sternen steigt: 4,6 ist jetzt Standard",
+      "was_passiert": "<cite index=\"20-1,20-2\">Der Branchenmittelwert liegt 2026 bei 4,6 Sternen. Wer unter 4,5 Sternen liegt, operiert unterhalb der Wahrnehmungsschwelle der meisten potenziellen Gäste.</cite> Das ist ein reiner Wettbewerbsfaktor geworden.",
+      "was_bedeutet_das": "Du verlierst automatisch Gäste, wenn deine durchschnittliche Bewertung nicht über 4,5 liegt. <cite index=\"19-8,19-9\">93 Prozent der Gäste lesen Online-Bewertungen, bevor sie ein Restaurant besuchen. Eine halbe Sternebewertung mehr kann den Umsatz um bis zu 9 Prozent steigern.</cite> Das ist kein Marketing-Spielerei, sondern knallharte Betriebswirtschaft."
+    },
+    {
+      "titel": "Starbucks und Little Caesars zeigen: \"Vibe Ordering\" kommt jetzt in ChatGPT",
+      "was_passiert": "<cite index=\"17-5,17-7\">Starbucks und Little Caesars nutzen ChatGPT als neuen Bestellkanal. Starbucks startete eine Beta-App in ChatGPT, wo Kunden ihre Stimmung beschreiben oder ein Foto hochladen können, um Drink-Empfehlungen zu bekommen.</cite> Das ist die erste große Welle von \"Vibe Ordering\".",
+      "was_bedeutet_das": "Das bedeutet: Dein Restaurant muss in ChatGPT auffindbar sein, wenn Gäste danach suchen. <cite index=\"14-1,14-5\">KI-Assistenten wie ChatGPT übernehmen 2026 einen wachsenden Teil der lokalen Gästesuche. Wer in diesen KI-Antworten nicht vorkommt, existiert für viele potenzielle Gäste schlicht nicht.</cite> Das ist keine Zukunftsvision mehr - das passiert jetzt."
+    }
+  ],
+  "handlungsempfehlung": "<cite index=\"15-1,15-2\">Stelle sicher, dass dein Restaurantprofil bei TheFork vollständig ausgefüllt ist (Küchenstil, Öffnungszeiten, Preiskategorie, aktuelle Verfügbarkeiten). Halte deine Kontingente und Sperrzeiten tagesaktuell, damit die KI dein Restaurant gezielt vorschlagen kann.</cite> Das dauert 30 Minuten und ist ab sofort die Grundlage für ChatGPT-Buchungen.",
+  "seo": {
+    "title": "KI-Bewertungen überfluten dein Restaurant | KI-Gastro-Newsroom KW 24",
+    "metaDescription": "KW 24 2026: 45% nutzen ChatGPT für Restaurant-Suche. KI-Fake-Reviews sind jetzt ein Problem. Wie du sichtbar bleibst.",
+    "keywords": "KI Bewertungen Restaurant, ChatGPT Restaurant buchen, KI Sichtbarkeit Gastronomie, TheFork ChatGPT",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-24-2026",
+    "datePublished": "2026-06-15T17:09:42.017Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      },
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-15T17:10:04.444Z"
+}
