@@ -1,0 +1,47 @@
+{
+  "slug": "kw-26-2026",
+  "kw": 26,
+  "year": 2026,
+  "date": "29. Juni 2026",
+  "headline": "KI bleibt unsichtbar: 83% der Restaurants fallen durchs ChatGPT-Raster",
+  "zahl_der_woche": {
+    "zahl": "83 Prozent",
+    "kontext": "So viele deutsche Restaurants tauchen bei KI-Suchanfragen nicht auf – obwohl sie bei Google Maps gut ranken."
+  },
+  "news": [
+    {
+      "titel": "Deine Kneipe gegen ChatGPT: Das Sichtbarkeitsproblem wird größer",
+      "was_passiert": "Eine aktuelle Analyse zeigt: 83% der deutschen Restaurants bleiben bei KI-generierten Empfehlungen komplett unsichtbar. ChatGPT, Gemini und Perplexity haben andere Anforderungen als Google – sie bevorzugen Restaurants mit 4,3 Sternen oder höher und vielen Bewertungen.",
+      "was_bedeutet_das": "Dein Restaurant könnte auf Google ranken, aber bei KI-Assistenten nicht auftauchen. Während 86% der Gastronomen noch eine Google-Präsenz haben, tauchen nur 17% bei ChatGPT-Anfragen auf. Das ist ein direkter Umsatzverlust – weil Gäste dort nicht mehr nach dir suchen."
+    },
+    {
+      "titel": "Vibe Ordering breitet sich aus: ChatGPT wird zur Bestelllösung",
+      "was_passiert": "Nach Starbucks und Little Caesars starten weitere Restaurants ihre ChatGPT-Apps. Die neue \"Vibe Ordering\"-Funktion lässt Gäste im Chat bestellen und empfehlungen bekommen. Dazu kommt: TheFork integriert Reservierungen direkt in ChatGPT – alle Fünften und Pro-User können dort buchen.",
+      "was_bedeutet_das": "Wenn du über TheFork, OpenTable oder ähnliche Plattformen buchbar bist, müssen deine Daten aktuell sein. Gäste können ab sofort direkt aus ChatGPT reservieren. Gleichzeitig zeigen sich Lücken: Die Technik bringt Gäste zu 90% zum Ziel, den Rest müssen sie selbst machen – noch nicht optimal."
+    },
+    {
+      "titel": "KI-Tools sparen 5-20 Stunden pro Woche: Konkrete Zahlen für dein Restaurant",
+      "was_passiert": "Kleinere Gastronomiebetriebe berichten messbare Einsparungen: KI-Chatbots beantworten Bewertungen in 30 Sekunden statt 5 Minuten pro Stück. Personalplanungs-KI reduziert Personalkosten um bis zu 8 Prozent. Tools wie Resmio, OpenTable und spezialisierte Lösungen kosten 30-250 Euro pro Monat.",
+      "was_bedeutet_das": "Eine kleine Pizzeria reduziert ihre Telefonzeit von 2 Stunden auf 30 Minuten täglich durch KI-Reservierungen. Eine fränkische Wirtschaft fand heraus, dass ihr Tagesgericht 8% Verlust machte – nach Portionsgröße-Anpassung 2% Gewinn. ROI ist meist nach 4-8 Monaten erreicht."
+    }
+  ],
+  "handlungsempfehlung": "Diese Woche: Überprüf deine Bewertungszahl auf Google und TripAdvisor. KI-Sichtbarkeit hängt daran. Wenn du unter 4,3 Sternen sitzt, sind das deine nächsten Ziele. Zweitens: Schau nach, ob deine Daten bei TheFork oder OpenTable aktuell sind – falls du dort gelistet bist.",
+  "seo": {
+    "title": "ChatGPT-Sichtbarkeit: 83% Restaurants unsichtbar | KW 26 2026",
+    "metaDescription": "KW 26: 83% Restaurants fehlen bei KI-Suche. TheFork integriert ChatGPT-Reservierungen. KI-Tools sparen bis 20h/Woche.",
+    "keywords": "KI Sichtbarkeit Gastronomie, ChatGPT Restaurant, Bewertungen KI, KI-Tools Restaurant",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-26-2026",
+    "datePublished": "2026-06-29T15:57:16.149Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für deine Bewertungen"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-29T15:57:35.159Z"
+}
