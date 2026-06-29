@@ -69,7 +69,7 @@ jobs:
               .sort((a, b) => (b.data.year * 100 + b.data.kw) - (a.data.year * 100 + a.data.kw))
               .slice(0, 6);
             if (files.length > 0) {
-              previousTopics = '\n\nBEREITS BEHANDELTE THEMEN (NICHT wiederholen!):\n' +
+              previousTopics = '\n\nBEREITS BEHANDELTE THEMEN (moeglichst nicht 1:1 wiederholen -- neue Entwicklungen zu diesen Themen sind aber ausdruecklich erlaubt):\n' +
                 files.map(f => `KW ${f.data.kw}: ${f.data.headline}\n` +
                   f.data.news.map(n => `  - ${n.titel}`).join('\n')
                 ).join('\n');
@@ -77,6 +77,8 @@ jobs:
           } catch {}
 
           const SYSTEM_PROMPT = `Du bist Redakteur des KI-Gastro-Newsrooms -- einem wöchentlichen Digest für Restaurantbesitzer in Deutschland, Österreich und der Schweiz.
+
+          AUSGABEFORMAT: Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt. Kein Text, keine Erklärung, kein Markdown davor oder danach. Deine gesamte Antwort muss mit { beginnen und mit } enden.
 
           ZIELGRUPPE: Inhabergeführte Restaurants, Cafes, Bars mit 1-20 Mitarbeitern. Keine IT-Kenntnisse. Fragen sich: "Was bedeutet das für MICH nächste Woche?"
 
@@ -105,7 +107,12 @@ jobs:
           - Keine Aufzählungszeichen am Satzanfang
           - Keine generischen KI-Formulierungen wie "In der heutigen Zeit", "Es gilt zu beachten", "Die Implementierung von"
           - Kurze Sätze. Max 20 Wörter pro Satz.
-          - Aktiv schreiben, nicht passiv`;
+          - Aktiv schreiben, nicht passiv
+
+          ABSOLUTE REGEL -- niemals brechen:
+          - Du verweigerst NIE und erklaerst NIE, warum etwas nicht geht. Deine Antwort ist IMMER ein valides JSON-Objekt mit genau 3 News-Items.
+          - Findest du in der Zielwoche zu wenig Frisches, erweitere den Zeitraum auf die letzten 2-3 Wochen ODER berichte ueber eine neue Entwicklung zu einem bekannten Thema. Notfalls ein Evergreen-Thema aus den 9 Kategorien praktisch aufbereiten.
+          - Es ist besser, ein leicht aelteres oder bekanntes Thema neu aufzubereiten, als KEIN JSON zu liefern.`;
 
           const USER_PROMPT = `Recherchiere die wichtigsten KI-News für Gastronomen aus der Woche vom ${lastWeekDate} bis ${date} (KW ${kw-1}/${year}).
 
@@ -153,26 +160,64 @@ jobs:
           - Bestellsysteme/Agent-Payments: https://agentready-gastro.vercel.app + "Prüfe ob KI-Agenten bei dir buchen können"
           - Sicherheit/Fake-Reviews: https://aisecurity-gastro.vercel.app + "Kostenloser KI-Sicherheits-Check"
 
-          WICHTIG: Jedes News-Item muss eine NEUE Entwicklung aus dieser Woche sein. Keine Themen wiederholen die bereits in früheren Ausgaben behandelt wurden.${previousTopics}
+          WICHTIG: Bevorzuge neue Entwicklungen aus der Zielwoche. Findest du dort zu wenig, erweitere den Zeitraum auf die letzten 2-3 Wochen oder beleuchte einen neuen Aspekt eines bekannten Themas. Gib NIEMALS eine Erklaerung oder Absage statt JSON aus -- liefere immer genau 3 News-Items als valides JSON.${previousTopics}
 
           Genau 3 News-Items. Nur JSON zurückgeben.`;
 
+          function extractJSON(text) {
+            // Versuch 1: Gesamter Text ist JSON
+            try { return JSON.parse(text.trim()); } catch {}
+            // Versuch 2: JSON in Markdown Code-Block
+            const codeBlock = text.match(/```(?:json)?\s*([\s\S]*?)```/);
+            if (codeBlock) try { return JSON.parse(codeBlock[1].trim()); } catch {}
+            // Versuch 3: Erstes vollständiges JSON-Objekt finden
+            const jsonMatch = text.match(/\{[\s\S]*\}/);
+            if (jsonMatch) return JSON.parse(jsonMatch[0]);
+            return null;
+          }
+
+          async function generateWithRetry(maxRetries = 3) {
+            for (let attempt = 1; attempt <= maxRetries; attempt++) {
+              console.log(`Versuch ${attempt}/${maxRetries}...`);
+              try {
+                const response = await client.messages.create({
+                  model: 'claude-haiku-4-5-20251001',
+                  max_tokens: 8192,
+                  system: SYSTEM_PROMPT,
+                  tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+                  messages: [{ role: 'user', content: USER_PROMPT }]
+                });
+
+                const textBlocks = response.content.filter(b => b.type === 'text');
+                const text = textBlocks.map(b => b.text).join('');
+
+                if (!text.trim()) {
+                  throw new Error('Leere Text-Response (stop_reason: ' + response.stop_reason + ')');
+                }
+
+                const data = extractJSON(text);
+                if (!data) {
+                  throw new Error('Kein JSON in Response: ' + text.substring(0, 300));
+                }
+
+                if (!data.news || !Array.isArray(data.news) || data.news.length === 0) {
+                  throw new Error('JSON hat keine news: ' + JSON.stringify(data).substring(0, 300));
+                }
+
+                return data;
+              } catch (err) {
+                console.error(`Versuch ${attempt} fehlgeschlagen: ${err.message}`);
+                if (attempt === maxRetries) throw err;
+                const wait = attempt * 5000;
+                console.log(`Warte ${wait/1000}s vor nächstem Versuch...`);
+                await new Promise(r => setTimeout(r, wait));
+              }
+            }
+          }
+
           (async () => {
             try {
-              const response = await client.messages.create({
-                model: 'claude-haiku-4-5-20251001',
-                max_tokens: 4096,
-                system: SYSTEM_PROMPT,
-                tools: [{ type: 'web_search_20250305', name: 'web_search' }],
-                messages: [{ role: 'user', content: USER_PROMPT }]
-              });
-
-              const textBlocks = response.content.filter(b => b.type === 'text');
-              const text = textBlocks.map(b => b.text).join('');
-              const jsonMatch = text.match(/\{[\s\S]*\}/);
-              if (!jsonMatch) throw new Error('Kein JSON in Response: ' + text.substring(0, 200));
-
-              const data = JSON.parse(jsonMatch[0]);
+              const data = await generateWithRetry(3);
               data.generatedAt = new Date().toISOString();
 
               fs.mkdirSync('public/newsroom', { recursive: true });
@@ -181,7 +226,7 @@ jobs:
               console.log('Generated:', filename);
               console.log('Headline:', data.headline);
             } catch (err) {
-              console.error('Error:', err.message);
+              console.error('Alle Versuche fehlgeschlagen:', err.message);
               process.exit(1);
             }
           })();
