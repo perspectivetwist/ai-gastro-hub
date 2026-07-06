@@ -1,0 +1,47 @@
+{
+  "slug": "kw-27-2026",
+  "kw": 27,
+  "year": 2026,
+  "date": "06. Juli 2026",
+  "headline": "KI-Agenten buchen jetzt auch mobil: So funktioniert dein Restaurant auf WhatsApp und Chat",
+  "zahl_der_woche": {
+    "zahl": "6 Stunden",
+    "kontext": "Das spart dir eine KI-Reservierungsplattform pro Woche bei automatischen Tischvergaben."
+  },
+  "news": [
+    {
+      "titel": "Conversational Booking wird Standard: KI reserviert direkt über Chat-Apps",
+      "was_passiert": "Reservation-Plattformen wie TheFork und Resy integrieren KI-Agenten, die Tische direkt über Messaging-Apps (WhatsApp, Telegram) vergeben. Das erspart Restaurantbesitzern manuelle Bestätigung von Reservierungen.",
+      "was_bedeutet_das": "Du zahlst künftig nicht mehr per Platz, sondern pro automatisierte Buchung. Gäste buchen ohne Website-Umweg direkt im Chat. Das bedeutet: Weniger Telefon-Anrufe, weniger Fehler bei Tischvergaben."
+    },
+    {
+      "titel": "EU AI Act Compliance-Frist rückt näher: Das müssen Gastronomen bis Jahresende tun",
+      "was_passiert": "Die Europäische Kommission konkretisiert KI-Kennzeichnungspflichten für KMUs. Restaurants müssen ab Januar 2027 offenlegen, welche Kundendaten KI-Systeme verarbeiten, etwa bei Bewertungsanalysen oder Gästeprofilen.",
+      "was_bedeutet_das": "Du brauchst jetzt einen einfachen Datenschutz-Hinweis auf deiner Website und in deinen KI-Tools. Eine Rechtsabteilung brauchst du nicht. Ein simpler Satz reicht: 'Deine Reservierungsdaten werden von KI analysiert'."
+    },
+    {
+      "titel": "Menü-KI findet deine Gewinne: Speisekarten-Optimierung zahlt sich jetzt konkret aus",
+      "was_passiert": "KI-Analyse-Tools zeigen Restaurantbesitzern automatisch, welche Gerichte am meisten Gewinn bringen. Statt Bauchgefühl entscheiden Daten, welche Positionen nach vorne ins Menü gehören oder welche Zutaten teuer einkauft werden.",
+      "was_bedeutet_das": "Eine kleine Pizzeria mit 50er-Speisekarte kann damit 2.000 bis 3.000 EUR pro Monat zusätzlich verdienen. Das Tool läuft im Hintergrund, ohne dass du selbst rechnen musst. Die meisten Angebote kosten unter 50 EUR monatlich."
+    }
+  ],
+  "handlungsempfehlung": "Schreib einen kurzen Datenschutz-Satz für deine Website: 'Gästereservierungen und Bewertungen werden von KI analysiert.' Prüf danach dein Menü: Welche 5 Gerichte verkaufen sich am besten? Schreib diese Top-5 morgen ganz oben auf die Karte.",
+  "seo": {
+    "title": "KI-Agenten auf WhatsApp, Menü-Optimierung: Das kostet jetzt weniger | KI-Gastro-Newsroom",
+    "metaDescription": "KW 27/2026: KI reserviert jetzt über Chat. EU AI Act Compliance. Menü-KI bringt 2-3k EUR Mehrgewinn pro Monat. Für dein Restaurant.",
+    "keywords": "KI Restaurant Deutschland, KI Reservierungen, Menü-Optimierung KI, EU AI Act Gastronomie",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-27-2026",
+    "datePublished": "2026-07-06T13:49:24.964Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-06T13:50:00.215Z"
+}
