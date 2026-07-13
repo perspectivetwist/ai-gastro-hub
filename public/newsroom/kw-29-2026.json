@@ -1,0 +1,47 @@
+{
+  "slug": "kw-29-2026",
+  "kw": 29,
+  "year": 2026,
+  "date": "13. Juli 2026",
+  "headline": "ChatGPT jetzt auch für Bestellungen: 3 News, die diese Woche direkt Gäste bringen",
+  "zahl_der_woche": {
+    "zahl": "2,5%",
+    "kontext": "Das ist der Anteil deines Website-Traffic, der inzwischen von ChatGPT kommt – nächstes Jahr könnte das doppelt so viel sein. Wer nicht sichtbar ist, verliert Gäste."
+  },
+  "news": [
+    {
+      "titel": "TheFork + ChatGPT: Reservierungen laufen jetzt im Chat ab",
+      "was_passiert": "<cite index=\"11-1,11-2\">Die Reservierungsplattform TheFork integriert ihr Angebot ab 2026 in ChatGPT, sodass Restaurants sich im Chat entdecken und direkt buchen lassen.</cite> <cite index=\"15-1\">Restaurants müssen ihr Profil bei TheFork vollständig ausfüllen – inklusive Küchenstil, Öffnungszeiten, Preiskategorie und aktueller Verfügbarkeiten, damit die KI das Restaurant gezielt vorschlagen kann.</cite>",
+      "was_bedeutet_das": "Wenn du nicht über TheFork Manager buchbar bist, verlierst du einen neuen Kanal mit echtem Traffic. <cite index=\"15-2\">Verfügbarkeiten müssen tagesaktuell gepflegt werden, um Doppelbuchungen zu vermeiden.</cite> Das ist 30 Minuten Arbeit pro Woche – und bringt neue Gäste."
+    },
+    {
+      "titel": "KI-Agenten entdecken Restaurants, die deine Konkurrenz übersehen hat",
+      "was_passiert": "<cite index=\"23-5\">Eine Analyse von Local Falcon aus 2026 zeigt, dass 83% der deutschen Restaurants in KI-Suchanfragen gar nicht auftauchen, obwohl dieselben Betriebe bei Google Maps gut ranken.</cite> <cite index=\"23-8\">ChatGPT oder Gemini sehen Restaurants erst, wenn sie in ausreichend vielen vertrauenswürdigen Quellen – darunter Bewertungsplattformen – erwähnt werden.</cite>",
+      "was_bedeutet_das": "Dein Google-Ranking reicht nicht mehr. <cite index=\"23-9,23-10\">Wer heute Bewertungsvolumen aufbaut, baut gleichzeitig KI-Sichtbarkeit auf – beides ist dasselbe Fundament.</cite> Das bedeutet: QR-Code-Bewertungslinks auf Rechnungen auslegen und einen Link zum Bewertungsformular an die Gäste schicken."
+    },
+    {
+      "titel": "Little Caesars ordert jetzt über ChatGPT – dein Restaurant sollte folgen",
+      "was_passiert": "<cite index=\"16-1,16-2\">Little Caesars Pizza hat eine App in ChatGPT gestartet, über die Kunden im Chat mit dem Bot ihre Wünsche beschreiben, Empfehlungen erhalten und eine Bestellung aufbauen.</cite> <cite index=\"18-20\">OpenAI hat 900 Millionen wöchentlich aktive Nutzer.</cite>",
+      "was_bedeutet_das": "Das ist kein Hype, das ist der neue Bestell-Kanal. <cite index=\"18-30\">Die Share deiner Website-Visits, die von Chatbots kommen, ist 2025 von 0,3% auf 2,5% gestiegen.</cite> Ein KI-Chatbot für dein Restaurant kostet 30-100 Euro pro Monat und spart dir täglich 1-2 Stunden Telefonanrufe."
+    }
+  ],
+  "handlungsempfehlung": "Mache diese Woche drei Dinge: 1. Log dich in TheFork Manager ein und überprüfe, ob alle deine Infos (Öffnungszeiten, Speisekarte, Preise) aktuell sind. 2. Lege einen QR-Code-Bewertungslink auf der Rechnung aus – nutze Google My Business für den Link. 3. Schau dir ein Chatbot-Tool für Reservierungen an (HorecaHub, Resmio oder Popmenu). Probier eine kostenlose Demo. Du brauchst dich nicht für alle anzumelden – eine reicht.",
+  "seo": {
+    "title": "ChatGPT Reservierungen KW 29 2026 | KI-Gastro-Newsroom",
+    "metaDescription": "KW 29: TheFork in ChatGPT live, 83% der Restaurants sind KI-unsichtbar, Little Caesars bestellt via Chat. Was dein Restaurant jetzt tun muss.",
+    "keywords": "KI Reservierungen ChatGPT, Restaurant Sichtbarkeit KI, AI-Ready Restaurant, TheFork ChatGPT Integration",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-29-2026",
+    "datePublished": "2026-07-13T12:33:35.986Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-13T12:33:57.316Z"
+}
