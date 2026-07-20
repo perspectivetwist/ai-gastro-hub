@@ -1,0 +1,47 @@
+{
+  "slug": "kw-30-2026",
+  "kw": 30,
+  "year": 2026,
+  "date": "20. Juli 2026",
+  "headline": "83% der Restaurants unsichtbar für KI: Dein Restaurant wird in ChatGPT gefunden oder nicht",
+  "zahl_der_woche": {
+    "zahl": "83 Prozent",
+    "kontext": "So viele Restaurants sind für KI-Agenten unsichtbar - dein nächster Gast könnte dein Restaurant gerade an dir vorbeikaufen, ohne zu wissen, dass es existiert."
+  },
+  "news": [
+    {
+      "titel": "Square integriert ChatGPT direkt ins POS: Provisionsfreie Bestellungen starten jetzt",
+      "was_passiert": "<cite index=\"12-1\">Square hat am 1. Juli 2026 kostenlose ChatGPT- und Claude-Bestellungen für US-Restaurants gestartet, ohne Marketplace-Provisionen</cite>. <cite index=\"16-24\">Restaurants zahlen nur Squares Standard-Bearbeitungsgebühr von etwa 2,9% plus 30 Cent pro Transaktion statt 30% an Delivery-Apps</cite>.",
+      "was_bedeutet_das": "Das Modell kommt bald nach Europa und DACH. Für ein kleines Restaurant bedeutet das: Ein Gast, der in ChatGPT \"Pizza in meiner Nähe\" tippt, könnte direkt bei dir bestellen - ohne dass du 30% Provision an Lieferdienste zahlst. Dein Restaurant muss dafür im KI-Index sichtbar sein: strukturierte Öffnungszeiten, aktuelle Speisekarte, vollständiges Google-Profil. Ohne das passiert gar nichts."
+    },
+    {
+      "titel": "TheFork aktiviert ChatGPT-Integration: Reservierungen laufen jetzt im Chat",
+      "was_passiert": "<cite index=\"18-7,18-8\">TheFork hat ihre Buchungsfunktion in ChatGPT integriert - Gäste können ab sofort über Dialoge mit der KI Restaurants entdecken und direkt reservieren</cite>. <cite index=\"18-14,18-15\">Der Service steht in ausgewählten europäischen Märkten zur Verfügung, für Restaurants die über TheFork Manager buchbar sind entsteht damit ein zusätzlicher Zugangsweg zu potenziellen Gästen</cite>.",
+      "was_bedeutet_das": "Zwei praktische Aufgaben diese Woche: Erstens: Dein TheFork-Profil vollständig? Speisekarte, Öffnungszeiten, Bilder, aktuelle Verfügbarkeiten - alles muss stimmen. Zweitens: Google-Profil und Website kontrollieren. Das ist deine Basis für KI-Sichtbarkeit. Ein Gast, der in ChatGPT fragt \"stilles Restaurant Innere Altstadt, vegetarisch, Freitag 19 Uhr\" - wird dein Restaurant nur sehen, wenn die Daten korrekt strukturiert sind."
+    },
+    {
+      "titel": "EU AI Act Frist rückt näher: Chatbots müssen ab 2. August 2026 als KI gekennzeichnet sein",
+      "was_passiert": "<cite index=\"3-20,3-21,3-23\">Artikel 50 der KI-Verordnung tritt am 2. August 2026 in Kraft und betrifft jeden, der einen Chatbot oder Voicebot einsetzt - es gibt kein Grandfathering und auch alte Bots müssen gekennzeichnet werden</cite>. <cite index=\"3-25,3-26\">Wenn dein Reservierungs-Bot ans Telefon geht oder der Chatbot auf deiner Website antwortet, muss er zu Beginn klarstellen, dass er kein Mensch ist</cite>.",
+      "was_bedeutet_das": "Wenn du einen Chatbot oder Reservierungsbot nutzt (oder planst): Ein einfacher Satz wie 'Hallo, ich bin der digitale Assistent vom [Name] Restaurant. Ich nehme gerne Reservierungen entgegen' erfüllt die Pflicht. Prüfe diese Woche: Hast du einen laufenden Bot? Ist er gekennzeichnet? Falls nein, musst du die Kennzeichnung bis 2. August einbauen. Das ist nicht optional - Google und TheFork werden das absichern, aber keine gute Kundenbeziehung entsteht mit versteckter KI."
+    }
+  ],
+  "handlungsempfehlung": "Nimm dein TheFork- und Google-Profil diese Woche unter die Lupe: Sind Öffnungszeiten korrekt und aktuell? Speisekarte strukturiert hinterlegt? Verfügbarkeiten in Echtzeit? Das sind keine Zukunftsaufgaben - das entscheidet ab sofort, ob ChatGPT dein Restaurant empfiehlt oder nicht. 30 Minuten investiert, wöchentlich überprüft.",
+  "seo": {
+    "title": "ChatGPT findet dein Restaurant - oder nicht | KI-Gastro KW 30",
+    "metaDescription": "KW 30: ChatGPT und TheFork starten Integration. 83% der Restaurants fallen durchs Raster. Das musst du diese Woche tun.",
+    "keywords": "KI Restaurant Deutschland, ChatGPT Reservierung, TheFork ChatGPT, KI Sichtbarkeit Gastronomie",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-30-2026",
+    "datePublished": "2026-07-20T12:19:01.993Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-20T12:19:24.360Z"
+}
