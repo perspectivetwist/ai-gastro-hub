@@ -1,0 +1,47 @@
+{
+  "slug": "kw-31-2026",
+  "kw": 31,
+  "year": 2026,
+  "date": "27. Juli 2026",
+  "headline": "<cite index=\"11-1\">Square startet kommissionsfrei: ChatGPT bucht Bestellungen, ohne 15-30% Gebühren</cite>",
+  "zahl_der_woche": {
+    "zahl": "8,50 Euro",
+    "kontext": "<cite index=\"14-10,14-11,14-12,14-13,14-14\">Pro Bestellung sparst du mit ChatGPT-Ordering ca. 8,50 Euro im Vergleich zu Lieferapps</cite>"
+  },
+  "news": [
+    {
+      "titel": "<cite index=\"11-1\">Square aktiviert kostenlose ChatGPT- und Claude-Bestellungen</cite>",
+      "was_passiert": "<cite index=\"11-1,11-2\">Square startete am 1. Juli 2026 in den USA kostenlose ChatGPT- und Claude-Bestellungen für Restaurants -- KI-Agenten können live Speisekarten lesen und direkt Bestellungen abwickeln</cite>. <cite index=\"11-5,11-6\">Keine separate Provision, nur 2,9-3,3% Transaktionsgebühr statt 15-30% der Lieferplattformen</cite>.",
+      "was_bedeutet_das": "<cite index=\"14-2,14-3\">Dein Restaurant muss richtig konfiguriert sein, sonst empfiehlt die KI einfach den Konkurrenten nebenan</cite>. <cite index=\"11-3,11-12\">Wenn du Square Online Ordering nutzt, wirst du automatisch aktiviert -- kein neues Setup oder Verträge nötig</cite>."
+    },
+    {
+      "titel": "<cite index=\"27-6,27-8\">EU AI Act wird ab 2. August konkret: KI-Kennzeichnung wird Pflicht</cite>",
+      "was_passiert": "<cite index=\"27-1,27-2\">Gäste müssen erkennen, wenn sie mit KI sprechen oder Inhalte KI-generiert sind -- das betrifft nicht nur Chatbots, sondern auch Marketing</cite>. <cite index=\"34-1,34-2\">KI-Fotos deiner Zimmer, Speisekarten-Texte aus ChatGPT, Instagram-Posts per Midjourney werden kennzeichnungspflichtig</cite>.",
+      "was_bedeutet_das": "<cite index=\"34-3,34-4\">Kleine Betriebe bekommen bei Dokumentation Erleichterung, aber die Kennzeichnungspflicht bleibt beim August-Termin</cite>. <cite index=\"31-6,31-10\">Bestandsaufnahme jetzt starten: Wo nutzt du ChatGPT, Midjourney oder andere Tools -- auch in kleinerer Posts auf Insta und Facebook</cite>."
+    },
+    {
+      "titel": "<cite index=\"16-5,16-6\">Google-KI stoppt Fake-Reviews, aber viele schlüpfen trotzdem durch</cite>",
+      "was_passiert": "<cite index=\"16-5,16-8\">Google nutzt KI, um gefälschte Bewertungen auf Google Maps zu identifizieren -- hat erhebliche Fortschritte gemacht</cite>. <cite index=\"19-1,19-2\">Eine aktuelle Studie zeigt: 3% aller Amazon-Bewertungen 2026 sind KI-generiert, 93% davon haben das Label \"Verifizierter Kauf\"</cite>.",
+      "was_bedeutet_das": "<cite index=\"17-4,17-5,17-6,17-7\">Wichtig: Massenhaft 5-Sterne-Bewertungen zu kaufen signalisiert deinen Gästen \"Hier wird Kritik unterdrückt\" -- ein 4,2-Sterne-Profil ohne Löschhinweise wirkt vertrauenswürdiger als ein perfektes 4,8-Sterne-Profil mit Manipulationsspuren</cite>. <cite index=\"17-2,17-3\">Echte Fake-Bewertungen meldest du bei Google -- der Richtlinienverstoß-Weg wird inzwischen von KI bearbeitet</cite>."
+    }
+  ],
+  "handlungsempfehlung": "<cite index=\"11-3,11-12\">Falls du Square Online nutzt: Überprüfe diese Woche, ob du bereits in ChatGPT/Claude aktiviert bist -- die meisten sind es schon und wissen es nicht</cite>. <cite index=\"34-14\">Zweiter Schritt: Bestandsaufnahme schreiben -- wo nutzt du KI im Restaurant (Speisekarte, Social Media, Chatbot)? Das kennzeichnen musst du ab 2. August</cite>.",
+  "seo": {
+    "title": "ChatGPT Bestellungen starten jetzt | KI-Gastro-Newsroom KW 31 2026",
+    "metaDescription": "KW 31: Square aktiviert ChatGPT-Ordering mit 0 Provision. EU AI Act Kennzeichnungspflicht rückt näher. Was Restaurants diese Woche tun müssen.",
+    "keywords": "KI Gastronomie, ChatGPT Restaurant Bestellung, Square Online Ordering, EU AI Act Kennzeichnung 2026, Fake-Reviews Google Maps",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-31-2026",
+    "datePublished": "2026-07-27T12:56:19.863Z",
+    "internalLinks": [
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check für Fake-Reviews"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-27T12:56:41.790Z"
+}
