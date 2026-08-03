@@ -1,0 +1,47 @@
+{
+  "slug": "kw-32-2026",
+  "kw": 32,
+  "year": 2026,
+  "date": "03. August 2026",
+  "headline": "EU AI Act knackt: Chatbots müssen sich zu erkennen geben -- ab jetzt",
+  "zahl_der_woche": {
+    "zahl": "2. August 2026",
+    "kontext": "Ab diesem Stichtag ist jeder Voicebot und Chatbot in deinem Restaurant verpflichtet, sich als KI zu erkennen zu geben -- keine Übergangsfrist."
+  },
+  "news": [
+    {
+      "titel": "EU AI Act Artikel 50 ist live: Dein Reservierungs-Bot braucht jetzt eine Offenbarung",
+      "was_passiert": "<cite index=\"2-2,2-3\">Artikel 50 der KI-Verordnung tritt am 2. August 2026 in Kraft und betrifft jeden, der einen Chatbot oder Voicebot einsetzt, mit dem natürliche Personen interagieren.</cite> <cite index=\"26-8\">Ein Bot, der seit zwei Jahren läuft, muss ab dem Stichtag genauso gekennzeichnet sein wie ein neu eingeführter.</cite>",
+      "was_bedeutet_das": "<cite index=\"26-10,26-11,26-12\">Wenn dein Reservierungs-Bot ans Telefon geht oder der Chatbot auf deiner Website antwortet, muss er zu Beginn klarstellen, dass er kein Mensch ist. Ein Satz wie \"Hallo, ich bin der digitale Assistent vom Wirtshaus Beispiel. Ich nehme Reservierungen entgegen\" reicht.</cite> Falls du einen Bot nutzt: Prüfe jetzt, ob dein Tool-Anbieter die Kennzeichnung bereits eingebaut hat."
+    },
+    {
+      "titel": "TheFork und Square: KI-Buchungen laufen jetzt parallel",
+      "was_passiert": "<cite index=\"8-7,8-8\">Die Reservierungsplattform TheFork hat als einer der ersten Launch-Partner von OpenAI ihre Buchungsfunktion in ChatGPT integriert. Gäste können ab sofort über einfache Dialoge mit der KI Restaurants entdecken und direkt reservieren.</cite> <cite index=\"9-1,9-2\">Square lässt AI Assistants US-Restaurants entdecken, Live-Menüs lesen und Bestellungen platzieren -- Eligible Food & Beverage Seller mit aktivem Square Online Ordering Profil sind automatisch eingebucht.</cite>",
+      "was_bedeutet_das": "<cite index=\"8-9\">Für Gastronomiebetriebe eröffnet die Integration einen zusätzlichen Buchungskanal mit potenziell höherer Reichweite.</cite> In Deutschland ist das über TheFork bereits aktiv -- dein Profil sollte vollständig ausgefüllt sein, damit ChatGPT-Nutzer dich überhaupt finden. Kurz: Checke jetzt, ob du auf TheFork vollständig sichtbar bist."
+    },
+    {
+      "titel": "Fake-Reviews werden industriell: 3 Prozent der Amazon-Bewertungen sind KI-generiert",
+      "was_passiert": "<cite index=\"13-3,13-4,13-5\">Gemini, ChatGPT, Grok und andere AI-Modelle sind in der Lage, innerhalb von wenigen Sekunden massentaugliche Rezensionen zu erzeugen. Eine neue Studie von Panagram Labs im Jahr 2026 zeigt, dass drei Prozent von 30 000 analysierten Bewertungen auf Amazon mittels KI generiert wurden. 93 % davon trugen sogar das Label \"Verifizierter Kauf\".</cite> <cite index=\"17-27\">Fake reviews in hospitality haben aufgehört, ein gelegentliches Ärgernis zu sein, und sind zu etwas näher an einer organisierten Industrie geworden.</cite>",
+      "was_bedeutet_das": "<cite index=\"15-19\">Bei Portalen wie Google oder TripAdvisor kann man Fakes melden und löschen lassen, das kostet aber viel Zeit und Nerven, unter Umständen auch Geld.</cite> Deine beste Verteidigung ist schlicht, echte Gäste konsequent um Bewertungen zu bitten. <cite index=\"18-11\">Plane täglich 15 Minuten für Bewertungsantworten ein -- das reicht für die meisten Betriebe.</cite>"
+    }
+  ],
+  "handlungsempfehlung": "Mache diese Woche drei Dinge: Eins -- Prüfe, ob dein Reservierungs-Tool (Resmio, OpenTable, TheFork) die Chatbot-Kennzeichnung ab 2. August bereits aktiviert hat. Zwei -- Aktualisiere dein TheFork-Profil vollständig (Küchenstil, Öffnungszeiten, Verfügbarkeiten), damit ChatGPT dich vorschlägt. Drei -- Versende diese Woche eine höfliche Bitte an 10-20 Stammgäste, eine Bewertung zu schreiben.",
+  "seo": {
+    "title": "EU AI Act live: Chatbot-Kennzeichnung ab sofort | KI-Gastro KW32",
+    "metaDescription": "KW 32: EU AI Act verpflichtet Chatbots zur Selbstoffenbarung. TheFork und Square bauen KI-Buchungen. Fake-Reviews wachsen. Praxischeck für Restaurants.",
+    "keywords": "EU AI Act 2026, Chatbot Kennzeichnung Restaurant, KI Reservierungen ChatGPT, Fake-Reviews erkennen",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-32-2026",
+    "datePublished": "2026-08-03T12:55:57.474Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check gegen Fake-Reviews"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-03T12:56:17.913Z"
+}
