@@ -1,0 +1,47 @@
+{
+  "slug": "kw-32-2026",
+  "kw": 32,
+  "year": 2026,
+  "date": "10. August 2026",
+  "headline": "EU AI Act wird live: Dein Chatbot muss sich jetzt zu erkennen geben",
+  "zahl_der_woche": {
+    "zahl": "3 Prozent",
+    "kontext": "Drei Prozent aller Amazon-Bewertungen werden inzwischen mit KI generiert. Kontrolliere deine Google-Rezensionen: Fake-Reviews nehmen zu und schaden deinem Ruf."
+  },
+  "news": [
+    {
+      "titel": "EU AI Act Artikel 50 ist live: Transparenzpflicht startet jetzt",
+      "was_passiert": "<cite index=\"2-2,2-3\">Artikel 50 der KI-Verordnung tritt am 2. August 2026 in Kraft und betrifft jeden, der einen Chatbot oder Voicebot einsetzt</cite>. <cite index=\"31-4\">Systeme, die direkt mit Menschen interagieren, müssen klarstellen, dass eine Person mit einer Maschine kommuniziert</cite>.",
+      "was_bedeutet_das": "<cite index=\"2-16\">Reservierungs-Bots, die seit zwei Jahren laufen, müssen ab dem Stichtag genauso gekennzeichnet sein wie neu eingeführte</cite>. Prüfe: Läuft bei dir ein Anrufbeantworter oder Chatbot im Hintergrund? Falls ja, muss dieser transparent sagen, dass eine KI am Werk ist. <cite index=\"28-2\">Verstöße kosten bis zu 15 Millionen Euro oder 3 Prozent des globalen Jahresumsatzes</cite>."
+    },
+    {
+      "titel": "KI-generierte Fake-Bewertungen explodieren: 3% der Rezensionen sind KI-Texte",
+      "was_passiert": "<cite index=\"17-4,17-5\">Eine Studie von Panagram Labs zeigt: Drei Prozent von 30.000 analysierten Bewertungen auf Amazon wurden mittels KI generiert, und 93% davon trugen sogar das Label 'Verifizierter Kauf'</cite>. <cite index=\"17-6,17-7\">Auch Google ist voll davon – der Trick: echte Bestellungen mit Rückerstattungen oder Rabattcodes kombinieren</cite>.",
+      "was_bedeutet_das": "Deine Konkurrenten können jetzt billig schöne Bewertungen kaufen. Du solltest selbst echte Gäste aktiv um Rezensionen bitten und verdächtige Bewertungen melden. <cite index=\"17-18,17-19,17-20\">KI-Texte erkennst du: Inhalt klingt glatt, aber leer, mit Begriffen wie 'top', 'mega', 'perfekt' ohne konkrete Verbindung zum Restaurant</cite>."
+    },
+    {
+      "titel": "TheFork-Reservierungen laufen jetzt direkt im ChatGPT-Chat",
+      "was_passiert": "<cite index=\"9-7,9-8\">TheFork hat ihre Buchungsfunktion in ChatGPT integriert: Gäste können über einfache Dialoge mit der KI Restaurants entdecken und direkt reservieren</cite>. <cite index=\"7-5\">Die Integration ist ab sofort in ausgewählten europäischen Ländern für alle ChatGPT-Nutzer verfügbar</cite>.",
+      "was_bedeutet_das": "Gäste finden dein Restaurant jetzt nicht mehr in Google – sondern indem sie ChatGPT fragen. <cite index=\"9-1,9-2\">Stelle sicher, dass dein TheFork-Profil vollständig ausgefüllt ist und deine Verfügbarkeiten tagesaktuell gepflegt werden</cite>. Das schafft neue Buchungskanäle ohne Zusatzkosten."
+    }
+  ],
+  "handlungsempfehlung": "<cite index=\"2-18\">Prüfe: Antwortet ein Bot oder Sprachmail auf deiner Website oder beim Anruf?</cite> Falls ja, füge einen Hinweis hinzu, dass eine KI antwortet – z.B. 'Sie sprechen mit unserem Reservierungs-Assistenten'. Gehe zu Google My Business und überprüfe verdächtige 5-Sterne-Bewertungen ohne konkrete Details.",
+  "seo": {
+    "title": "EU AI Act Artikel 50 live | KI-Gastro-Newsroom KW 32 2026",
+    "metaDescription": "KW 32: EU AI Act Transparenzpflicht startet, Fake-Reviews explodieren, TheFork nutzt ChatGPT. Kostenlos prüfen ob dein Chatbot regelkonform ist.",
+    "keywords": "EU AI Act Restaurant, Chatbot Transparenzpflicht, Fake Reviews erkennen, TheFork ChatGPT Integration",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-32-2026",
+    "datePublished": "2026-08-10T11:11:06.367Z",
+    "internalLinks": [
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenlos prüfen: Sind deine Google-Bewertungen real oder KI-generiert?"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob dein Restaurant auf TheFork+ChatGPT auffindbar ist"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-10T11:11:29.770Z"
+}
