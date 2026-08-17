@@ -1,0 +1,47 @@
+{
+  "slug": "kw-33-2026",
+  "kw": 33,
+  "year": 2026,
+  "date": "17. August 2026",
+  "headline": "ChatGPT bucht jetzt direkt deine Tische: Reservierungen live im Chat seit 12. August",
+  "zahl_der_woche": {
+    "zahl": "58 %",
+    "kontext": "Der Anteil der Deutschen, die KI nutzen. 35% nutzen sie für Kaufentscheidungen – dein Restaurant muss dort sichtbar sein."
+  },
+  "news": [
+    {
+      "titel": "ChatGPT reserviert Tische jetzt live im Chat",
+      "was_passiert": "<cite index=\"8-2,8-5\">Seit 12. August 2026 können Gäste in Deutschland Restauranttische direkt in ChatGPT reservieren.</cite> <cite index=\"8-7\">Die Integration mit OpenTable dockt an etablierte Buchungslogik an.</cite>",
+      "was_bedeutet_das": "Gäste buchen deinen Tisch jetzt ohne Umschweife – wenn dein Restaurant bei OpenTable gelistet ist. Bist du dort nicht vertreten, existierst du in diesem neuen Kanal nicht. Prüfe diese Woche, ob deine OpenTable-Daten vollständig sind."
+    },
+    {
+      "titel": "KI-generierte Fake-Bewertungen treffen auch dein Restaurant",
+      "was_passiert": "<cite index=\"21-1\">Eine Studie von Panagram Labs 2026 zeigt: 3% der Amazon-Bewertungen wurden mittels KI generiert.</cite> <cite index=\"21-3\">Gemini, ChatGPT, Grok und andere LLMs erstellen massenhaft Rezensionen in Sekunden.</cite>",
+      "was_bedeutet_das": "Konkurrenten können dich mit gefakten negativen Bewertungen angreifen. Google und Amazon-Filter sind längst nicht sicher genug. Überwache deine eigenen Google-Bewertungen aktiv: Melde auffällige Rezensionen sofort, bevor sie Schaden anrichten."
+    },
+    {
+      "titel": "Dein Restaurant ist unsichtbar für ChatGPT: Ein konkretes Problem mit Lösung",
+      "was_passiert": "<cite index=\"33-3,33-4\">58% der Deutschen nutzen 2026 KI, 35% davon bei Kaufentscheidungen. Jüngere Gäste fragen zunehmend KI statt Google.</cite> <cite index=\"33-19\">Bislang hat kaum ein Gastronomiebetrieb seine Online-Präsenz gezielt für KI-Systeme aufbereitet.</cite>",
+      "was_bedeutet_das": "Wenn ChatGPT dein Restaurant nicht findet, verlierst du Gäste – still und leise. Der Lösungsschritt ist konkret: <cite index=\"3-11,3-12\">Achte darauf, dass Name, Adresse, Telefon und Öffnungszeiten auf deiner Website, Google und allen Portalen exakt identisch sind.</cite> Das funktioniert diese Woche."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe deine OpenTable-Listung: Sind alle Daten dort aktuell? Falls nein, update sofort. Dann kontrolliere Google My Business – Name, Adresse, Telefon, Öffnungszeiten müssen überall identisch sein. Das dauert 20 Minuten und macht dich für ChatGPT-Suchen sichtbar.",
+  "seo": {
+    "title": "ChatGPT Reservierungen live | KI-Gastro-Newsroom KW 33 2026",
+    "metaDescription": "KW 33: ChatGPT bucht Tische direkt. Dein Restaurant unsichtbar? Fake-Reviews boomen. 3 konkrete Handlungen für diese Woche.",
+    "keywords": "ChatGPT Restaurant Reservierungen, KI Gastro August 2026, Fake-Bewertungen Restaurant, OpenTable ChatGPT",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-33-2026",
+    "datePublished": "2026-08-17T10:34:43.385Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-17T10:35:01.183Z"
+}
