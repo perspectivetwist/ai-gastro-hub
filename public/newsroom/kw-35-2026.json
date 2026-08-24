@@ -1,0 +1,47 @@
+{
+  "slug": "kw-34-2026",
+  "kw": 34,
+  "year": 2026,
+  "date": "24. August 2026",
+  "headline": "58% der Gäste nutzen ChatGPT für Restaurants: Dein Betrieb braucht jetzt Sichtbarkeit",
+  "zahl_der_woche": {
+    "zahl": "58%",
+    "kontext": "Der Deutschen ab 16 Jahren nutzen 2026 KI für Restaurantentscheidungen. Wenn dein Restaurant unsichtbar für ChatGPT ist, verlierst du diese Gäste an die Konkurrenz."
+  },
+  "news": [
+    {
+      "titel": "ChatGPT und Yelp buchen jetzt DEINE Tische: Was du wissen musst",
+      "was_passiert": "Seit 10. August können ChatGPT-Nutzer direkt im Chat Tische reservieren über Yelp, OpenTable und Resy. Der Gast tippt ins Chatverlauf was er will, ChatGPT sammelt Details ein und bucht deine Tische direkt. Das funktioniert jetzt für tausende Restaurants in USA und Kanada, DACH-Restaurants sind noch nicht abgedeckt.",
+      "was_bedeutet_das": "Deutschlands Restaurants sind aktuell nicht sichtbar in dieser ChatGPT-Booking-Funktion. Das Problem: Gäste finden über ChatGPT andere Restaurants und buchen dort. Die Lösung ist banale Handarbeit: Name, Adresse, Öffnungszeiten und Telefonnummer müssen auf deiner Website, Google und allen Portalen 100% identisch sein."
+    },
+    {
+      "titel": "Fake-Reviews schreiben sich jetzt selbst: So schützt du dein Restaurant",
+      "was_passiert": "KI kann in Sekunden Bewertungen generieren, die aussehen wie von echten Gästen. Ein Test dieser Woche zeigt: Die KI-Texte sind kaum von echten Bewertungen zu unterscheiden. Das Problem: Konkurrenten nutzen das, um dein Restaurant abzuschießen oder fake positiv zu bewerten, um selbst besser dazustehen.",
+      "was_bedeutet_das": "Gäste vertrauen Bewertungen weniger. Google zeigt seit April an, wie viele Reviews entfernt wurden. Deine beste Gegenwehr: Innerhalb von 24 Stunden SELBST auf echte Bewertungen antworten. Das wirkt authentisch und zeigt Gästen, dass du da bist. 15 Minuten täglich reichen für die meisten Restaurants."
+    },
+    {
+      "titel": "EU AI Act gilt jetzt (seit 2. August): Dein Bot muss sich outen",
+      "was_passiert": "Artikel 50 der EU AI Act ist live. Jeder Reservierungs-Bot, Chatbot oder Voice-Assistant muss sich zu Anfang als KI zu erkennen geben. Das ist Pflicht ab sofort. Keine Ausnahmen für alte Bots die schon 2 Jahre laufen.",
+      "was_bedeutet_das": "Wenn du einen Bot zur Reservierung oder Kundenbetreuung nutzt, schreib einen kurzen Satz an den Anfang: 'Ich bin der digitale Assistent vom [Dein Restaurant]. Ich helfe bei Reservierungen.' Das ist rechtskonform und kostet keine Zeit. Wer das ignoriert, riskiert Abmahnungen ab sofort."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe diese Woche deine Google-Einträge und Website: Sind Name, Adresse, Telefon und Öffnungszeiten überall identisch? Das ist die Basis, damit ChatGPT dich überhaupt findet. 20 Minuten genügen, um drei Portale zu checken. Danach antworte auf deine letzten 5 Bewertungen. Kurz, ehrlich, human.",
+  "seo": {
+    "title": "58% nutzen ChatGPT für Restaurantsuche | KI-Gastro-Newsroom KW 34 2026",
+    "metaDescription": "ChatGPT bucht jetzt Tische. KI generiert Fake-Reviews. EU AI Act live. Was dein Restaurant KW 34 2026 konkret tun muss.",
+    "keywords": "KI Gastronomie, ChatGPT Restaurant reservieren, Fake-Reviews Restaurants, EU AI Act Restaurants",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-34-2026",
+    "datePublished": "2026-08-24T10:39:28.888Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check gegen Fake-Reviews"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-24T10:39:50.211Z"
+}
