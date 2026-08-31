@@ -1,0 +1,47 @@
+{
+  "slug": "kw-35-2026",
+  "kw": 35,
+  "year": 2026,
+  "date": "31. August 2026",
+  "headline": "OpenTable rollt 20+ KI-Features aus: Dein Restaurant kann jetzt automatisiert Tische füllen",
+  "zahl_der_woche": {
+    "zahl": "20+",
+    "kontext": "Neue KI-Features bei OpenTable automatisieren Tischplanung und Suchergebnisse: Du brauchst weniger Handgriffe, mehr freie Plätze zur Stoßzeit."
+  },
+  "news": [
+    {
+      "titel": "OpenTable pusht 20+ KI-Features live: Tische buchen sich jetzt selbst",
+      "was_passiert": "<cite index=\"32-1,32-2\">OpenTable kündigte am 26. August seine größte Suite von neuen KI- und Automatisierungs-Features an: Tisch-Automationen, KI-gestützte Suchverteilung und natürlichsprachige Berichte für ein vollständigeres Betriebssystem.</cite> Die Features reduzieren Handarbeit und füllen Plätze automatisierter.",
+      "was_bedeutet_das": "<cite index=\"32-4,32-9\">Die neuen Funktionen sind so gestaltet, dass sie manuelle Arbeit reduzieren und dem Team mehr Zeit für das Gasterlebnis gibt.</cite> Für kleine Restaurants in DACH heißt das konkret: Weniger Zeit mit Anrufen verschwenden, mehr Tische zur Stoßzeit belegt. Dein POS wird smarter ohne dass du was tun musst."
+    },
+    {
+      "titel": "Yelp in ChatGPT live: Gäste buchen dein Restaurant jetzt im Chat",
+      "was_passiert": "<cite index=\"9-1,10-4\">ChatGPT-Nutzer können jetzt über Yelp Reservierungen und Wartelisten bei Tausenden Restaurants in USA und Kanada direkt im Chat buchen.</cite> <cite index=\"13-4\">OpenTable ist global verfügbar, Resy nur in USA, Yelp in USA und Kanada.</cite> Das läuft seit 10. August live.",
+      "was_bedeutet_das": "Dein DACH-Restaurant profitiert noch nicht von dieser Integration. Aber es zeigt: KI-Reservierungen werden Standard. <cite index=\"15-8\">Restaurants müssen Yelp Guest Manager nutzen, um in ChatGPT buchbar zu sein.</cite> Tipp: Prüfe, ob dein Reservierungssystem bereits ChatGPT-integriert ist oder ob dein System das kann."
+    },
+    {
+      "titel": "KI-Bewertungen explodieren: 3 Prozent der Amazon-Reviews sind KI-Text",
+      "was_passiert": "<cite index=\"22-4,22-5\">Eine Studie von Panagram Labs 2026 zeigt: 3 Prozent von 30.000 analysierten Amazon-Bewertungen waren KI-generiert, 93 Prozent trugen das Label 'Verifizierter Kauf'.</cite> <cite index=\"22-6\">Auch bei Google sind zahlreiche KI-erzeugte Rezensionen zu finden.</cite>",
+      "was_bedeutet_das": "Gefälschte Bewertungen treffen auch dein Restaurant. <cite index=\"21-7,21-8\">Lokale Google-Bewertungen sind besonders anfällig: Restaurants, Hotels, Handwerker kaufen Bewertungen, um ihr Ranking zu verbessern.</cite> Dein Aktionsplan: Echte Gäste regelmäßig um Bewertungen bitten, um authentische Reviews aufzubauen und dich vor Fälschungen zu schützen."
+    }
+  ],
+  "handlungsempfehlung": "Melde dich diese Woche in deinem OpenTable-Konto an und prüfe, welche neuen KI-Features du aktivieren kannst. Die Tisch-Automationen sind für kleine Betriebe ein echter Zeitsparer. Parallel: Checke, ob dein Restaurant in Google My Business, TheFork oder OpenTable vollständig und identisch eingetragen ist. Das ist die Basis, damit dich ChatGPT und andere KI-Tools überhaupt finden.",
+  "seo": {
+    "title": "OpenTable KI-Features: Tische automatisiert füllen | KI-Gastro KW 35",
+    "metaDescription": "KW 35/2026: OpenTable rollt 20+ KI-Features aus, Yelp bucht in ChatGPT, KI-Reviews explodieren. Kostenloser KI-Check für dein Restaurant.",
+    "keywords": "OpenTable KI, ChatGPT Reservierungen Restaurant, KI Bewertungen Restaurant, Automatisierung Gastronomie 2026",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-35-2026",
+    "datePublished": "2026-08-31T17:27:17.897Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos, ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für deine Bewertungen"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-31T17:27:37.639Z"
+}
