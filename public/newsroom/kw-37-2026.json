@@ -1,0 +1,47 @@
+{
+  "slug": "kw-37-2026",
+  "kw": 37,
+  "year": 2026,
+  "date": "07. September 2026",
+  "headline": "270% mehr Gäste via KI-Buchungen: OpenTable rollt 20+ Features aus",
+  "zahl_der_woche": {
+    "zahl": "270%",
+    "kontext": "OpenTable hat durch KI-Buchungen 270% mehr Gäste in 2026 platziert als 2025 – und dein Restaurant wird automatisch miteinbezogen, wenn dein Profil aktuell ist."
+  },
+  "news": [
+    {
+      "titel": "OpenTable startet 20+ KI-Features: ChatGPT und Google buchen für dich",
+      "was_passiert": "<cite index=\"30-10\">OpenTable rollte am 26. August 2026 mehr als 20 neue KI- und Automations-Tools aus</cite>. <cite index=\"33-1\">LLM-Integrationen führten zu 17x mehr platzierten Gästen im Jahr-über-Jahr-Vergleich, mit durchschnittlich 20% höheren Ausgaben dieser Gäste</cite>.",
+      "was_bedeutet_das": "Wenn dein Restaurant auf OpenTable ist, buchen Gäste automatisch via ChatGPT, Google Gemini und Yelp – ohne dass sie die App öffnen. <cite index=\"30-3,30-4\">Discovery findet jetzt in KI statt. Wenn dein Restaurant nicht dort sichtbar ist, wo Gäste ChatGPT fragen, wirst du genau im Buchungsmoment übersehen</cite>."
+    },
+    {
+      "titel": "ChatGPT bucht jetzt live in den USA und Kanada: Yelp, OpenTable, Resy aktiv",
+      "was_passiert": "<cite index=\"9-1\">Die Integration zwischen Yelp und ChatGPT ging am 10. August 2026 live und deckt Resy-Restaurants in den USA ab</cite>. <cite index=\"11-2,11-3\">Yelp bringt Reservierungen direkt in ChatGPT, was den Chat vom Discovery-Tool zu einem Ort macht, wo Nutzer lokale Aktionen abschließen können</cite>.",
+      "was_bedeutet_das": "Gäste in den USA schreiben: \"Gutes Sushi für 4 Personen heute um 8\" – und ChatGPT bucht ihnen den Tisch direkt im Chat. Für DACH-Gastronomen: Prüfe jetzt, ob dein Profil auf OpenTable, Yelp oder Resy vollständig ist. Die Chancen steigen schnell."
+    },
+    {
+      "titel": "Fake-Reviews unkontrollierbar: KI-generiert, aber Google-Filter scheitert",
+      "was_passiert": "<cite index=\"22-1,22-2\">Eine Studie von 2026 zeigt: 3% der analysierten Amazon-Bewertungen waren KI-generiert – 93% davon trugen sogar das Label \"Verifizierter Kauf\"</cite>. <cite index=\"20-6\">Trotz Google KI-Filter bleiben viele Fake-Bewertungen unentdeckt</cite>.",
+      "was_bedeutet_das": "Dein Restaurant kann jetzt auch von Fake-Reviews getroffen werden, die Google nicht sieht. Überwache deine Google-Bewertungen aktiv, antworte auf verdächtige Einträge und dokumentiere Auffälligkeiten. KI-generierte Texte klingen oft glatt, aber leer – achte darauf."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe diese Woche: Ist dein Restaurantprofil auf OpenTable, Yelp und Google vollständig und aktuell? Neue Fotos, aktuelle Öffnungszeiten, Speisekarte – alles korrekt? Diese Infos werden direkt an ChatGPT und Yelp durchgereicht. 30 Minuten Arbeit bringt dir Gäste, die du sonst übersehen hast.",
+  "seo": {
+    "title": "KI-Buchungen: 270% Wachstum | KI-Gastro-Newsroom KW 37",
+    "metaDescription": "KW 37 2026: ChatGPT bucht direkt. OpenTable 20+ Features. Dein Restaurant-Profil muss sichtbar sein. Gratis Sichtbarkeits-Check.",
+    "keywords": "KI Reservierung Restaurant, ChatGPT OpenTable, KI Gastronomie 2026, Yelp Buchung",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-37-2026",
+    "datePublished": "2026-09-07T15:36:26.759Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-09-07T15:36:48.607Z"
+}
