@@ -1,0 +1,47 @@
+{
+  "slug": "kw-38-2026",
+  "kw": 38,
+  "year": 2026,
+  "date": "21. September 2026",
+  "headline": "58% der Gäste nutzen ChatGPT: Dein Restaurant wird unsichtbar, wenn es dort nicht auftaucht",
+  "zahl_der_woche": {
+    "zahl": "58%",
+    "kontext": "58 Prozent aller Deutschen ab 16 Jahren nutzen 2026 ChatGPT und Co. für Restaurantentscheidungen. Wer dort nicht auftaucht, verliert Tische."
+  },
+  "news": [
+    {
+      "titel": "ChatGPT bucht jetzt live in DACH: Reservierungen laufen ohne Umleitung",
+      "was_passiert": "<cite index=\"14-3,14-5\">Seit 10. August 2026 buchen Gäste über ChatGPT direkt auf OpenTable, Resy und Yelp</cite>. <cite index=\"12-2\">Yelp und OpenAI ermöglichen Reservierungen und Wartelisten direkt im Chat</cite>, ohne dass Gäste die App verlassen.",
+      "was_bedeutet_das": "Dein Restaurant wird über ChatGPT nur sichtbar, wenn du bei OpenTable, TheFork oder ähnlichen Plattformen aktiv bist und deine Verfügbarkeit live synchronisiert hast. Ohne diese Integration: unsichtbar für 58% der Gäste. Das ist ein Business-Risiko, das du diese Woche überprüfen solltest."
+    },
+    {
+      "titel": "KI-generierte Fake-Bewertungen sind jetzt professionell: Google Maps führt Transparenz-Counter ein",
+      "was_passiert": "<cite index=\"24-2,24-5\">KI kann in Sekunden realistische Fake-Reviews schreiben, die kaum zu unterscheiden sind</cite>. <cite index=\"21-3,21-4\">Seit April 2026 zeigt Google Maps, wie viele Bewertungen wegen Diffamierungsbeschwerden entfernt wurden</cite>.",
+      "was_bedeutet_das": "Konkurrenten können dein Restaurant mit KI-generierten Negativbewertungen angreifen. Der neue Google-Counter zeigt Besuchern zwar, wenn massiv Bewertungen entfernt wurden, aber echte Gäste finden das verdächtig. Deine echten 5-Sterne-Gäste sollten aktiv Bewertungen schreiben, um dich zu schützen."
+    },
+    {
+      "titel": "OpenTable rollt 20+ KI-Features aus: 270% mehr Gäste über Voice-AI in 6 Monaten",
+      "was_passiert": "<cite index=\"39-1,39-3\">OpenTable hat im August 2026 über 20 neue KI-Features launchgefahren, viele davon automatisiert</cite>. <cite index=\"41-3,41-9\">OpenTable hat 3 Millionen Gäste über Voice-AI-Partner vermittelt: ein Plus von 270% in 2026</cite>.",
+      "was_bedeutet_das": "Die Buchungsplattformen werden cleverer und füllen deine Tische teil-automatisiert. Das bedeutet: Deine OpenTable-Buchungsbox muss aktuell sein, deine Verfügbarkeit muss live stimmen. Wenn deine Tische dort korrekt abgebildet sind, profitierst du von dieser Automation ohne zusätzlichen Aufwand."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe diese Woche: (1) Ist dein Restaurant auf OpenTable, Yelp oder TheFork und mit Live-Verfügbarkeitsabgleich aktiviert? (2) Teste selbst in ChatGPT: Tippt man \"Restaurant [dein Name] [deine Stadt]\" ein - taucht du auf oder wird ein Konkurrenz-Haus genannt? Diese zwei Checks dauern 20 Minuten und zeigen dir sofort das Leak.",
+  "seo": {
+    "title": "58% nutzen ChatGPT für Restaurants | KI-Gastro KW 38 2026",
+    "metaDescription": "KW 38: ChatGPT bucht jetzt live. Dein Restaurant muss dort sichtbar sein. Fake-Reviews professioneller. OpenTable rollt 270% Gast-Plus aus.",
+    "keywords": "KI Reservierungen Restaurant, ChatGPT Sichtbarkeit Gastronomie, Fake-Reviews Google Maps, OpenTable KI 2026",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-38-2026",
+    "datePublished": "2026-09-21T16:19:22.524Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-09-21T16:19:42.242Z"
+}
