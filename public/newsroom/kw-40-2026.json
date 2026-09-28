@@ -1,0 +1,47 @@
+{
+  "slug": "kw-40-2026",
+  "kw": 40,
+  "year": 2026,
+  "date": "28. September 2026",
+  "headline": "17% deiner Konkurrenten sind in ChatGPT unsichtbar: Was dein Restaurant jetzt prüfen muss",
+  "zahl_der_woche": {
+    "zahl": "17%",
+    "kontext": "Nur 17% der Restaurants tauchen in KI-Empfehlungen auf. Das bedeutet: 83% der Lokale konkurrieren um weniger Gäste, die ChatGPT nutzen. Du brauchst einen Plan, sonst gehörst du zu den Unsichtbaren."
+  },
+  "news": [
+    {
+      "titel": "ChatGPT bevorzugt Restaurants ab 4,3 Sternen: Bewertungen sind jetzt dein Zugangsticket",
+      "was_passiert": "Neue Benchmark-Daten aus September 2026 zeigen: ChatGPT empfiehlt fast nur noch Lokale mit durchschnittlich 4,3+ Sternen, Perplexity ab 4,1, Gemini ab 3,9. Ein Restaurant mit 120 Bewertungen bei 3,8 Sternen braucht rund 45 neue Fünf-Sterne-Bewertungen, um in die KI-Empfehlungen zu rutsche. Das ist deutlich schwerer als alle technischen Optimierungen zusammen.",
+      "was_bedeutet_das": "Deine Sternanzahl ist dein neuer Gatekeeper zu KI-Sichtbarkeit. Statt die Speisekarte zu optimieren, solltest du diese Woche ein Bewertungs-Management-System aufbauen. Eine Kleine Pizzeria reduziert ihre Bewertungsantwort-Zeit von 5 Minuten auf 30 Sekunden mit KI-Tools. Das macht regelmäßiges Feedback möglich."
+    },
+    {
+      "titel": "Gemini 3.8 Flash ist da: Kostenlos schneller geworden und besser für deine Online-Präsenz",
+      "was_passiert": "Google hat am 2. September 2026 Gemini 3.8 Flash freigeschaltet. Das Modell akzeptiert über 1 Million Input-Token und ist für Coding und agentengestützte Aufgaben optimiert. Das klingt technisch, bedeutet aber: KI-Agenten verstehen dein Restaurant jetzt besser und schneller. Deine Google-Daten, deine Speisekarte, deine Öffnungszeiten werden präziser verarbeitet.",
+      "was_bedeutet_das": "Du brauchst nicht sofort ein neues Tool. Aber deine Daten müssen sauber sein: Ein lesbares Menu ohne PDF, aktuelle Öffnungszeiten in Google Business Profile, und klare Struktur-Daten (Schema Markup). Wenn dein Restaurant in Google und auf deiner Website verwirrend wirkt, wird es auch in KI-Antworten übersehen."
+    },
+    {
+      "titel": "KI-Agenten übernehmen jetzt Routineaufgaben: Bestellungen, Personalplanung, Reporting",
+      "was_passiert": "2026 kommen autonome KI-Agenten in die Gastronomie. Diese Systeme prüfen täglich die Wareneinsatzquote, platzieren Bestellungen automatisch beim Lieferant, und erinnern Mitarbeiter an fehlende Verfügbarkeiten. Die ersten Restaurants nutzen das bereits. Ein Agent muss aber klare Grenzen haben: Input ist einfach, Output ist klar, ein Mensch behandelt Ausnahmen.",
+      "was_bedeutet_das": "Starten solltest du diese Woche mit einer Aufgabe, die extrem repetitiv ist. Zum Beispiel: Ein Agent prüft jeden Morgen, ob die Wareneinsatzquote über 30% liegt, und sendet dir eine Nachricht. Kosten: 20-80 Euro/Monat. Ertrag: 30-45 Minuten Zeitersparnis pro Woche und weniger Food Waste. Das ist konkret, nicht heiß und nicht hype."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe deine Google Business Profile Daten (Öffnungszeiten, Speisekarte, Bilder) mit fünf Gästen, ob alles korrekt wirkt. Schreib dein Konzept klar auf: Für welche Anlässe passt dein Lokal? Geschäftsessen, Kindergeburtstag, Date, Firmenfeier? Google und ChatGPT brauchen diese Info als Struktur-Daten.",
+  "seo": {
+    "title": "17% unsichtbar in ChatGPT | KI-Gastro-Newsroom KW 40 2026",
+    "metaDescription": "KW 40: ChatGPT bevorzugt Restaurants ab 4,3 Sternen. KI-Agenten automatisieren Bestellungen. Kostenloser GEO-Check für dein Restaurant.",
+    "keywords": "KI Gastronomie Sichtbarkeit, ChatGPT Restaurant finden, Bewertungen Google Maps, GEO Generative Engine Optimization, KI Agenten Restaurant",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-40-2026",
+    "datePublished": "2026-09-28T18:00:38.997Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      }
+    ]
+  },
+  "generatedAt": "2026-09-28T18:01:08.203Z"
+}
