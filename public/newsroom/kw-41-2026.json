@@ -1,0 +1,47 @@
+{
+  "slug": "kw-41-2026",
+  "kw": 41,
+  "year": 2026,
+  "date": "05. Oktober 2026",
+  "headline": "OpenTable knackt 39 Minuten Zeitvorteil: Wie KI deine Tische effizienter füllt",
+  "zahl_der_woche": {
+    "zahl": "39 Minuten",
+    "kontext": "Testrestaurants sparten durchschnittlich 39 Minuten reservierbare Zeit pro Schicht durch neue OpenTable KI-Features ein: Das sind 5-10 zusätzliche Gäste pro Tag ohne Mehraufwand."
+  },
+  "news": [
+    {
+      "titel": "OpenTable pusht Tischverwaltung neu: 39 Minuten Zeitgewinn pro Schicht",
+      "was_passiert": "<cite index=\"37-2,37-3,37-4,37-5\">OpenTable präsentierte Anfang September 2026 sein umfangreichstes Paket an neuen KI- und Automatisierungsfunktionen für Restaurants, darunter Tischautomatisierungen und KI-gestützte Präsenz auf Suchplattformen.</cite> <cite index=\"37-11,37-12\">Die neuen Funktionen \"Turn Times\" und \"Availability Insights\" zeigen, wo Reservierungszeiten und Tischkapazitäten verloren gehen und wie sie zurückgewonnen werden können. Testrestaurants konnten dadurch durchschnittlich 39 zusätzliche Minuten reservierbarer Zeit pro Schicht schaffen.</cite>",
+      "was_bedeutet_das": "Du schaffst mehr Platz in deinem Reservierungsbuch ohne dein Restaurant zu überlasten. Bei 10-15 Tischen im Schnitt sind das 5-10 zusätzliche Gäste pro Abend. Wenn du OpenTable nutzt, solltest du die neuen Features diese Woche aktivieren – es kostet dich nur eine Stunde Zeit."
+    },
+    {
+      "titel": "ChatGPT bucht jetzt auch über TheFork: Ein Kanal pro DACH-Restaurant dazu",
+      "was_passiert": "<cite index=\"42-2,42-3,42-4\">TheFork hat als einer der ersten Launch-Partner von OpenAI die Buchungsfunktion in ChatGPT integriert. Gäste können ab sofort über einfache Dialoge mit der KI Restaurants entdecken und direkt reservieren.</cite> <cite index=\"42-5\">Für Gastronomiebetriebe eröffnet die Integration einen zusätzlichen Buchungskanal mit potenziell höherer Reichweite.</cite>",
+      "was_bedeutet_das": "Das ist parallel zu OpenTable und Yelp. Wenn du auf TheFork registriert bist (und das sind viele DACH-Restaurants), landen deine freien Tische automatisch auch in ChatGPT. Diese Woche: Checke, ob deine Tische in ChatGPT sichtbar sind. Falls nicht, kontaktiere TheFork – es ist eine Standardintegration, kostet nichts extra."
+    },
+    {
+      "titel": "KI entdeckt dein Potenzial: Speisekarten-Optimierung spart 8% Kosten ohne Qualitätsverlust",
+      "was_passiert": "<cite index=\"4-11,4-12\">Eine fränkische Wirtschaft in Bamberg hat durch KI-Analyse herausgefunden, dass ihr Tagesgericht durchschnittlich 8 Prozent Verlust machte, weil die Portionsgröße zu groß war. Nach Anpassung: 2 Prozent Gewinn pro Gericht.</cite> <cite index=\"31-6,31-7\">KI-gestützte Systeme wie Delegate, Hubl oder MenuTech analysieren permanent Daten, Gästezahlen und Bestellverhalten, um Produktionsmengen automatisch zu planen. Das Ziel ist die Reduktion von Überproduktion und Food Waste.</cite>",
+      "was_bedeutet_das": "Dein Tagesgericht könnte mehr verdienen, ohne dass Gäste den Unterschied merken. Diese Tools brauchen deine Verkaufs- und Kostendaten (nicht deine Speisekarte). Die meisten kosten unter 50 Euro/Monat. Diese Woche: Mach einen Screenshot deiner Top-5 Gerichte mit Verkaufszahlen und Zutatenkosten – dann kannst du in Tools wie ResponseGPT oder n8n ein schnelles Test-Experiment starten."
+    }
+  ],
+  "handlungsempfehlung": "Überprüfe diese Woche in deinem OpenTable- oder Reservierungssystem (ob Resmio, TheFork, aleno), ob die neuen KI-Features aktiv sind und welche \"Availability Insights\" dir zeigen, wo du noch Tische freigeben kannst. Falls du nur 5-10 Minuten pro Schicht sparst, ist das schon ein halber Gast mehr pro Tag.",
+  "seo": {
+    "title": "OpenTable spart 39 Minuten: Wie KI KW41 2026 | KI-Gastro-Newsroom",
+    "metaDescription": "KW41 2026: OpenTable KI-Features bringen 39 Min Zeitvorteil pro Schicht. TheFork in ChatGPT live. Speisekarten-Optimierung spart 8% Kosten.",
+    "keywords": "OpenTable KI, ChatGPT Reservierungen DACH, TheFork ChatGPT 2026, Tischverwaltung KI, Speisekarten Optimierung",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-41-2026",
+    "datePublished": "2026-10-05T19:08:00.033Z",
+    "internalLinks": [
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      },
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      }
+    ]
+  },
+  "generatedAt": "2026-10-05T19:08:21.547Z"
+}
