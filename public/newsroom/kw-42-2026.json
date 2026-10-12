@@ -1,0 +1,47 @@
+{
+  "slug": "kw-42-2026",
+  "kw": 42,
+  "year": 2026,
+  "date": "12. Oktober 2026",
+  "headline": "86% der Restaurants sind unsichtbar in ChatGPT: Das eine Ding, das du diese Woche checken musst",
+  "zahl_der_woche": {
+    "zahl": "86%",
+    "kontext": "Fast neun von zehn Restaurants mit gepflegtem Google-Profil erscheinen nicht in ChatGPT-Empfehlungen. Die Ursache ist eine zu niedrige Sternebewertung."
+  },
+  "news": [
+    {
+      "titel": "KI-Sichtbarkeit: Warum dein Google-Profil allein nicht reicht",
+      "was_passiert": "Benchmark-Daten aus 2026 zeigen: 86% der Restaurants mit vollständigem Google-Profil sind in ChatGPT, Perplexity und Gemini unsichtbar. Das Problem ist nicht die Datenpflege, sondern die Bewertungshöhe. ChatGPT empfiehlt erst ab 4,3 Sternen, Perplexity ab 4,1, Gemini ab 3,9.",
+      "was_bedeutet_das": "Dein Restaurant muss aktiv neue Bewertungen generieren, um sichtbar zu werden. Du brauchst nicht nur einen gepflegten Google-Eintrag, sondern auch 4,3+ Sterne. Ein Restaurant mit 4,0 Sternen und optimalem Google-Profil bleibt für Gäste, die ChatGPT fragen, einfach unsichtbar."
+    },
+    {
+      "titel": "OCR-KI spart 95% Dateneingabe-Zeit bei Speisekarten",
+      "was_passiert": "Neue Software nutzt optische Zeichenerkennung (OCR) kombiniert mit Sprachmodellen wie GPT-4. Eine komplette Speisekarte wird damit nicht mehr in einer Stunde erfasst, sondern in weniger als 3 Minuten Überprüfung. Das funktioniert schon bei einigen deutschen Anbietern.",
+      "was_bedeutet_das": "Wer die Speisekarte häufig wechselt oder ein PDF einscannen muss, spart konkret 45-60 Minuten pro Wechsel. Das Gerät erkennt selbst handschriftliche Notizen und Allergenkennzeichnungen. Für 30-50 Euro pro Monat lohnt sich das bereits ab zwei Kartenwechseln im Monat."
+    },
+    {
+      "titel": "Kitro und Gastromatic: Food-Waste-Analyse wird konkret messbar",
+      "was_passiert": "Two spezialisierte DACH-Tools etablieren sich im Oktober 2026. Kitro erfasst Foodwaste automatisch per Kamera ohne manuelle Einträge. Gastromatic plant Dienstplanung, Lohnabrechnung und Zeiterfassung zentral. Beide Tools sind klein-betrieb-tauglich und DSGVO-konform in Frankfurt gehostet.",
+      "was_bedeutet_das": "Du siehst konkret, welche Speisen zu viel produziert werden und wo Einsparungen möglich sind. Gastromatic reduziert die Planung eines 15-Personen-Betriebs von 6-12 Stunden auf 3 Stunden pro Monat. Die Ersparnis bei Food-Waste liegt bei kleinen Restaurants bei 3-8% des Wareneinsatzes."
+    }
+  ],
+  "handlungsempfehlung": "Checke diese Woche dein Google-Profil und deine aktuelle Sternebewertung. Falls unter 4,3 Sternen: Initiiere gezielt drei neue Bewertungen über QR-Code auf der Rechnung. Parallel: Teste ein OCR-Tool kostenlos mit deiner nächsten Kartenkarte. 30 Minuten Arbeit, großer Effekt.",
+  "seo": {
+    "title": "KI-Sichtbarkeit 2026: 86% unsichtbar | KI-Gastro-Newsroom KW 42",
+    "metaDescription": "KW 42 2026: 86% Restaurants unsichtbar in ChatGPT. So sichtbar machst du dein Lokal. Kostenlose Scanner.",
+    "keywords": "KI Sichtbarkeit Restaurant, ChatGPT Restaurant empfehlen, Bewertungen Restaurant KI, KI-Tools Gastronomie",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-42-2026",
+    "datePublished": "2026-10-12T19:41:08.422Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      }
+    ]
+  },
+  "generatedAt": "2026-10-12T19:41:29.237Z"
+}
