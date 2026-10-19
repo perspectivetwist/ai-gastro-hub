@@ -1,0 +1,47 @@
+{
+  "slug": "kw-43-2026",
+  "kw": 43,
+  "year": 2026,
+  "date": "19. Oktober 2026",
+  "headline": "Google erweitert Restaurant-Profile um 4 neue Ernährungsmerkmale: Was du checken musst",
+  "zahl_der_woche": {
+    "zahl": "4 neue Kennzeichnungen",
+    "kontext": "Google erklärt jetzt Allergien und Ernährungsanforderungen direkt bei jedem Gericht, nicht nur auf Speisekarten - das entscheidet über KI-Sichtbarkeit."
+  },
+  "news": [
+    {
+      "titel": "Google kennzeichnet Gerichte: Glutenfrei, Halal und Koscher jetzt im Profil",
+      "was_passiert": "<cite index=\"27-1,27-2\">Im Oktober 2026 wurde eine Erweiterung für Restaurantprofile bekannt. Zusätzlich zu vegetarischen und veganen Kennzeichnungen werden weitere Eigenschaften einzelner Gerichte unterstützt: glutenfrei, milchfrei, halal und koscher.</cite> Das macht Gäste schneller fündig und hilft KI-Assistenten, dein Restaurant zu empfehlen.",
+      "was_bedeutet_das": "Schau dein Google-Profil an und fülle diese Felder aus. Das dauert maximal eine Stunde und verbessert deine Chancen in ChatGPT und Gemini messbar. Restaurants ohne gepflegte Ernährungsmerkmale verschwinden in der KI-Suche ganz unten."
+    },
+    {
+      "titel": "KI-Kennzeichnungspflicht seit August: Noch immer viele Restaurants unsichtbar",
+      "was_passiert": "<cite index=\"9-4,9-5,9-6,9-7\">Seit dem 2. August 2026 gelten mit Artikel 50 der europäischen KI-Verordnung Kennzeichnungspflichten für bestimmte KI-Inhalte. Chatbots müssen sagen, dass sie Chatbots sind. Realistisch wirkende KI-Bilder von Menschen, Orten oder Ereignissen müssen als künstlich erkennbar sein.</cite> Viele Gastronomen denken noch, das ist nur für große Unternehmen relevant.",
+      "was_bedeutet_das": "Falls du einen Chatbot oder KI-Telefon nutzt: Ein einfacher Hinweis \"Sie sprechen mit einer KI\" genügt. KI-Bilder auf Instagram oder Website müssen gekennzeichnet werden. Prüfe deine Tools diese Woche auf Compliance."
+    },
+    {
+      "titel": "Gastfreund Studio startet: KI schreibt deine Speisekarte in Minuten",
+      "was_passiert": "<cite index=\"38-8,38-9\">Das Haus gibt die Handschrift vor, die KI übernimmt das Handwerk: Morgenpost, Speisekarte, Wochenprogramm, Flyer und Co. entstehen in Minuten. Mit Studio bringt die Gastfreund GmbH einen KI-Creative-Hub für die Hotellerie auf den Markt, der Gästeinformationen im Stil des jeweiligen Hauses erstellt.</cite> Das ist eine neue Kategorie von Tools speziell für German-speaking Gastronomen.",
+      "was_bedeutet_das": "Dieses Tool ist nicht für kleine 1-Mann-Pizzerias gedacht, aber für Restaurants mit 5-10 Mitarbeitern lohnt sich ein Test. Speisekarten-Änderungen, Wochenprogramme, Flyer - das sparrt bei dir mehrere Stunden pro Woche im Office."
+    }
+  ],
+  "handlungsempfehlung": "Schritt 1: Öffne dein Google Business Profile und prüfe, ob deine Top-Gerichte mit glutenfrei, halal oder koscher gekennzeichnet sind (20 Minuten). Schritt 2: Falls du einen Chatbot hast, checke dass der Hinweis \"Gespräch mit einer KI\" sichtbar ist (10 Minuten).",
+  "seo": {
+    "title": "Google erweitert Restaurant-Profile | KI-Gastro-Newsroom KW 43 2026",
+    "metaDescription": "KW 43 2026: Glutenfrei, Halal, Koscher - Google kennzeichnet jetzt Gerichte einzeln. Was das für dein Restaurant bedeutet.",
+    "keywords": "Google Business Profile, Restaurant Allergie, KI-Sichtbarkeit, Ernährungsmerkmale, KW 43 2026",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-43-2026",
+    "datePublished": "2026-10-19T16:51:20.006Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos, wie dein Restaurant in ChatGPT auftaucht"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für dein Profil"
+      }
+    ]
+  },
+  "generatedAt": "2026-10-19T16:51:40.043Z"
+}
