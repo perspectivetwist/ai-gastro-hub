@@ -1,0 +1,47 @@
+{
+  "slug": "kw-43-2026",
+  "kw": 43,
+  "year": 2026,
+  "date": "26. Oktober 2026",
+  "headline": "69.000 Restaurants geschlossen: Wie KI dir diese Woche 8 % Kosten spart",
+  "zahl_der_woche": {
+    "zahl": "69.000",
+    "kontext": "Zwischen 2020 und 2025 stellten rund 69.000 Gastronomiebetriebe in Deutschland ihren Betrieb ein. KI-Tools helfen überlebenden Restaurants jetzt, Personalkosten und Food Waste um 8 % zu senken."
+  },
+  "news": [
+    {
+      "titel": "Schichtplanung in 40 Sekunden: Nesto spart jetzt messbar Kosten",
+      "was_passiert": "Das Gastro-Tech Nesto generiert intelligente Dienstpläne vollautomatisch. Dabei analysiert die KI Reservierungsdaten, gleicht sie mit der Wettervorhersage ab und erstellt einen Vorschlag. Eine Gaststätte in Würzburg senkte ihre Personalkosten um 8 %, ohne dass Qualität litt.",
+      "was_bedeutet_das": "Du brauchst keine Excel-Tabellen oder Bauchgefühl mehr für die Planung. Das Tool kostet 50-250 EUR pro Monat und bezahlt sich nach zwei bis vier Wochen durch eingesparte Stunden in deinem Büro. L'Osteria und McDonald's nutzen es bereits."
+    },
+    {
+      "titel": "KI-Kennzeichnungspflicht ab 2. August 2026: Dein Voicebot muss sich melden",
+      "was_passiert": "Die neue EU-KI-Verordnung verlangt ab sofort: Wenn eine KI mit deinen Gästen spricht (Telefonanrufe, Chatbots, Voiceorder), musst du ausdrücklich kennzeichnen, dass es ein Roboter ist. Verstöße können teuer werden.",
+      "was_bedeutet_das": "Wenn dein Reservierungs-Voicebot anruft oder dein Chat-Bot antwortet: Kurze Meldung reicht. \"Guten Tag, Sie sprechen mit einem KI-Assistent von [Restaurantname]\". Resmio, Quandoo und OpenTable haben das längst eingebaut. Prüfe diese Woche deine Systeme."
+    },
+    {
+      "titel": "Food Waste sinkt um 30-40 %: Kitro-Kamera erfasst Reste automatisch",
+      "was_passiert": "Das KI-System Kitro zeichnet auf, was in die Mülltonne geht. Das TARE-Gerät fotografiert Lebensmittelabfälle, kategorisiert sie und zeigt dir genau, welche Speisen zu viel produziert werden. Eine fränkische Wirtschaft in Bamberg erkannte: Ihr Tagesgericht machte 8 % Verlust durch zu große Portionen.",
+      "was_bedeutet_das": "Nach Anpassung der Portionsgröße: 2 % Gewinn pro Gericht. Kitro kostet etwa 200-300 EUR pro Monat, amortisiert sich durch Einsparungen in drei bis sechs Wochen. Setzt die Hardware in deine Küche, nicht ins Kassensystem: einfach ans Stromnetz."
+    }
+  ],
+  "handlungsempfehlung": "Buche diese Woche einen 30-Minuten-Test mit deinem Reservierungssystem (Resmio, Quandoo, OpenTable). Prüfe, ob die KI-Kennzeichnung aktiviert ist. Danach: Rufe selbst an und teste, ob der Bot klar sagt, dass es ein Roboter ist. Alternativ: Hole dir ein Angebot von Nesto für deine Schichtplanung.",
+  "seo": {
+    "title": "69.000 Restaurants geschlossen: KI spart 8 % Kosten | KI-Gastro KW 43",
+    "metaDescription": "KW 43/2026: Personalkosten senken mit KI-Schichtplanung. EU-Kennzeichnungspflicht für KI-Assistenten. Food Waste um 30-40 % reduzieren.",
+    "keywords": "KI Gastronomie, KI Schichtplanung, Food Waste reduzieren, EU AI Act Restaurant, Kitro, Nesto",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-43-2026",
+    "datePublished": "2026-10-26T16:38:25.698Z",
+    "internalLinks": [
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check"
+      }
+    ]
+  },
+  "generatedAt": "2026-10-26T16:38:47.389Z"
+}
