@@ -1,0 +1,47 @@
+{
+  "slug": "kw-45-2026",
+  "kw": 45,
+  "year": 2026,
+  "date": "09. November 2026",
+  "headline": "KI-Bilder spalten Restaurants: 4 Fehler, die dir Gäste kosten",
+  "zahl_der_woche": {
+    "zahl": "83%",
+    "kontext": "So viele deutsche Restaurants bleiben in KI-Suchanfragen unsichtbar. Deine Bewertungsarbeit entscheidet, ob du auftauchst oder nicht."
+  },
+  "news": [
+    {
+      "titel": "KI-Bilder wirken zu perfekt: Restaurants verlieren Gäste",
+      "was_passiert": "<cite index=\"8-3,8-4\">Einige Restaurants setzen bei ihren Speisekarten auf Künstliche Intelligenz. Manche Bilder wirken aber eher abschreckend als wirklich ansprechend.</cite> <cite index=\"8-11\">Forscher zeigen, dass KI-Bilder möglicherweise zu perfekt aussehen und deshalb weniger appetitlich wirken.</cite>",
+      "was_bedeutet_das": "Wenn du KI-generierte Speisekarten-Fotos nutzt, riskierst du, dass Gäste beim Anblick misstrauen. Real abfotografierte Gerichte schaffen mehr Vertrauen und führen zu mehr Reservierungen. Behalte einfache Handyfotos deiner tatsächlichen Gerichte bei."
+    },
+    {
+      "titel": "ChatGPT bucht jetzt auch in Deutschland deine Gäste",
+      "was_passiert": "<cite index=\"18-9\">ChatGPT zeigt Zeiten von OpenTable weltweit, von Resy in den USA und von Yelp Guest Manager in den USA und Kanada.</cite> In den deutschsprachigen Ländern funktioniert es über OpenTable und spezialisierte Reservierungssysteme. <cite index=\"10-11\">Bookings, die in ChatGPT gemacht werden, fließen direkt in dein bestehendes Reservierungssystem.</cite>",
+      "was_bedeutet_das": "Überprüfe diese Woche, ob dein Restaurant bei OpenTable, TheFork oder deinem aktuellen Reservierungssystem eingetragen ist. Ohne diese Anbindung sehen potenzielle Gäste dein Restaurant nicht, wenn sie in ChatGPT buchen. Das ist dein neuer Buchungskanal."
+    },
+    {
+      "titel": "Niederösterreich zeigt den Weg: KI-Workshops kostenlos",
+      "was_passiert": "<cite index=\"28-4,28-6\">Im Herbst 2026 startet in Niederösterreich eine kostenlose Workshop-Reihe für Gastronomiebetriebe. Es werden sechs kostenfreie Workshops in ganz Niederösterreich angeboten.</cite> <cite index=\"28-8\">Die Workshops behandeln praxisnahe Werkzeuge: Reservierungs- und Buchungssysteme, digitale Zeiterfassung, Online-Bewertungsmanagement und KI-Textgenerierung.</cite>",
+      "was_bedeutet_das": "Ähnliche Initiativen kommen bald auch auf dich zu. Die praktische Botschaft ist klar: KI ist nicht für IT-Profis, sondern für deinen Alltag. Nutze die nächsten Wochen, um mit einem kostenlosen KI-Tool zu starten (z.B. kostenlos bei ChatGPT, Google Gemini oder einem Bewertungsmanagement-Tool)."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe diese Woche, ob dein Restaurant bei OpenTable oder TheFork registriert ist und ob deine Öffnungszeiten korrekt eingetragen sind. Kontrolliere zudem deine letzten 3 Google-Bewertungen: Hast du sie beantwortet? Wenn nein, schreib noch heute kurze, persönliche Antworten. Das dauert 15 Minuten und pusht deine KI-Sichtbarkeit messbar.",
+  "seo": {
+    "title": "KI-Bilder spalten Restaurants | KI-Gastro-Newsroom KW 45 2026",
+    "metaDescription": "KW 45 2026: Warum KI-generierte Speisekarten-Fotos Gäste abschrecken. ChatGPT bucht jetzt in DACH. Kostenlose KI-Workshops starten.",
+    "keywords": "KI Gastronomie, KI Restaurant Deutschland, Speisekarten KI, Bewertungsmanagement Restaurant, ChatGPT Reservierung",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-45-2026",
+    "datePublished": "2026-11-09T20:31:35.858Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für deine Bewertungen"
+      }
+    ]
+  },
+  "generatedAt": "2026-11-09T20:31:54.789Z"
+}
