@@ -1,0 +1,47 @@
+{
+  "slug": "kw-46-2026",
+  "kw": 46,
+  "year": 2026,
+  "date": "16. November 2026",
+  "headline": "83% deiner Konkurrenten sind unsichtbar in KI-Suche: Was die neuen KI-Spielregeln für dein Restaurant ändern",
+  "zahl_der_woche": {
+    "zahl": "83%",
+    "kontext": "So viele deutsche Restaurants fehlen komplett in KI-Suchen wie ChatGPT oder Perplexity – obwohl sie bei Google Maps gut ranken. Das sind potenzielle Gäste, die du nie erreichst."
+  },
+  "news": [
+    {
+      "titel": "KI ignoriert dein Restaurant – auch wenn Google Maps es findet",
+      "was_passiert": "<cite index=\"22-1\">83% der deutschen Restaurants tauchen in KI-Suchanfragen gar nicht auf, obwohl dieselben Betriebe bei Google Maps gut ranken.</cite> <cite index=\"22-2,22-3\">KI-Systeme favorisieren dabei Restaurants mit hohem Bewertungsvolumen und 4,5+ Sternen.</cite> Ein Restaurant mit 12 Fünf-Sterne-Bewertungen bleibt unsichtbar. Eines mit 180 Bewertungen bei 4,7 Sternen nicht.",
+      "was_bedeutet_das": "<cite index=\"20-3\">KI-gestützte Assistenten wie Perplexity, ChatGPT oder der AI-Modus von Google übernehmen 2026 einen wachsenden Teil der lokalen Gästesuche.</cite> Wenn Gäste nach dir suchen und dich dort nicht finden, landen sie bei deinen Konkurrenten. <cite index=\"20-2\">Gastronomen sollten Gäste aktiv, aber unauffällig um eine Bewertung bitten, etwa über einen QR-Code auf der Rechnung, und auf Bewertungen antworten.</cite>"
+    },
+    {
+      "titel": "OpenTable erweitert KI – jetzt mit Fragen in Alltagssprache",
+      "was_passiert": "<cite index=\"33-4,33-5,33-6\">OpenTable baut sein Angebot für Restaurants deutlich aus. Mehr als 20 neue Funktionen sollen den Betriebsalltag vereinfachen. Im Mittelpunkt stehen Künstliche Intelligenz, Automatisierung und bessere Systemvernetzung.</cite> <cite index=\"33-16,33-17\">Mit Conversational Reporting können Betreiber Fragen in Alltagssprache stellen. Die Funktion liefert verständliche Antworten zu Gästen, Umsätzen und Auslastung.</cite>",
+      "was_bedeutet_das": "Du musst keine Daten-Reports mehr lesen – du stellst der KI einfach eine Frage wie \"Wie viele Gäste hatten wir letzten Samstag?\" und bekommst sofort eine verständliche Antwort. <cite index=\"33-7,33-8\">Die neuen Werkzeuge richten sich an Restaurants mit knappen personellen Ressourcen. Sie sollen Teams bei Reservierungen, Gästedaten und der Auslastung unterstützen.</cite>"
+    },
+    {
+      "titel": "KI-Schichtplanung in 40 Sekunden: Jetzt praktisch messbar",
+      "was_passiert": "<cite index=\"34-1,34-2\">Nesto schreibt in 40 Sekunden einen intelligenten Schichtplan für Restaurants. So lassen sich Wartezeiten vermeiden und Umsätze erhöhen.</cite> <cite index=\"1-2\">In der Gastronomie hängt KI an wenigen, sehr konkreten Aufgaben: dem Dienstplan, der HACCP-Dokumentation, der Bestellmenge und dem Abfalleimer.</cite> Die Personalplanung gehört zu den wenigen KI-Feldern, die Mittelständlern wirklich Geld spart.",
+      "was_bedeutet_das": "Statt Excel und Bauchgefühl generiert die KI optimale Pläne basierend auf Auslastung und Verfügbarkeit. <cite index=\"47-6,47-7,47-8\">KI prognostiziert den Personalbedarf für jede Stunde des Tages und erstellt automatisch optimierte Dienstpläne. Das Ergebnis: Bis zu 20% weniger kostenintensive Überstunden.</cite>"
+    }
+  ],
+  "handlungsempfehlung": "Öffne Google Maps und suche deinen Ort + \"Restaurant\". Schreib dir auf, wie viele Bewertungen die Top-3 haben. Das ist dein Benchmark. Diese Woche: Frag 10 Gäste nach einer Bewertung – per QR-Code auf der Rechnung oder einfach beim Bezahlen.",
+  "seo": {
+    "title": "83% unsichtbar in KI-Suche | KI-Gastro-Newsroom KW 46 2026",
+    "metaDescription": "KW 46: Warum dein Restaurant in ChatGPT fehlt – und was die neuen KI-Spielregeln ändern. Kostenloser KI-Check für dein Restaurant.",
+    "keywords": "KI Sichtbarkeit Restaurant, ChatGPT Restaurant findet, Google KI Bewertungen, KI-Suche Gastronomie Deutschland",
+    "canonicalUrl": "https://www.ki-gastronomie.com/newsroom/kw-46-2026",
+    "datePublished": "2026-11-16T20:04:21.824Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check"
+      }
+    ]
+  },
+  "generatedAt": "2026-11-16T20:04:42.545Z"
+}
